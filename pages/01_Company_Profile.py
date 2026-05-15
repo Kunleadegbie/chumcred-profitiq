@@ -445,28 +445,6 @@ reporting_frequency_options = [
     "Yearly",
 ]
 
-review_type = st.selectbox(
-    "Review Type",
-    review_type_options,
-    index=safe_select_index(
-        review_type_options,
-        saved_review_type,
-        0
-    ),
-    key="review_type_selectbox",
-)
-
-reporting_frequency = st.selectbox(
-    "Reporting Frequency",
-    reporting_frequency_options,
-    index=safe_select_index(
-        reporting_frequency_options,
-        saved_reporting_frequency,
-        0
-    ),
-    key="reporting_frequency_selectbox",
-)
-
 # ----------------------------------------------------------
 # USE EXISTING PROFILE VARIABLE
 # ----------------------------------------------------------
@@ -475,27 +453,20 @@ profile = st.session_state.get("company_profile", {})
 # ----------------------------------------------------------
 # DEFAULT VALUES
 # ----------------------------------------------------------
-saved_review_type = profile.get(
-    "review_type",
-    "Single Period Review"
-)
-
-saved_reporting_frequency = profile.get(
-    "reporting_frequency",
-    "Monthly"
-)
+saved_review_type = profile.get("review_type", "Single Period Review")
+saved_reporting_frequency = profile.get("reporting_frequency", "Monthly")
 
 saved_review_start_date = get_valid_review_date(
     profile.get(
         "review_start_date",
-        date.today().replace(year=date.today().year - 1)
+        date.today().replace(year=date.today().year - 1),
     )
 )
 
 saved_review_end_date = get_valid_review_date(
     profile.get(
         "review_end_date",
-        date.today()
+        date.today(),
     )
 )
 
@@ -508,22 +479,16 @@ with col1:
     review_type = st.selectbox(
         "Review Type",
         review_type_options,
-        index=safe_select_index(
-            review_type_options,
-            saved_review_type,
-            0
-        ),
+        index=safe_select_index(review_type_options, saved_review_type, 0),
+        key="review_type_selectbox",
     )
 
 with col2:
     reporting_frequency = st.selectbox(
         "Reporting Frequency",
         reporting_frequency_options,
-        index=safe_select_index(
-            reporting_frequency_options,
-            saved_reporting_frequency,
-            0
-        ),
+        index=safe_select_index(reporting_frequency_options, saved_reporting_frequency, 0),
+        key="reporting_frequency_selectbox",
     )
 
 # ----------------------------------------------------------
@@ -539,13 +504,11 @@ with col1:
     )
 
 with col2:
-
     review_end_date = st.date_input(
         "Review End Date",
         value=saved_review_end_date,
         key="review_end_date_input",
     )
-    
 
 # ----------------------------------------------------------
 # SAVE TO SESSION PROFILE
