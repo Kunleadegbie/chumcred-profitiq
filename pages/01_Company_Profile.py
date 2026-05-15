@@ -431,16 +431,27 @@ with st.form("company_profile_form"):
 # ==========================================================
 st.markdown("## Review Period Configuration")
 
-review_type_options = [
-    "Single Period Review",
-    "Multi-Year Trend Review",
-]
+review_type = st.selectbox(
+    "Review Type",
+    review_type_options,
+    index=safe_select_index(
+        review_type_options,
+        saved_review_type,
+        0
+    ),
+    key="review_type_selectbox",
+)
 
-reporting_frequency_options = [
-    "Monthly",
-    "Quarterly",
-    "Yearly",
-]
+reporting_frequency = st.selectbox(
+    "Reporting Frequency",
+    reporting_frequency_options,
+    index=safe_select_index(
+        reporting_frequency_options,
+        saved_reporting_frequency,
+        0
+    ),
+    key="reporting_frequency_selectbox",
+)
 
 # ----------------------------------------------------------
 # USE EXISTING PROFILE VARIABLE
@@ -510,13 +521,17 @@ with col1:
     review_start_date = st.date_input(
         "Review Start Date",
         value=saved_review_start_date,
+        key="review_start_date_input",
     )
 
 with col2:
+
     review_end_date = st.date_input(
         "Review End Date",
         value=saved_review_end_date,
+        key="review_end_date_input",
     )
+    
 
 # ----------------------------------------------------------
 # SAVE TO SESSION PROFILE
