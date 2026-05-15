@@ -1,7 +1,7 @@
 import streamlit as st
 from datetime import date, datetime
 from supabase_config import get_supabase_client
-FF
+
 # ==========================================================
 # PAGE CONFIG
 # ==========================================================
