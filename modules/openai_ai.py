@@ -511,6 +511,62 @@ Write forecast commentary covering:
 
     return ask_openai(system_prompt, user_prompt)
 
+# ==========================================================
+# MULTI-YEAR TREND COMMENTARY
+# ==========================================================
+def generate_ai_multiyear_trend_commentary(
+    company_name,
+    review_type="Single Period Review",
+    reporting_frequency="Monthly",
+    review_start_date=None,
+    review_end_date=None,
+    revenue_trend_df=None,
+    cost_trend_df=None,
+    profit_trend_df=None,
+    revenue_multiyear_summary=None,
+    cost_multiyear_summary=None,
+):
+    system_prompt = """
+You are a senior business performance and profitability consultant.
+Interpret multi-year financial trends clearly for executives and board members.
+Focus on revenue movement, cost movement, profit direction, growth quality, margin pressure, and management actions.
+Use professional but simple business English.
+Avoid exaggeration. Base your comments only on the data provided.
+"""
+
+    user_prompt = f"""
+Company: {company_name}
+
+Review Type: {review_type}
+Reporting Frequency: {reporting_frequency}
+Review Period: {review_start_date} to {review_end_date}
+
+Revenue Multi-Year Summary:
+{safe_json(revenue_multiyear_summary)}
+
+Cost Multi-Year Summary:
+{safe_json(cost_multiyear_summary)}
+
+Revenue Trend:
+{dataframe_sample(revenue_trend_df)}
+
+Cost Trend:
+{dataframe_sample(cost_trend_df)}
+
+Profit Trend:
+{dataframe_sample(profit_trend_df)}
+
+Write an executive multi-year trend commentary covering:
+1. Overall trend direction
+2. Revenue performance
+3. Cost performance
+4. Profitability implication
+5. Risk areas
+6. Management priorities
+7. Recommended next actions
+"""
+
+    return ask_openai(system_prompt, user_prompt)
 
 # ==========================================================
 # BENCHMARK COMMENTARY

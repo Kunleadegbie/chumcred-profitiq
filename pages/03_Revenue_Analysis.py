@@ -4,6 +4,12 @@ import plotly.express as px
 from modules.ai_insights import generate_revenue_insights
 from modules.openai_ai import generate_ai_revenue_analysis
 
+from modules.period_analysis import (
+    filter_by_review_period,
+    generate_period_trend,
+    generate_multiyear_summary,
+)
+
 # ==========================================================
 # PAGE CONFIG
 # ==========================================================
@@ -172,6 +178,30 @@ except Exception as e:
 
 df["Month"] = df[date_col].dt.to_period("M").astype(str)
 
+
+# ==========================================================
+# REVIEW PERIOD SETTINGS
+# ==========================================================
+company_profile = st.session_state.get("company_profile", {})
+
+review_type = company_profile.get("review_type", "Single Period Review")
+reporting_frequency = company_profile.get("reporting_frequency", "Monthly")
+review_start_date = company_profile.get("review_start_date")
+review_end_date = company_profile.get("review_end_date")
+
+if review_type == "Multi-Year Trend Review":
+    df = filter_by_review_period(
+        df=df,
+        date_col=date_col,
+        start_date=review_start_date,
+        end_date=review_end_date,
+    )
+
+    if df.empty:
+        st.warning("No revenue data found within the selected multi-year review period.")
+        st.stop()
+
+
 # ==========================================================
 # KPI SUMMARY
 # ==========================================================
@@ -205,6 +235,72 @@ fig = px.line(
     title="Monthly Revenue Trend",
 )
 st.plotly_chart(fig, use_container_width=True)
+
+
+# ==========================================================
+# MULTI-YEAR REVENUE TREND
+# ==========================================================
+if review_type == "Multi-Year Trend Review":
+    st.markdown("## Multi-Year Revenue Trend")
+
+    trend_df = generate_period_trend(
+        df=df,
+        date_col=date_col,
+        value_col=amount_col,
+        frequency=reporting_frequency,
+    )
+
+    if not trend_df.empty:
+        st.dataframe(trend_df, use_container_width=True)
+
+        fig = px.line(
+            trend_df,
+            x="Period",
+            y=amount_col,
+            markers=True,
+            title=f"{reporting_frequency} Revenue Trend",
+        )
+        st.plotly_chart(fig, use_container_width=True)
+
+        multiyear_summary = generate_multiyear_summary(
+            trend_df=trend_df,
+            value_col=amount_col,
+        )
+
+        st.session_state["revenue_trend_df"] = trend_df
+        st.session_state["revenue_multiyear_summary"] = multiyear_summary
+
+        col1, col2, col3, col4 = st.columns(4)
+
+        col1.metric(
+            "Total Revenue in Review Period",
+            f"₦{multiyear_summary.get('total_value', 0):,.0f}",
+        )
+
+        col2.metric(
+            "Growth Amount",
+            f"₦{multiyear_summary.get('growth_amount', 0):,.0f}",
+        )
+
+        col3.metric(
+            "Growth %",
+            f"{multiyear_summary.get('growth_percent', 0):.1f}%",
+        )
+
+        col4.metric(
+            "CAGR",
+            f"{multiyear_summary.get('cagr', 0):.1f}%",
+        )
+
+        st.info(
+            f"Best revenue period: {multiyear_summary.get('best_period')} "
+            f"with ₦{multiyear_summary.get('best_period_value', 0):,.0f}. "
+            f"Weakest revenue period: {multiyear_summary.get('worst_period')} "
+            f"with ₦{multiyear_summary.get('worst_period_value', 0):,.0f}."
+        )
+    else:
+        st.info("Multi-year revenue trend could not be generated from the selected columns.")
+
 
 # ==========================================================
 # PRODUCT ANALYSIS

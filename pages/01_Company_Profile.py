@@ -425,6 +425,109 @@ with st.form("company_profile_form"):
 
     submitted = st.form_submit_button("Save Company Profile")
 
+
+# ==========================================================
+# REVIEW PERIOD CONFIGURATION
+# ==========================================================
+st.markdown("## Review Period Configuration")
+
+review_type_options = [
+    "Single Period Review",
+    "Multi-Year Trend Review",
+]
+
+reporting_frequency_options = [
+    "Monthly",
+    "Quarterly",
+    "Yearly",
+]
+
+# ----------------------------------------------------------
+# DEFAULT VALUES
+# ----------------------------------------------------------
+saved_review_type = company_profile.get(
+    "review_type",
+    "Single Period Review"
+)
+
+saved_reporting_frequency = company_profile.get(
+    "reporting_frequency",
+    "Monthly"
+)
+
+saved_review_start_date = company_profile.get(
+    "review_start_date",
+    date.today().replace(year=date.today().year - 1)
+)
+
+saved_review_end_date = company_profile.get(
+    "review_end_date",
+    date.today()
+)
+
+# ----------------------------------------------------------
+# REVIEW SETTINGS
+# ----------------------------------------------------------
+col1, col2 = st.columns(2)
+
+with col1:
+    review_type = st.selectbox(
+        "Review Type",
+        review_type_options,
+        index=review_type_options.index(saved_review_type)
+        if saved_review_type in review_type_options
+        else 0,
+    )
+
+with col2:
+    reporting_frequency = st.selectbox(
+        "Reporting Frequency",
+        reporting_frequency_options,
+        index=reporting_frequency_options.index(saved_reporting_frequency)
+        if saved_reporting_frequency in reporting_frequency_options
+        else 0,
+    )
+
+# ----------------------------------------------------------
+# DATE RANGE
+# ----------------------------------------------------------
+col1, col2 = st.columns(2)
+
+with col1:
+    review_start_date = st.date_input(
+        "Review Start Date",
+        value=saved_review_start_date,
+    )
+
+with col2:
+    review_end_date = st.date_input(
+        "Review End Date",
+        value=saved_review_end_date,
+    )
+
+# ----------------------------------------------------------
+# SAVE TO COMPANY PROFILE
+# ----------------------------------------------------------
+company_profile["review_type"] = review_type
+company_profile["reporting_frequency"] = reporting_frequency
+company_profile["review_start_date"] = str(review_start_date)
+company_profile["review_end_date"] = str(review_end_date)
+
+# ----------------------------------------------------------
+# REVIEW SUMMARY
+# ----------------------------------------------------------
+st.info(
+    f"""
+Review Type: {review_type}
+
+Reporting Frequency: {reporting_frequency}
+
+Review Period:
+{review_start_date} → {review_end_date}
+"""
+)
+
+
 # ==========================================================
 # SAVE PROFILE
 # ==========================================================

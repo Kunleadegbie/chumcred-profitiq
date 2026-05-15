@@ -9,6 +9,12 @@ try:
 except Exception:
     generate_ai_cost_review = None
 
+from modules.period_analysis import (
+    filter_by_review_period,
+    generate_period_trend,
+    generate_multiyear_summary,
+)
+
 # ==========================================================
 # PAGE CONFIG
 # ==========================================================
@@ -116,6 +122,17 @@ expense_df = st.session_state.get("expense_data")
 sales_df = st.session_state.get("sales_data")
 payroll_df = st.session_state.get("payroll_data")
 vendor_df = st.session_state.get("vendor_data")
+
+# ==========================================================
+# REVIEW PERIOD SETTINGS
+# ==========================================================
+company_profile = st.session_state.get("company_profile", {})
+
+review_type = company_profile.get("review_type", "Single Period Review")
+reporting_frequency = company_profile.get("reporting_frequency", "Monthly")
+review_start_date = company_profile.get("review_start_date")
+review_end_date = company_profile.get("review_end_date")
+
 
 if expense_df is None and payroll_df is None and vendor_df is None:
     st.warning("No cost-related data uploaded yet. Please upload Expense, Payroll, or Vendor Data first.")
@@ -369,6 +386,78 @@ if expense_df is not None:
                         )
             except Exception:
                 st.info("Could not generate monthly cost trend from selected date column.")
+
+
+        # ==========================================================
+        # MULTI-YEAR COST TREND
+        # ==========================================================
+        if review_type == "Multi-Year Trend Review" and exp_date_col != "None":
+            st.markdown("## Multi-Year Cost Trend")
+
+            filtered_exp = filter_by_review_period(
+                df=exp,
+                date_col=exp_date_col,
+                start_date=review_start_date,
+                end_date=review_end_date,
+            )
+
+            cost_trend_df = generate_period_trend(
+                df=filtered_exp,
+                date_col=exp_date_col,
+                value_col=exp_amount_col,
+                frequency=reporting_frequency,
+            )
+
+            if not cost_trend_df.empty:
+                st.dataframe(cost_trend_df, use_container_width=True)
+
+            fig = px.line(
+                cost_trend_df,
+                x="Period",
+                y=exp_amount_col,
+                markers=True,
+                title=f"{reporting_frequency} Cost Trend",
+            )
+            st.plotly_chart(fig, use_container_width=True)
+
+            cost_multiyear_summary = generate_multiyear_summary(
+                trend_df=cost_trend_df,
+                value_col=exp_amount_col,
+            )
+
+            st.session_state["cost_trend_df"] = cost_trend_df
+            st.session_state["cost_multiyear_summary"] = cost_multiyear_summary
+
+            col1, col2, col3, col4 = st.columns(4)
+
+            col1.metric(
+                "Total Cost in Review Period",
+                f"₦{cost_multiyear_summary.get('total_value', 0):,.0f}",
+            )
+
+            col2.metric(
+                "Cost Growth Amount",
+                f"₦{cost_multiyear_summary.get('growth_amount', 0):,.0f}",
+            )
+
+            col3.metric(
+                "Cost Growth %",
+                f"{cost_multiyear_summary.get('growth_percent', 0):.1f}%",
+            )
+
+            col4.metric(
+                "Cost CAGR",
+                f"{cost_multiyear_summary.get('cagr', 0):.1f}%",
+            )
+
+            st.info(
+                f"Highest cost period: {cost_multiyear_summary.get('best_period')} "
+                f"with ₦{cost_multiyear_summary.get('best_period_value', 0):,.0f}. "
+                f"Lowest cost period: {cost_multiyear_summary.get('worst_period')} "
+                f"with ₦{cost_multiyear_summary.get('worst_period_value', 0):,.0f}."
+            )
+        else:
+            st.info("Multi-year cost trend could not be generated from the selected columns.")
 
 # ==========================================================
 # COST TO REVENUE RATIO

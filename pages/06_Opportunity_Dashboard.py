@@ -28,6 +28,12 @@ from modules.openai_ai import (
     generate_ai_heatmap_commentary,
 )
 
+from modules.period_analysis import (
+    filter_by_review_period,
+    generate_period_trend,
+    generate_multiyear_summary,
+)
+
 # ==========================================================
 # DATA CLEANING HELPERS
 # ==========================================================
@@ -303,6 +309,14 @@ if (
 profile = st.session_state.get("company_profile", {})
 user_profile = st.session_state.get("user_profile", {})
 
+# ==========================================================
+# REVIEW PERIOD SETTINGS
+# ==========================================================
+review_type = profile.get("review_type", "Single Period Review")
+reporting_frequency = profile.get("reporting_frequency", "Monthly")
+review_start_date = profile.get("review_start_date")
+review_end_date = profile.get("review_end_date")
+
 st.markdown("## Company Review Context")
 
 col1, col2, col3, col4 = st.columns(4)
@@ -323,6 +337,159 @@ col1.metric("Revenue Opportunity", f"₦{total_revenue_opportunity:,.0f}")
 col2.metric("Leakage Exposure", f"₦{total_leakage_exposure:,.0f}")
 col3.metric("Cost Saving Potential", f"₦{total_cost_saving:,.0f}")
 col4.metric("Profit Improvement Potential", f"₦{profit_improvement_potential:,.0f}")
+
+
+# ==========================================================
+# MULTI-YEAR PERFORMANCE SUMMARY
+# ==========================================================
+if review_type == "Multi-Year Trend Review":
+    st.markdown("## Multi-Year Performance Summary")
+
+    revenue_trend_df = st.session_state.get("revenue_trend_df")
+    cost_trend_df = st.session_state.get("cost_trend_df")
+
+    revenue_summary = st.session_state.get("revenue_multiyear_summary", {})
+    cost_summary = st.session_state.get("cost_multiyear_summary", {})
+
+    if revenue_summary or cost_summary:
+        col1, col2, col3, col4 = st.columns(4)
+
+        col1.metric(
+            "Review Frequency",
+            reporting_frequency,
+        )
+
+        col2.metric(
+            "Revenue CAGR",
+            f"{revenue_summary.get('cagr', 0):.1f}%",
+        )
+
+        col3.metric(
+            "Cost CAGR",
+            f"{cost_summary.get('cagr', 0):.1f}%",
+        )
+
+        revenue_growth = revenue_summary.get("growth_percent", 0)
+        cost_growth = cost_summary.get("growth_percent", 0)
+
+        margin_direction = revenue_growth - cost_growth
+
+        col4.metric(
+            "Revenue vs Cost Growth Gap",
+            f"{margin_direction:.1f}%",
+        )
+
+        if margin_direction > 0:
+            st.success(
+                "Revenue growth is currently ahead of cost growth, which may support improved profitability."
+            )
+        elif margin_direction < 0:
+            st.warning(
+                "Cost growth is ahead of revenue growth. Management should review cost escalation and margin pressure."
+            )
+        else:
+            st.info(
+                "Revenue and cost growth are broadly aligned within the selected review period."
+            )
+
+    else:
+        st.info(
+            "Multi-year summary will appear after generating Revenue Trend and Cost Trend from Revenue Analysis and Cost Review."
+        )
+
+    # ------------------------------------------------------
+    # REVENUE TREND CHART
+    # ------------------------------------------------------
+    if revenue_trend_df is not None and not revenue_trend_df.empty:
+        st.markdown("### Multi-Year Revenue Trend")
+        st.dataframe(revenue_trend_df, use_container_width=True)
+
+        revenue_value_col = [
+            col for col in revenue_trend_df.columns
+            if col not in ["Period", "Previous Period Value", "Growth Amount", "Growth %"]
+        ]
+
+        if revenue_value_col:
+            fig = px.line(
+                revenue_trend_df,
+                x="Period",
+                y=revenue_value_col[0],
+                markers=True,
+                title=f"{reporting_frequency} Revenue Trend",
+            )
+            st.plotly_chart(fig, use_container_width=True)
+
+    # ------------------------------------------------------
+    # COST TREND CHART
+    # ------------------------------------------------------
+    if cost_trend_df is not None and not cost_trend_df.empty:
+        st.markdown("### Multi-Year Cost Trend")
+        st.dataframe(cost_trend_df, use_container_width=True)
+
+        cost_value_col = [
+            col for col in cost_trend_df.columns
+            if col not in ["Period", "Previous Period Value", "Growth Amount", "Growth %"]
+        ]
+
+        if cost_value_col:
+            fig = px.line(
+                cost_trend_df,
+                x="Period",
+                y=cost_value_col[0],
+                markers=True,
+                title=f"{reporting_frequency} Cost Trend",
+            )
+            st.plotly_chart(fig, use_container_width=True)
+
+    # ------------------------------------------------------
+    # PROFIT TREND
+    # ------------------------------------------------------
+    if (
+        revenue_trend_df is not None and not revenue_trend_df.empty
+        and cost_trend_df is not None and not cost_trend_df.empty
+    ):
+        st.markdown("### Multi-Year Profit Trend")
+
+        revenue_value_col = [
+            col for col in revenue_trend_df.columns
+            if col not in ["Period", "Previous Period Value", "Growth Amount", "Growth %"]
+        ][0]
+
+        cost_value_col = [
+            col for col in cost_trend_df.columns
+            if col not in ["Period", "Previous Period Value", "Growth Amount", "Growth %"]
+        ][0]
+
+        profit_trend_df = revenue_trend_df[["Period", revenue_value_col]].merge(
+            cost_trend_df[["Period", cost_value_col]],
+            on="Period",
+            how="outer",
+        ).fillna(0)
+
+        profit_trend_df = profit_trend_df.rename(
+            columns={
+                revenue_value_col: "Revenue",
+                cost_value_col: "Cost",
+            }
+        )
+
+        profit_trend_df["Estimated Profit"] = (
+            profit_trend_df["Revenue"] - profit_trend_df["Cost"]
+        )
+
+        st.dataframe(profit_trend_df, use_container_width=True)
+
+        fig = px.line(
+            profit_trend_df,
+            x="Period",
+            y=["Revenue", "Cost", "Estimated Profit"],
+            markers=True,
+            title="Revenue, Cost and Estimated Profit Trend",
+        )
+        st.plotly_chart(fig, use_container_width=True)
+
+        st.session_state["profit_trend_df"] = profit_trend_df
+
 
 # ==========================================================
 # INDUSTRY BENCHMARKING

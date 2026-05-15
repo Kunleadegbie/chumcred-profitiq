@@ -12,6 +12,7 @@ from modules.openai_ai import (
     generate_ai_board_report,
     generate_ai_executive_commentary,
     generate_ai_action_plan,
+    generate_ai_multiyear_trend_commentary,
 )
 
 # ==========================================================
@@ -255,6 +256,12 @@ revenue_forecast_df = st.session_state.get("revenue_forecast_df")
 cost_forecast_df = st.session_state.get("cost_forecast_df")
 profit_forecast_df = st.session_state.get("profit_forecast_df")
 forecast_insights = st.session_state.get("forecast_insights")
+revenue_trend_df = st.session_state.get("revenue_trend_df")
+cost_trend_df = st.session_state.get("cost_trend_df")
+profit_trend_df = st.session_state.get("profit_trend_df")
+
+revenue_multiyear_summary = st.session_state.get("revenue_multiyear_summary", {})
+cost_multiyear_summary = st.session_state.get("cost_multiyear_summary", {})
 
 sales_df = st.session_state.get("sales_data")
 expense_df = st.session_state.get("expense_data")
@@ -298,6 +305,10 @@ monthly_revenue_range = profile.get("monthly_revenue_range", "Not Disclosed")
 business_stage = profile.get("business_stage", "Not Provided")
 review_objective = profile.get("review_objective", "Not Provided")
 expected_outcome = profile.get("expected_outcome", "Not Provided")
+review_type = profile.get("review_type", "Single Period Review")
+reporting_frequency = profile.get("reporting_frequency", "Monthly")
+review_start_date = profile.get("review_start_date", "Not Provided")
+review_end_date = profile.get("review_end_date", "Not Provided")
 
 # ==========================================================
 # EXECUTIVE SUMMARY REPORT
@@ -510,11 +521,102 @@ if (
 ):
     st.info("Executive heatmaps are not available yet. Please generate them from the Opportunity Dashboard.")
 
+if "ai_multiyear_trend_commentary" not in st.session_state:
+    st.session_state["ai_multiyear_trend_commentary"] = ""
+
+# ==========================================================
+# MULTI-YEAR TREND ANALYSIS
+# ==========================================================
+st.markdown("## 10. Multi-Year Trend Analysis")
+
+if review_type == "Multi-Year Trend Review":
+    col1, col2, col3 = st.columns(3)
+
+    col1.metric("Review Frequency", reporting_frequency)
+    col2.metric("Review Start Date", review_start_date)
+    col3.metric("Review End Date", review_end_date)
+
+    if revenue_multiyear_summary or cost_multiyear_summary:
+        st.markdown("### Multi-Year Summary")
+
+        col1, col2, col3, col4 = st.columns(4)
+
+        col1.metric(
+            "Revenue CAGR",
+            f"{revenue_multiyear_summary.get('cagr', 0):.1f}%",
+        )
+
+        col2.metric(
+            "Cost CAGR",
+            f"{cost_multiyear_summary.get('cagr', 0):.1f}%",
+        )
+
+        revenue_growth = revenue_multiyear_summary.get("growth_percent", 0)
+        cost_growth = cost_multiyear_summary.get("growth_percent", 0)
+        growth_gap = revenue_growth - cost_growth
+
+        col3.metric("Revenue Growth %", f"{revenue_growth:.1f}%")
+        col4.metric("Revenue vs Cost Growth Gap", f"{growth_gap:.1f}%")
+
+        if growth_gap > 0:
+            st.success(
+                "Revenue growth is ahead of cost growth, indicating a positive profitability direction."
+            )
+        elif growth_gap < 0:
+            st.warning(
+                "Cost growth is ahead of revenue growth, indicating possible margin pressure."
+            )
+        else:
+            st.info(
+                "Revenue and cost growth are broadly aligned across the review period."
+            )
+
+    if revenue_trend_df is not None and not revenue_trend_df.empty:
+        st.markdown("### Revenue Trend")
+        st.dataframe(revenue_trend_df, use_container_width=True)
+
+    if cost_trend_df is not None and not cost_trend_df.empty:
+        st.markdown("### Cost Trend")
+        st.dataframe(cost_trend_df, use_container_width=True)
+
+    if profit_trend_df is not None and not profit_trend_df.empty:
+        st.markdown("### Profit Trend")
+        st.dataframe(profit_trend_df, use_container_width=True)
+
+else:
+    st.info("Multi-year trend analysis is only shown when Review Type is set to Multi-Year Trend Review.")
+
+
+# ==========================================================
+# AI PREMIUM MULTI-YEAR TREND COMMENTARY
+# ==========================================================
+st.markdown("### AI Premium Multi-Year Trend Commentary")
+
+if st.button("Generate AI Multi-Year Trend Commentary"):
+    with st.spinner("Generating AI-powered multi-year trend commentary..."):
+        ai_multiyear_trend_commentary = generate_ai_multiyear_trend_commentary(
+            company_name=company_name,
+            review_type=review_type,
+            reporting_frequency=reporting_frequency,
+            review_start_date=review_start_date,
+            review_end_date=review_end_date,
+            revenue_trend_df=revenue_trend_df,
+            cost_trend_df=cost_trend_df,
+            profit_trend_df=profit_trend_df,
+            revenue_multiyear_summary=revenue_multiyear_summary,
+            cost_multiyear_summary=cost_multiyear_summary,
+        )
+
+    st.session_state["ai_multiyear_trend_commentary"] = ai_multiyear_trend_commentary
+
+if st.session_state.get("ai_multiyear_trend_commentary"):
+    st.markdown("#### Generated Multi-Year Trend Commentary")
+    st.markdown(st.session_state["ai_multiyear_trend_commentary"])
 
 # ==========================================================
 # PREDICTIVE ANALYTICS
 # ==========================================================
-st.markdown("## 10. Predictive Analytics")
+st.markdown("## 11. Predictive Analytics")
 
 if (
     revenue_forecast_df is not None and not revenue_forecast_df.empty
