@@ -1,0 +1,17 @@
+streamlit>=1.45.0
+pandas>=2.2.2
+numpy>=1.26.4
+plotly>=5.22.0
+openpyxl>=3.1.2
+xlsxwriter>=3.2.0
+python-dateutil>=2.9.0
+supabase>=2.6.0
+python-dotenv>=1.0.1
+python-pptx
+openai>=1.0.0
+supabase
+matplotlib
+reportlab
+scikit-learn
+
+

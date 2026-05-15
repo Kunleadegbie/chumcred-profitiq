@@ -1,0 +1,301 @@
+Inventory_ID,Product_Name,Category,Branch,Vendor,Date_Received,Quantity_Received,Quantity_Sold,Quantity_Damaged,Quantity_Remaining,Unit_Cost,Inventory_Value,Reorder_Level,Inventory_Status
+INV00001,West Product,Building Materials,Abuja,Velasquez-Torres,14/05/2026,1011,419,17,575,10402,5981150,42,Healthy
+INV00002,Few Product,Beverages,Ibadan,Grant-Bradley,14/05/2026,408,285,26,97,17802,1726794,42,Healthy
+INV00003,Pick Product,Beverages,Kano,"Flores, Montgomery and Landry",14/05/2026,481,73,7,401,1539,617139,46,Healthy
+INV00004,Wind Product,Food,Lagos,Dennis-Mcgee,14/05/2026,1895,543,5,1347,17666,23796102,82,Slow Moving
+INV00005,Discover Product,Pharmaceuticals,Lagos,"Macdonald, Ross and Ortiz",14/05/2026,554,164,3,387,10001,3870387,60,Healthy
+INV00006,Defense Product,Pharmaceuticals,Lagos,Lee PLC,14/05/2026,1432,1037,12,383,13564,5195012,150,Slow Moving
+INV00007,Century Product,Pharmaceuticals,Abuja,Hayes-Thomas,14/05/2026,1742,494,13,1235,731,902785,133,Slow Moving
+INV00008,Simple Product,Building Materials,Ibadan,Benson-Williams,14/05/2026,103,70,44,-11,1440,-15840,125,Overstocked
+INV00009,Laugh Product,Building Materials,Kano,"Martinez, Hanna and Mays",14/05/2026,1604,249,8,1347,10197,13735359,169,Healthy
+INV00010,Significant Product,Beverages,Ibadan,Johnson and Sons,14/05/2026,1259,1217,12,30,9646,289380,102,Overstocked
+INV00011,Night Product,Building Materials,Abuja,Nelson and Sons,14/05/2026,923,539,50,334,24527,8192018,24,Slow Moving
+INV00012,Us Product,Electronics,Abuja,Hall Group,14/05/2026,406,50,40,316,8841,2793756,192,Overstocked
+INV00013,Behind Product,Electronics,Port Harcourt,"Johnson, Miller and Gonzalez",14/05/2026,1307,42,34,1231,3558,4379898,38,Overstocked
+INV00014,Laugh Product,Fashion,Abuja,Allen-Rasmussen,14/05/2026,1702,231,42,1429,13339,19061431,87,Slow Moving
+INV00015,Eat Product,Building Materials,Port Harcourt,Lewis-Sanders,14/05/2026,1858,317,5,1536,11131,17097216,76,Healthy
+INV00016,Many Product,Electronics,Port Harcourt,Williams-Barnes,14/05/2026,71,42,38,-9,7731,-69579,96,Healthy
+INV00017,Hand Product,Pharmaceuticals,Port Harcourt,Rosario and Sons,14/05/2026,348,97,48,203,22692,4606476,110,Overstocked
+INV00018,Turn Product,Building Materials,Port Harcourt,"Foster, Alexander and Hoover",14/05/2026,899,616,22,261,13838,3611718,76,Slow Moving
+INV00019,Threat Product,Pharmaceuticals,Lagos,Price Ltd,14/05/2026,1424,1271,18,135,18676,2521260,193,Critical
+INV00020,Down Product,Food,Port Harcourt,Zhang-Lewis,14/05/2026,897,557,1,339,13763,4665657,91,Critical
+INV00021,Rich Product,Beverages,Abuja,Nelson LLC,14/05/2026,1559,244,4,1311,18019,23622909,101,Slow Moving
+INV00022,Statement Product,Beverages,Lagos,Koch LLC,14/05/2026,622,482,42,98,12676,1242248,146,Critical
+INV00023,Early Product,Fashion,Kano,Parks Inc,14/05/2026,1665,1451,12,202,14143,2856886,67,Slow Moving
+INV00024,Population Product,Food,Abuja,"Rosario, Powell and Chapman",14/05/2026,1544,144,19,1381,9965,13761665,100,Healthy
+INV00025,Discuss Product,Electronics,Abuja,Richardson-Scott,14/05/2026,1747,82,16,1649,21693,35771757,42,Slow Moving
+INV00026,Better Product,Building Materials,Kano,Thompson-Taylor,14/05/2026,1011,69,49,893,9165,8184345,82,Healthy
+INV00027,Institution Product,Electronics,Lagos,Lewis PLC,14/05/2026,1582,1102,39,441,22239,9807399,74,Critical
+INV00028,Approach Product,Food,Abuja,"Dennis, Collins and West",14/05/2026,901,554,43,304,15165,4610160,64,Healthy
+INV00029,Ball Product,Building Materials,Abuja,Ruiz and Sons,14/05/2026,1214,692,31,491,24230,11896930,173,Healthy
+INV00030,Market Product,Fashion,Abuja,"Miller, Evans and Kelly",14/05/2026,477,137,37,303,18601,5636103,93,Healthy
+INV00031,Structure Product,Beverages,Kano,Rios PLC,14/05/2026,1158,989,35,134,1151,154234,46,Critical
+INV00032,Model Product,Electronics,Port Harcourt,Parsons Ltd,14/05/2026,741,47,34,660,12739,8407740,182,Overstocked
+INV00033,Open Product,Pharmaceuticals,Kano,Fernandez Ltd,14/05/2026,983,345,22,616,12587,7753592,97,Slow Moving
+INV00034,Issue Product,Beverages,Ibadan,Levy Ltd,14/05/2026,935,735,4,196,4202,823592,83,Critical
+INV00035,Boy Product,Electronics,Lagos,Green-Turner,14/05/2026,783,460,4,319,17269,5508811,198,Slow Moving
+INV00036,Officer Product,Electronics,Lagos,Walters PLC,14/05/2026,1678,592,18,1068,19279,20589972,67,Critical
+INV00037,Center Product,Building Materials,Kano,Pierce Ltd,14/05/2026,495,37,5,453,17022,7710966,107,Slow Moving
+INV00038,Sit Product,Beverages,Abuja,Miller and Sons,14/05/2026,1114,1001,36,77,13749,1058673,90,Slow Moving
+INV00039,Down Product,Food,Port Harcourt,"Olson, Whitaker and Johnson",14/05/2026,1054,204,17,833,18299,15243067,114,Critical
+INV00040,On Product,Food,Port Harcourt,Carpenter PLC,14/05/2026,1107,462,47,598,3747,2240706,96,Healthy
+INV00041,Dog Product,Electronics,Abuja,"Soto, Austin and Thompson",14/05/2026,461,103,44,314,24625,7732250,62,Slow Moving
+INV00042,Effort Product,Building Materials,Port Harcourt,"Schultz, James and Powell",14/05/2026,728,295,36,397,14952,5935944,167,Critical
+INV00043,Teacher Product,Pharmaceuticals,Kano,Davidson-Sherman,14/05/2026,134,47,26,61,3221,196481,98,Slow Moving
+INV00044,Season Product,Beverages,Ibadan,Jimenez Inc,14/05/2026,1791,748,6,1037,1991,2064667,155,Critical
+INV00045,National Product,Pharmaceuticals,Port Harcourt,"Roberts, Reed and Watson",14/05/2026,124,120,31,-27,13992,-377784,179,Critical
+INV00046,Five Product,Fashion,Ibadan,"Mcdaniel, Wilkerson and Vasquez",14/05/2026,940,446,26,468,24514,11472552,68,Critical
+INV00047,Arrive Product,Electronics,Kano,"Bryant, Sheppard and Gill",14/05/2026,954,149,6,799,20088,16050312,118,Overstocked
+INV00048,Him Product,Electronics,Port Harcourt,"Parker, Hernandez and Frazier",14/05/2026,1703,1342,1,360,13059,4701240,74,Healthy
+INV00049,Back Product,Electronics,Ibadan,Lopez Group,14/05/2026,1608,573,0,1035,9624,9960840,53,Critical
+INV00050,Get Product,Electronics,Kano,Smith LLC,14/05/2026,1609,122,19,1468,17542,25751656,191,Overstocked
+INV00051,Collection Product,Electronics,Abuja,Green Inc,14/05/2026,280,92,49,139,8194,1138966,76,Slow Moving
+INV00052,I Product,Beverages,Lagos,Green-Vega,14/05/2026,216,51,30,135,3758,507330,56,Critical
+INV00053,Ago Product,Pharmaceuticals,Ibadan,Thomas-Zimmerman,14/05/2026,1503,1111,9,383,3688,1412504,113,Critical
+INV00054,Can Product,Pharmaceuticals,Lagos,"Liu, Garza and Little",14/05/2026,1056,545,27,484,7736,3744224,53,Critical
+INV00055,Society Product,Pharmaceuticals,Ibadan,Brown and Sons,14/05/2026,662,232,50,380,7399,2811620,148,Critical
+INV00056,Wait Product,Beverages,Ibadan,Cook LLC,14/05/2026,1805,1440,45,320,12512,4003840,143,Overstocked
+INV00057,Bed Product,Electronics,Kano,"Franco, Ellis and Li",14/05/2026,1085,513,33,539,6034,3252326,179,Overstocked
+INV00058,Protect Product,Electronics,Ibadan,Christensen-Young,14/05/2026,1620,571,11,1038,2880,2989440,144,Critical
+INV00059,Without Product,Beverages,Ibadan,Joseph and Sons,14/05/2026,338,47,12,279,5019,1400301,126,Critical
+INV00060,Organization Product,Pharmaceuticals,Port Harcourt,"King, Contreras and Lewis",14/05/2026,1585,205,23,1357,5209,7068613,146,Overstocked
+INV00061,Mrs Product,Pharmaceuticals,Lagos,Hernandez Inc,14/05/2026,1159,754,24,381,12069,4598289,131,Critical
+INV00062,Response Product,Beverages,Abuja,Wilkinson-Hester,14/05/2026,1106,514,33,559,18209,10178831,118,Slow Moving
+INV00063,Rate Product,Pharmaceuticals,Ibadan,Rivers-Lawson,14/05/2026,239,188,34,17,11820,200940,174,Overstocked
+INV00064,Arrive Product,Electronics,Abuja,"Hunt, Park and Colon",14/05/2026,1297,104,35,1158,9037,10464846,71,Critical
+INV00065,No Product,Pharmaceuticals,Port Harcourt,Ross-Galvan,14/05/2026,945,637,49,259,14252,3691268,114,Overstocked
+INV00066,Foot Product,Fashion,Abuja,Brown-Stokes,14/05/2026,56,39,12,5,11427,57135,170,Slow Moving
+INV00067,Scene Product,Fashion,Lagos,"Melton, Robinson and Johnson",14/05/2026,1064,976,35,53,16575,878475,90,Slow Moving
+INV00068,Where Product,Food,Port Harcourt,"Briggs, Foster and Rangel",14/05/2026,1773,1433,12,328,11745,3852360,171,Overstocked
+INV00069,Alone Product,Building Materials,Lagos,"Poole, Ellis and Reynolds",14/05/2026,1505,692,28,785,20581,16156085,179,Critical
+INV00070,Mother Product,Fashion,Lagos,Kaufman Group,14/05/2026,1561,1287,11,263,2133,560979,74,Healthy
+INV00071,Man Product,Food,Abuja,"Gonzalez, Baker and Ferguson",14/05/2026,214,87,9,118,16379,1932722,138,Overstocked
+INV00072,Catch Product,Food,Abuja,Rogers-Brown,14/05/2026,1627,326,27,1274,14921,19009354,128,Healthy
+INV00073,Fish Product,Beverages,Lagos,Green-Larson,14/05/2026,1283,370,13,900,1792,1612800,54,Overstocked
+INV00074,Happy Product,Pharmaceuticals,Kano,Brown-Griffin,14/05/2026,100,80,26,-6,2643,-15858,80,Overstocked
+INV00075,Four Product,Pharmaceuticals,Abuja,Shelton LLC,14/05/2026,1153,859,10,284,3266,927544,67,Slow Moving
+INV00076,Hour Product,Beverages,Abuja,Wiley-Roman,14/05/2026,1623,358,11,1254,20574,25799796,54,Healthy
+INV00077,Subject Product,Food,Ibadan,Clark Group,14/05/2026,1493,744,1,748,23965,17925820,120,Slow Moving
+INV00078,Base Product,Pharmaceuticals,Kano,French-Cooper,14/05/2026,1751,182,42,1527,21175,32334225,118,Healthy
+INV00079,Pay Product,Fashion,Lagos,Young-Gutierrez,14/05/2026,1496,1189,34,273,15393,4202289,73,Critical
+INV00080,House Product,Beverages,Port Harcourt,Ross-Patrick,14/05/2026,1404,490,17,897,21878,19624566,22,Overstocked
+INV00081,Hot Product,Building Materials,Lagos,Davis Ltd,14/05/2026,539,65,31,443,18019,7982417,56,Critical
+INV00082,Increase Product,Building Materials,Port Harcourt,"Wright, Alvarez and Floyd",14/05/2026,601,305,27,269,7566,2035254,61,Healthy
+INV00083,Cause Product,Fashion,Ibadan,Byrd and Sons,14/05/2026,404,325,44,35,23466,821310,44,Slow Moving
+INV00084,Pretty Product,Beverages,Abuja,Acosta LLC,14/05/2026,79,42,23,14,20530,287420,166,Critical
+INV00085,Make Product,Building Materials,Ibadan,Stokes-Kramer,14/05/2026,150,30,31,89,14485,1289165,183,Slow Moving
+INV00086,Want Product,Food,Kano,Simpson-Ramos,14/05/2026,457,123,11,323,6113,1974499,123,Overstocked
+INV00087,Born Product,Beverages,Ibadan,"Sutton, Hess and George",14/05/2026,1111,1075,8,28,16244,454832,129,Critical
+INV00088,Fear Product,Electronics,Kano,Walker-Harris,14/05/2026,309,272,7,30,15974,479220,170,Slow Moving
+INV00089,Ability Product,Building Materials,Abuja,"Chambers, Anderson and Williamson",14/05/2026,1102,90,44,968,11923,11541464,62,Critical
+INV00090,Street Product,Pharmaceuticals,Lagos,"Jackson, Fleming and Miles",14/05/2026,348,82,38,228,7959,1814652,101,Critical
+INV00091,Window Product,Food,Abuja,Gilbert Group,14/05/2026,1612,287,23,1302,22233,28947366,57,Healthy
+INV00092,Mission Product,Food,Kano,"Carlson, Taylor and Alvarez",14/05/2026,665,152,28,485,7158,3471630,135,Overstocked
+INV00093,Attack Product,Pharmaceuticals,Abuja,King Inc,14/05/2026,1195,297,39,859,22157,19032863,96,Overstocked
+INV00094,Contain Product,Beverages,Lagos,Griffith Inc,14/05/2026,477,267,49,161,16498,2656178,171,Healthy
+INV00095,Else Product,Building Materials,Port Harcourt,Potter-Thornton,14/05/2026,1561,520,33,1008,24837,25035696,67,Critical
+INV00096,Again Product,Food,Ibadan,Owens-Carey,14/05/2026,728,383,38,307,1280,392960,38,Slow Moving
+INV00097,Run Product,Pharmaceuticals,Lagos,Williams Ltd,14/05/2026,703,164,24,515,5863,3019445,75,Critical
+INV00098,Point Product,Food,Port Harcourt,Lee-Brown,14/05/2026,1955,666,39,1250,24916,31145000,27,Healthy
+INV00099,Yeah Product,Pharmaceuticals,Kano,Willis LLC,14/05/2026,81,40,29,12,14443,173316,182,Critical
+INV00100,Type Product,Beverages,Kano,Nichols-Wu,14/05/2026,1233,182,18,1033,3759,3883047,200,Critical
+INV00101,Full Product,Fashion,Ibadan,Good and Sons,14/05/2026,1165,628,47,490,19011,9315390,76,Healthy
+INV00102,Apply Product,Pharmaceuticals,Ibadan,"Foster, Lowery and Cruz",14/05/2026,394,266,6,122,3741,456402,91,Overstocked
+INV00103,Worry Product,Electronics,Kano,Levine-Johnson,14/05/2026,116,81,40,-5,22837,-114185,159,Critical
+INV00104,Talk Product,Food,Kano,Martinez Group,14/05/2026,323,139,17,167,7160,1195720,31,Overstocked
+INV00105,Life Product,Electronics,Kano,"Garrett, Nash and Jones",14/05/2026,613,200,42,371,21468,7964628,105,Slow Moving
+INV00106,Air Product,Pharmaceuticals,Port Harcourt,"Hancock, Evans and Holloway",14/05/2026,462,341,34,87,5000,435000,78,Slow Moving
+INV00107,Record Product,Beverages,Abuja,Warren-Cervantes,14/05/2026,1058,560,13,485,12863,6238555,36,Critical
+INV00108,Onto Product,Fashion,Port Harcourt,Reyes Ltd,14/05/2026,1639,1274,34,331,15810,5233110,175,Critical
+INV00109,Reveal Product,Pharmaceuticals,Ibadan,Hicks Ltd,14/05/2026,80,67,32,-19,12085,-229615,146,Critical
+INV00110,Successful Product,Fashion,Abuja,"Kim, Grant and Perez",14/05/2026,753,488,26,239,18194,4348366,175,Slow Moving
+INV00111,Much Product,Building Materials,Ibadan,Anderson-Ortiz,14/05/2026,1585,1200,15,370,3558,1316460,179,Healthy
+INV00112,Why Product,Pharmaceuticals,Lagos,White LLC,14/05/2026,524,199,49,276,11109,3066084,116,Overstocked
+INV00113,Present Product,Food,Kano,Smith-Garza,14/05/2026,425,170,8,247,14457,3570879,199,Critical
+INV00114,Smile Product,Building Materials,Ibadan,"Alvarado, Walker and Thompson",14/05/2026,417,282,19,116,14842,1721672,91,Overstocked
+INV00115,Half Product,Pharmaceuticals,Kano,"Lamb, Smith and Snow",14/05/2026,1480,57,29,1394,17884,24930296,166,Overstocked
+INV00116,Interview Product,Beverages,Port Harcourt,Dunn-Garza,14/05/2026,1267,593,20,654,18375,12017250,20,Slow Moving
+INV00117,Daughter Product,Food,Lagos,Perez-Klein,14/05/2026,1627,1170,34,423,19319,8171937,102,Overstocked
+INV00118,Compare Product,Building Materials,Ibadan,"Mayo, Martinez and Douglas",14/05/2026,1610,1562,38,10,5696,56960,71,Critical
+INV00119,Man Product,Building Materials,Lagos,Patel-Walters,14/05/2026,436,212,30,194,11600,2250400,64,Overstocked
+INV00120,Worker Product,Fashion,Lagos,"Collins, Lopez and Farley",14/05/2026,984,972,24,-12,7550,-90600,52,Overstocked
+INV00121,Teacher Product,Fashion,Abuja,Greene PLC,14/05/2026,954,126,36,792,24058,19053936,25,Overstocked
+INV00122,Direction Product,Food,Lagos,Mason Ltd,14/05/2026,1949,972,10,967,15489,14977863,42,Critical
+INV00123,Exist Product,Food,Ibadan,Richmond-Jarvis,14/05/2026,1503,1241,6,256,10470,2680320,168,Critical
+INV00124,Attention Product,Electronics,Abuja,Rodriguez PLC,14/05/2026,484,391,32,61,6455,393755,117,Overstocked
+INV00125,Decision Product,Food,Ibadan,Carr and Sons,14/05/2026,1766,111,50,1605,14801,23755605,156,Slow Moving
+INV00126,Sit Product,Fashion,Port Harcourt,Harris-Willis,14/05/2026,139,132,3,4,18222,72888,59,Slow Moving
+INV00127,Point Product,Beverages,Lagos,Brown LLC,14/05/2026,1108,102,3,1003,19884,19943652,157,Overstocked
+INV00128,President Product,Pharmaceuticals,Kano,"Smith, Smith and Johnson",14/05/2026,86,66,19,1,5071,5071,57,Critical
+INV00129,Response Product,Fashion,Ibadan,Harris and Sons,14/05/2026,1617,1573,30,14,10516,147224,42,Slow Moving
+INV00130,Figure Product,Electronics,Ibadan,Mack Inc,14/05/2026,508,279,38,191,17023,3251393,107,Critical
+INV00131,Series Product,Beverages,Lagos,Zhang-Myers,14/05/2026,1950,590,19,1341,3755,5035455,35,Overstocked
+INV00132,Office Product,Fashion,Kano,Phillips-Griffin,14/05/2026,788,495,7,286,6847,1958242,126,Slow Moving
+INV00133,Pm Product,Beverages,Abuja,Nguyen-Strickland,14/05/2026,1438,64,18,1356,3443,4668708,108,Healthy
+INV00134,Edge Product,Electronics,Lagos,"Glenn, Lee and Velasquez",14/05/2026,1425,343,15,1067,3433,3663011,118,Slow Moving
+INV00135,Medical Product,Electronics,Abuja,Stewart-Ford,14/05/2026,1029,873,36,120,4131,495720,113,Critical
+INV00136,Reason Product,Fashion,Abuja,Adams-Wright,14/05/2026,1018,60,6,952,22114,21052528,111,Overstocked
+INV00137,Popular Product,Building Materials,Kano,Jordan-Gray,14/05/2026,889,866,47,-24,17205,-412920,159,Critical
+INV00138,First Product,Electronics,Port Harcourt,Lambert and Sons,14/05/2026,1308,993,22,293,8816,2583088,177,Slow Moving
+INV00139,Difficult Product,Pharmaceuticals,Kano,Joseph and Sons,14/05/2026,1168,105,27,1036,17728,18366208,171,Overstocked
+INV00140,Cause Product,Fashion,Abuja,Garrison LLC,14/05/2026,398,26,41,331,9312,3082272,124,Overstocked
+INV00141,Million Product,Pharmaceuticals,Kano,Mcguire-Scott,14/05/2026,520,410,25,85,20623,1752955,85,Overstocked
+INV00142,Another Product,Building Materials,Lagos,Swanson-Hernandez,14/05/2026,1948,687,5,1256,20447,25681432,122,Overstocked
+INV00143,Recently Product,Pharmaceuticals,Kano,Roth and Sons,14/05/2026,560,45,8,507,992,502944,51,Critical
+INV00144,Prepare Product,Beverages,Lagos,Miller Group,14/05/2026,661,262,24,375,16492,6184500,174,Healthy
+INV00145,Degree Product,Building Materials,Lagos,Mason PLC,14/05/2026,874,461,37,376,24217,9105592,148,Slow Moving
+INV00146,Senior Product,Food,Abuja,Garcia Ltd,14/05/2026,850,793,27,30,4239,127170,120,Healthy
+INV00147,Chance Product,Food,Lagos,Rodriguez Ltd,14/05/2026,161,77,36,48,4757,228336,131,Critical
+INV00148,Growth Product,Beverages,Ibadan,Hicks PLC,14/05/2026,1726,1558,30,138,16514,2278932,75,Healthy
+INV00149,History Product,Beverages,Port Harcourt,"Murray, Obrien and Peterson",14/05/2026,600,390,32,178,11773,2095594,29,Critical
+INV00150,Information Product,Electronics,Ibadan,"Taylor, Blanchard and Serrano",14/05/2026,1367,941,3,423,22602,9560646,177,Healthy
+INV00151,Far Product,Building Materials,Kano,Davis PLC,14/05/2026,1839,1071,48,720,22614,16282080,200,Slow Moving
+INV00152,Early Product,Fashion,Port Harcourt,Garcia LLC,14/05/2026,1150,543,21,586,21781,12763666,156,Overstocked
+INV00153,Senior Product,Building Materials,Kano,King-Pugh,14/05/2026,630,27,29,574,23095,13256530,200,Critical
+INV00154,As Product,Beverages,Abuja,Nichols-Doyle,14/05/2026,1905,1095,46,764,18944,14473216,162,Overstocked
+INV00155,Price Product,Food,Abuja,Cox Inc,14/05/2026,1848,506,22,1320,10701,14125320,192,Healthy
+INV00156,Anything Product,Beverages,Port Harcourt,Velasquez and Sons,14/05/2026,688,316,38,334,6320,2110880,69,Critical
+INV00157,Politics Product,Building Materials,Abuja,Collins-Brown,14/05/2026,452,346,12,94,13613,1279622,117,Critical
+INV00158,Half Product,Food,Port Harcourt,Decker Ltd,14/05/2026,1712,101,15,1596,23647,37740612,169,Overstocked
+INV00159,Fly Product,Beverages,Kano,Hernandez-Hall,14/05/2026,1509,1009,6,494,3974,1963156,171,Slow Moving
+INV00160,Civil Product,Pharmaceuticals,Lagos,Herring-Mullins,14/05/2026,1092,1058,18,16,7781,124496,83,Slow Moving
+INV00161,Matter Product,Building Materials,Port Harcourt,Garcia-Haas,14/05/2026,343,88,5,250,5364,1341000,118,Slow Moving
+INV00162,Task Product,Fashion,Abuja,Scott LLC,14/05/2026,113,71,3,39,5646,220194,127,Slow Moving
+INV00163,Music Product,Electronics,Port Harcourt,Edwards Group,14/05/2026,1837,1088,50,699,1224,855576,182,Overstocked
+INV00164,Level Product,Pharmaceuticals,Ibadan,Taylor-Martinez,14/05/2026,407,363,17,27,14871,401517,80,Slow Moving
+INV00165,Tell Product,Pharmaceuticals,Abuja,Barron Group,14/05/2026,1067,975,18,74,5829,431346,106,Healthy
+INV00166,Account Product,Beverages,Kano,"Hernandez, Hull and Carney",14/05/2026,1571,1102,4,465,9894,4600710,101,Overstocked
+INV00167,Start Product,Building Materials,Abuja,Johnson-Johnson,14/05/2026,423,152,32,239,15617,3732463,191,Overstocked
+INV00168,Continue Product,Food,Lagos,Ward-Knapp,14/05/2026,1694,402,48,1244,22283,27720052,135,Overstocked
+INV00169,Conference Product,Beverages,Ibadan,"Sellers, Love and Smith",14/05/2026,133,79,50,4,23777,95108,23,Healthy
+INV00170,Choose Product,Fashion,Kano,Nelson-Daniel,14/05/2026,809,305,3,501,2050,1027050,69,Overstocked
+INV00171,Wish Product,Beverages,Port Harcourt,Clark and Sons,14/05/2026,1279,93,18,1168,12314,14382752,41,Critical
+INV00172,State Product,Electronics,Lagos,Smith-Mckenzie,14/05/2026,1672,134,1,1537,7973,12254501,118,Critical
+INV00173,Trial Product,Food,Kano,"Kennedy, Barry and Boone",14/05/2026,1488,1096,0,392,11509,4511528,28,Slow Moving
+INV00174,Unit Product,Electronics,Port Harcourt,Saunders-Jefferson,14/05/2026,497,49,16,432,17338,7490016,76,Critical
+INV00175,Paper Product,Building Materials,Ibadan,Russell LLC,14/05/2026,1518,1176,29,313,20266,6343258,51,Critical
+INV00176,Own Product,Building Materials,Kano,Miller Group,14/05/2026,1004,834,25,145,17585,2549825,100,Slow Moving
+INV00177,Argue Product,Electronics,Kano,Cooper LLC,14/05/2026,1082,1063,32,-13,7858,-102154,132,Slow Moving
+INV00178,However Product,Food,Kano,Baker Ltd,14/05/2026,65,33,36,-4,9829,-39316,71,Overstocked
+INV00179,Conference Product,Building Materials,Abuja,"Cruz, Moore and Lee",14/05/2026,1258,785,18,455,24098,10964590,179,Overstocked
+INV00180,Big Product,Pharmaceuticals,Lagos,Manning-Leon,14/05/2026,107,69,20,18,13319,239742,35,Overstocked
+INV00181,Also Product,Fashion,Lagos,Mitchell and Sons,14/05/2026,1561,482,45,1034,23514,24313476,200,Critical
+INV00182,Letter Product,Building Materials,Abuja,Richardson PLC,14/05/2026,846,64,1,781,12537,9791397,39,Healthy
+INV00183,Purpose Product,Electronics,Ibadan,"Lawson, Williams and Alexander",14/05/2026,1213,897,24,292,13970,4079240,166,Overstocked
+INV00184,Stand Product,Electronics,Kano,Macdonald PLC,14/05/2026,239,226,41,-28,5914,-165592,68,Overstocked
+INV00185,Grow Product,Food,Ibadan,Gregory-Harris,14/05/2026,649,611,46,-8,15347,-122776,119,Critical
+INV00186,Professional Product,Beverages,Kano,"Harris, White and Reynolds",14/05/2026,1755,495,37,1223,12493,15278939,64,Healthy
+INV00187,Quality Product,Beverages,Lagos,Carter LLC,14/05/2026,551,61,15,475,4447,2112325,197,Critical
+INV00188,Professor Product,Food,Kano,Gardner-Wade,14/05/2026,70,28,38,4,6671,26684,85,Overstocked
+INV00189,They Product,Fashion,Lagos,Jones-Beck,14/05/2026,1039,797,36,206,22205,4574230,178,Overstocked
+INV00190,Five Product,Building Materials,Port Harcourt,Morrison-Manning,14/05/2026,407,38,34,335,7883,2640805,195,Overstocked
+INV00191,Through Product,Food,Lagos,Johnston and Sons,14/05/2026,114,34,49,31,23799,737769,66,Critical
+INV00192,Direction Product,Fashion,Port Harcourt,Rodriguez-Wade,14/05/2026,181,76,22,83,19337,1604971,48,Critical
+INV00193,Word Product,Building Materials,Ibadan,Rodriguez and Sons,14/05/2026,222,56,13,153,23650,3618450,184,Healthy
+INV00194,Color Product,Pharmaceuticals,Kano,Green Ltd,14/05/2026,838,134,38,666,11840,7885440,199,Slow Moving
+INV00195,Throw Product,Fashion,Ibadan,Collins Ltd,14/05/2026,542,339,42,161,17215,2771615,142,Slow Moving
+INV00196,Anything Product,Pharmaceuticals,Kano,"Blankenship, Villarreal and Horton",14/05/2026,1356,281,44,1031,19905,20522055,150,Slow Moving
+INV00197,Such Product,Pharmaceuticals,Ibadan,"Long, Rivera and Giles",14/05/2026,1876,163,42,1671,15474,25857054,198,Critical
+INV00198,Natural Product,Fashion,Kano,Williams-Krause,14/05/2026,716,252,27,437,11452,5004524,28,Overstocked
+INV00199,Writer Product,Building Materials,Port Harcourt,Goodman-Stevenson,14/05/2026,1112,553,27,532,14269,7591108,116,Critical
+INV00200,Clear Product,Building Materials,Port Harcourt,Ray LLC,14/05/2026,1423,1198,11,214,14830,3173620,112,Critical
+INV00201,Since Product,Electronics,Lagos,Hooper-Wyatt,14/05/2026,62,61,8,-7,14056,-98392,94,Overstocked
+INV00202,Break Product,Beverages,Abuja,Webb LLC,14/05/2026,1987,363,23,1601,24873,39821673,135,Critical
+INV00203,Fear Product,Beverages,Lagos,"Robinson, Anderson and Clements",14/05/2026,812,370,0,442,11005,4864210,69,Overstocked
+INV00204,Type Product,Pharmaceuticals,Kano,Nelson Inc,14/05/2026,708,97,31,580,525,304500,87,Healthy
+INV00205,Growth Product,Building Materials,Ibadan,Frank LLC,14/05/2026,212,59,34,119,13823,1644937,101,Overstocked
+INV00206,Room Product,Fashion,Port Harcourt,"Navarro, Schwartz and Hansen",14/05/2026,1113,476,41,596,11930,7110280,121,Healthy
+INV00207,Every Product,Beverages,Kano,Davis-Howard,14/05/2026,320,209,33,78,4801,374478,187,Overstocked
+INV00208,Exist Product,Electronics,Port Harcourt,"King, Chapman and Jackson",14/05/2026,1264,1035,22,207,7394,1530558,110,Critical
+INV00209,Theory Product,Pharmaceuticals,Ibadan,Giles-Thomas,14/05/2026,1635,1633,34,-32,6409,-205088,72,Overstocked
+INV00210,Production Product,Building Materials,Ibadan,Black Inc,14/05/2026,457,152,32,273,7691,2099643,99,Overstocked
+INV00211,That Product,Building Materials,Port Harcourt,"Morris, Moses and Gibson",14/05/2026,1074,874,27,173,6851,1185223,88,Critical
+INV00212,Region Product,Fashion,Abuja,"Evans, Mccoy and Hood",14/05/2026,1684,353,41,1290,23942,30885180,136,Critical
+INV00213,Air Product,Fashion,Port Harcourt,Taylor-Hart,14/05/2026,617,500,37,80,7938,635040,195,Healthy
+INV00214,Teach Product,Building Materials,Abuja,Ellis Group,14/05/2026,1134,700,29,405,8117,3287385,64,Slow Moving
+INV00215,Small Product,Fashion,Lagos,"Shepard, Chambers and Cook",14/05/2026,1392,196,13,1183,3100,3667300,40,Critical
+INV00216,Within Product,Electronics,Lagos,Ramirez Group,14/05/2026,1417,47,44,1326,21693,28764918,188,Critical
+INV00217,Civil Product,Building Materials,Lagos,"Schultz, Young and Giles",14/05/2026,417,202,29,186,12282,2284452,121,Slow Moving
+INV00218,Everyone Product,Beverages,Abuja,Singh-Butler,14/05/2026,910,659,28,223,19013,4239899,135,Overstocked
+INV00219,Receive Product,Beverages,Abuja,Collins-Grant,14/05/2026,1502,476,34,992,21377,21205984,51,Critical
+INV00220,Huge Product,Beverages,Abuja,"Key, Peterson and Mosley",14/05/2026,1719,1460,34,225,18711,4209975,83,Critical
+INV00221,Big Product,Building Materials,Kano,"Montoya, Cole and Burke",14/05/2026,1150,98,41,1011,2118,2141298,198,Overstocked
+INV00222,Manage Product,Pharmaceuticals,Port Harcourt,"Buck, Rios and Brennan",14/05/2026,60,25,46,-11,4658,-51238,143,Slow Moving
+INV00223,Lay Product,Food,Port Harcourt,Bennett-Bentley,14/05/2026,1657,734,19,904,24630,22265520,25,Healthy
+INV00224,Away Product,Pharmaceuticals,Ibadan,"Griffith, Hunter and Reid",14/05/2026,289,287,8,-6,24045,-144270,26,Slow Moving
+INV00225,Edge Product,Pharmaceuticals,Abuja,"Jackson, Hopkins and Walsh",14/05/2026,1667,1021,29,617,9279,5725143,54,Critical
+INV00226,Better Product,Building Materials,Kano,"Moon, Baker and Gonzalez",14/05/2026,703,142,42,519,11225,5825775,156,Overstocked
+INV00227,Start Product,Fashion,Lagos,"Morales, Rose and Riley",14/05/2026,1668,1458,17,193,7523,1451939,96,Critical
+INV00228,Ground Product,Fashion,Kano,Lewis-Thompson,14/05/2026,844,433,37,374,19456,7276544,149,Slow Moving
+INV00229,Open Product,Food,Lagos,Oliver-Smith,14/05/2026,1669,1150,0,519,21856,11343264,185,Healthy
+INV00230,Long Product,Fashion,Port Harcourt,Haley Inc,14/05/2026,1781,1318,49,414,7872,3259008,153,Slow Moving
+INV00231,Low Product,Beverages,Kano,Miller-Stevenson,14/05/2026,866,125,31,710,2871,2038410,76,Slow Moving
+INV00232,Range Product,Building Materials,Abuja,"Simon, Hansen and Keith",14/05/2026,1745,1010,29,706,16044,11327064,169,Overstocked
+INV00233,Under Product,Electronics,Lagos,Thomas PLC,14/05/2026,66,36,24,6,17255,103530,83,Slow Moving
+INV00234,Key Product,Electronics,Lagos,Baldwin-Obrien,14/05/2026,137,20,39,78,21393,1668654,87,Critical
+INV00235,Suggest Product,Food,Port Harcourt,Smith LLC,14/05/2026,1614,1591,18,5,22267,111335,58,Critical
+INV00236,Age Product,Fashion,Kano,Munoz-Wilson,14/05/2026,1614,722,5,887,6902,6122074,45,Critical
+INV00237,Child Product,Fashion,Port Harcourt,Cain-Miller,14/05/2026,213,181,13,19,19484,370196,142,Healthy
+INV00238,Call Product,Food,Ibadan,Johnson Group,14/05/2026,973,384,0,589,4706,2771834,127,Slow Moving
+INV00239,Always Product,Fashion,Abuja,Browning-Mcbride,14/05/2026,681,87,30,564,17782,10029048,189,Overstocked
+INV00240,Friend Product,Food,Lagos,Mckinney-Miller,14/05/2026,1705,1627,27,51,8821,449871,95,Critical
+INV00241,Manage Product,Food,Lagos,Jenkins Group,14/05/2026,196,177,6,13,5994,77922,139,Healthy
+INV00242,Election Product,Beverages,Abuja,"Morgan, Jones and Marsh",14/05/2026,266,42,46,178,4744,844432,133,Critical
+INV00243,Young Product,Fashion,Abuja,Jones Inc,14/05/2026,77,55,11,11,1294,14234,179,Healthy
+INV00244,Mr Product,Fashion,Kano,Smith Inc,14/05/2026,548,275,21,252,8581,2162412,141,Slow Moving
+INV00245,Election Product,Building Materials,Abuja,Fuller PLC,14/05/2026,1981,816,43,1122,8090,9076980,28,Overstocked
+INV00246,Child Product,Beverages,Kano,"Frey, Martinez and Coleman",14/05/2026,682,323,6,353,12266,4329898,149,Overstocked
+INV00247,Everyone Product,Beverages,Abuja,Williams-Bartlett,14/05/2026,329,151,24,154,24671,3799334,146,Slow Moving
+INV00248,Fight Product,Fashion,Lagos,Wilson PLC,14/05/2026,276,46,27,203,9590,1946770,99,Slow Moving
+INV00249,See Product,Building Materials,Kano,Dalton Group,14/05/2026,1083,356,39,688,10716,7372608,105,Overstocked
+INV00250,Door Product,Pharmaceuticals,Lagos,Medina Ltd,14/05/2026,217,101,28,88,17059,1501192,37,Healthy
+INV00251,Expect Product,Pharmaceuticals,Kano,Anderson PLC,14/05/2026,549,332,17,200,7199,1439800,88,Overstocked
+INV00252,Training Product,Building Materials,Kano,Bryant Ltd,14/05/2026,587,506,34,47,11176,525272,63,Slow Moving
+INV00253,Almost Product,Pharmaceuticals,Abuja,Smith LLC,14/05/2026,1708,123,18,1567,3754,5882518,33,Critical
+INV00254,Animal Product,Electronics,Lagos,Wilson-Mckenzie,14/05/2026,796,24,4,768,14254,10947072,198,Healthy
+INV00255,Rich Product,Fashion,Ibadan,"Vargas, Barnes and Ford",14/05/2026,1850,1091,8,751,19554,14685054,74,Slow Moving
+INV00256,Recognize Product,Fashion,Ibadan,Coleman-Miller,14/05/2026,490,91,37,362,21372,7736664,195,Overstocked
+INV00257,Report Product,Building Materials,Lagos,Johnson-Rocha,14/05/2026,345,264,12,69,19645,1355505,114,Critical
+INV00258,Short Product,Beverages,Kano,Ballard-Marshall,14/05/2026,687,267,40,380,13974,5310120,64,Critical
+INV00259,Case Product,Building Materials,Port Harcourt,Flores Inc,14/05/2026,746,416,29,301,23150,6968150,47,Slow Moving
+INV00260,Similar Product,Fashion,Kano,Cole-Knight,14/05/2026,1931,121,35,1775,7565,13427875,150,Critical
+INV00261,To Product,Pharmaceuticals,Port Harcourt,Hall PLC,14/05/2026,1316,484,42,790,13058,10315820,71,Overstocked
+INV00262,Anyone Product,Building Materials,Lagos,Larsen-Reid,14/05/2026,186,154,35,-3,21217,-63651,169,Critical
+INV00263,Western Product,Electronics,Kano,Thomas-Johnson,14/05/2026,442,342,6,94,24885,2339190,72,Critical
+INV00264,Tonight Product,Electronics,Lagos,"Nelson, Rowland and Curry",14/05/2026,1181,741,49,391,16079,6286889,106,Critical
+INV00265,Law Product,Beverages,Abuja,Buck-Nelson,14/05/2026,516,167,11,338,19925,6734650,101,Slow Moving
+INV00266,Other Product,Fashion,Kano,Aguilar-Anderson,14/05/2026,1550,409,15,1126,23731,26721106,131,Healthy
+INV00267,Theory Product,Food,Ibadan,Mcintyre-Leonard,14/05/2026,531,98,28,405,22332,9044460,179,Critical
+INV00268,Appear Product,Food,Ibadan,Thompson-Riley,14/05/2026,1702,420,10,1272,18447,23464584,116,Overstocked
+INV00269,Team Product,Food,Port Harcourt,"Robinson, Bryant and Schneider",14/05/2026,390,181,16,193,20035,3866755,30,Healthy
+INV00270,Shake Product,Beverages,Lagos,Weiss Group,14/05/2026,1083,781,5,297,11109,3299373,144,Overstocked
+INV00271,List Product,Pharmaceuticals,Port Harcourt,Raymond-Smith,14/05/2026,517,380,41,96,12185,1169760,187,Slow Moving
+INV00272,Edge Product,Fashion,Ibadan,"Smith, Kelly and Dixon",14/05/2026,1737,704,50,983,5918,5817394,53,Critical
+INV00273,Beat Product,Electronics,Ibadan,"Osborn, Davis and Fowler",14/05/2026,1505,715,45,745,8821,6571645,26,Healthy
+INV00274,Friend Product,Building Materials,Abuja,"Hernandez, Jacobs and Shields",14/05/2026,1807,1246,2,559,21929,12258311,69,Overstocked
+INV00275,Scientist Product,Food,Port Harcourt,"Reyes, Wood and Shaw",14/05/2026,607,380,9,218,23580,5140440,168,Healthy
+INV00276,Real Product,Beverages,Ibadan,Nolan-Myers,14/05/2026,860,338,10,512,16299,8345088,193,Slow Moving
+INV00277,According Product,Beverages,Port Harcourt,"Turner, Burnett and Foster",14/05/2026,1319,737,19,563,18048,10161024,148,Slow Moving
+INV00278,Suddenly Product,Building Materials,Port Harcourt,Wolf-Mann,14/05/2026,1150,441,13,696,10561,7350456,115,Critical
+INV00279,Sister Product,Food,Abuja,Hebert-Reyes,14/05/2026,1503,93,23,1387,5744,7966928,60,Overstocked
+INV00280,Poor Product,Fashion,Kano,"Clements, Lang and Foster",14/05/2026,1779,993,7,779,6650,5180350,89,Critical
+INV00281,Culture Product,Pharmaceuticals,Ibadan,Mitchell-Benjamin,14/05/2026,1756,331,34,1391,6446,8966386,99,Critical
+INV00282,Reason Product,Beverages,Kano,Cruz and Sons,14/05/2026,1951,1852,33,66,10946,722436,75,Slow Moving
+INV00283,Management Product,Fashion,Lagos,Galloway-Wagner,14/05/2026,813,241,5,567,23385,13259295,152,Overstocked
+INV00284,Concern Product,Fashion,Kano,Brown-Terrell,14/05/2026,1323,126,3,1194,506,604164,79,Healthy
+INV00285,Learn Product,Pharmaceuticals,Abuja,"Dalton, Bennett and Perez",14/05/2026,1759,306,22,1431,1376,1969056,132,Healthy
+INV00286,Finish Product,Beverages,Port Harcourt,Carney Inc,14/05/2026,1340,328,3,1009,16583,16732247,37,Healthy
+INV00287,Car Product,Beverages,Kano,Cortez-Reed,14/05/2026,1543,1115,12,416,13926,5793216,189,Slow Moving
+INV00288,Hour Product,Electronics,Abuja,Jenkins Inc,14/05/2026,847,812,29,6,5483,32898,178,Overstocked
+INV00289,Water Product,Electronics,Ibadan,Hines and Sons,14/05/2026,217,164,32,21,14403,302463,168,Critical
+INV00290,One Product,Food,Lagos,Thomas-Miller,14/05/2026,1569,272,18,1279,3053,3904787,173,Critical
+INV00291,Truth Product,Pharmaceuticals,Abuja,White-Jimenez,14/05/2026,1168,787,37,344,2978,1024432,147,Slow Moving
+INV00292,Too Product,Electronics,Abuja,Harmon and Sons,14/05/2026,1469,486,22,961,22678,21793558,186,Critical
+INV00293,Movie Product,Food,Kano,Hayes-Schroeder,14/05/2026,120,96,21,3,19419,58257,125,Healthy
+INV00294,Mr Product,Electronics,Lagos,Burke-Irwin,14/05/2026,1465,1303,43,119,12277,1460963,29,Healthy
+INV00295,Woman Product,Food,Port Harcourt,"Johnson, Cooper and Johnson",14/05/2026,1937,718,8,1211,22530,27283830,173,Slow Moving
+INV00296,Individual Product,Pharmaceuticals,Kano,"Brennan, Hoffman and Ortiz",14/05/2026,1849,380,21,1448,16509,23905032,176,Healthy
+INV00297,Break Product,Electronics,Port Harcourt,Jensen PLC,14/05/2026,1609,645,10,954,14403,13740462,108,Healthy
+INV00298,Car Product,Pharmaceuticals,Ibadan,"Gordon, Pearson and Davis",14/05/2026,252,136,13,103,16733,1723499,118,Healthy
+INV00299,You Product,Food,Lagos,Johnson PLC,14/05/2026,367,258,31,78,15078,1176084,82,Critical
+INV00300,Heavy Product,Fashion,Abuja,"Gardner, Guerra and Smith",14/05/2026,1452,1080,4,368,4972,1829696,194,Slow Moving
