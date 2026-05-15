@@ -431,6 +431,20 @@ with st.form("company_profile_form"):
 # ==========================================================
 st.markdown("## Review Period Configuration")
 
+# ----------------------------------------------------------
+# REVIEW OPTIONS
+# ----------------------------------------------------------
+review_type_options = [
+    "Single Period Review",
+    "Multi-Year Trend Review",
+]
+
+reporting_frequency_options = [
+    "Monthly",
+    "Quarterly",
+    "Yearly",
+]
+
 review_type = st.selectbox(
     "Review Type",
     review_type_options,
