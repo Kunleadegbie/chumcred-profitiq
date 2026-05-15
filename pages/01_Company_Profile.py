@@ -518,7 +518,7 @@ profile["reporting_frequency"] = reporting_frequency
 profile["review_start_date"] = str(review_start_date)
 profile["review_end_date"] = str(review_end_date)
 
-st.session_state.company_profile = profile
+st.session_state.profile = profile
 
 # ----------------------------------------------------------
 # REVIEW SUMMARY
@@ -577,10 +577,10 @@ with col2:
 # ----------------------------------------------------------
 # SAVE TO COMPANY PROFILE
 # ----------------------------------------------------------
-company_profile["review_type"] = review_type
-company_profile["reporting_frequency"] = reporting_frequency
-company_profile["review_start_date"] = str(review_start_date)
-company_profile["review_end_date"] = str(review_end_date)
+profile["review_type"] = review_type
+profile["reporting_frequency"] = reporting_frequency
+profile["review_start_date"] = str(review_start_date)
+profile["review_end_date"] = str(review_end_date)
 
 # ----------------------------------------------------------
 # REVIEW SUMMARY
