@@ -1,0 +1,1501 @@
+Date,Branch,Department,Staff Count,Payroll Cost
+2021-01-01,Lagos,Operations,50,19992800
+2021-01-01,Lagos,Sales,29,8758464
+2021-01-01,Lagos,Finance,40,16117640
+2021-01-01,Lagos,Admin,24,4006848
+2021-01-01,Lagos,Logistics,38,10693618
+2021-01-01,Abuja,Operations,33,11091729
+2021-01-01,Abuja,Sales,26,5242640
+2021-01-01,Abuja,Finance,29,3640486
+2021-01-01,Abuja,Admin,10,3943680
+2021-01-01,Abuja,Logistics,58,11104680
+2021-01-01,Port Harcourt,Operations,32,8651072
+2021-01-01,Port Harcourt,Sales,40,16021800
+2021-01-01,Port Harcourt,Finance,10,3779130
+2021-01-01,Port Harcourt,Admin,58,21466960
+2021-01-01,Port Harcourt,Logistics,29,3618852
+2021-01-01,Kano,Operations,59,20394648
+2021-01-01,Kano,Sales,28,12124028
+2021-01-01,Kano,Finance,24,2970816
+2021-01-01,Kano,Admin,45,14215365
+2021-01-01,Kano,Logistics,22,7389096
+2021-01-01,Ibadan,Operations,45,15712605
+2021-01-01,Ibadan,Sales,35,8785595
+2021-01-01,Ibadan,Finance,20,6486540
+2021-01-01,Ibadan,Admin,34,8012202
+2021-01-01,Ibadan,Logistics,26,4199728
+2021-02-01,Lagos,Operations,37,16570413
+2021-02-01,Lagos,Sales,25,9771300
+2021-02-01,Lagos,Finance,58,25607058
+2021-02-01,Lagos,Admin,54,14176890
+2021-02-01,Lagos,Logistics,28,11168948
+2021-02-01,Abuja,Operations,27,9084960
+2021-02-01,Abuja,Sales,22,3429668
+2021-02-01,Abuja,Finance,21,4024230
+2021-02-01,Abuja,Admin,28,4980024
+2021-02-01,Abuja,Logistics,50,17936500
+2021-02-01,Port Harcourt,Operations,49,17511620
+2021-02-01,Port Harcourt,Sales,27,12055554
+2021-02-01,Port Harcourt,Finance,41,8956655
+2021-02-01,Port Harcourt,Admin,30,3905040
+2021-02-01,Port Harcourt,Logistics,19,2774399
+2021-02-01,Kano,Operations,44,5790488
+2021-02-01,Kano,Sales,21,3646020
+2021-02-01,Kano,Finance,28,7311780
+2021-02-01,Kano,Admin,18,6297408
+2021-02-01,Kano,Logistics,56,6960856
+2021-02-01,Ibadan,Operations,24,4014936
+2021-02-01,Ibadan,Sales,19,2426680
+2021-02-01,Ibadan,Finance,41,9588629
+2021-02-01,Ibadan,Admin,31,10550168
+2021-02-01,Ibadan,Logistics,29,11057758
+2021-03-01,Lagos,Operations,33,11982432
+2021-03-01,Lagos,Sales,54,7378506
+2021-03-01,Lagos,Finance,31,5023860
+2021-03-01,Lagos,Admin,58,11402336
+2021-03-01,Lagos,Logistics,13,3376412
+2021-03-01,Abuja,Operations,59,19218778
+2021-03-01,Abuja,Sales,14,5667046
+2021-03-01,Abuja,Finance,40,8608480
+2021-03-01,Abuja,Admin,22,5524486
+2021-03-01,Abuja,Logistics,34,4304876
+2021-03-01,Port Harcourt,Operations,17,4258959
+2021-03-01,Port Harcourt,Sales,34,11976126
+2021-03-01,Port Harcourt,Finance,25,3439225
+2021-03-01,Port Harcourt,Admin,22,7955420
+2021-03-01,Port Harcourt,Logistics,57,9647934
+2021-03-01,Kano,Operations,43,9859298
+2021-03-01,Kano,Sales,40,12960480
+2021-03-01,Kano,Finance,53,15032655
+2021-03-01,Kano,Admin,30,6094740
+2021-03-01,Kano,Logistics,50,7105850
+2021-03-01,Ibadan,Operations,57,23263866
+2021-03-01,Ibadan,Sales,43,7913591
+2021-03-01,Ibadan,Finance,26,9679852
+2021-03-01,Ibadan,Admin,50,13833200
+2021-03-01,Ibadan,Logistics,22,6797274
+2021-04-01,Lagos,Operations,13,3044379
+2021-04-01,Lagos,Sales,17,4143138
+2021-04-01,Lagos,Finance,50,17381250
+2021-04-01,Lagos,Admin,30,3836970
+2021-04-01,Lagos,Logistics,20,5295100
+2021-04-01,Abuja,Operations,47,8588310
+2021-04-01,Abuja,Sales,35,8660680
+2021-04-01,Abuja,Finance,10,1420160
+2021-04-01,Abuja,Admin,47,17351366
+2021-04-01,Abuja,Logistics,54,23359644
+2021-04-01,Port Harcourt,Operations,19,5979661
+2021-04-01,Port Harcourt,Sales,59,9847867
+2021-04-01,Port Harcourt,Finance,25,5066975
+2021-04-01,Port Harcourt,Admin,41,6884720
+2021-04-01,Port Harcourt,Logistics,53,23550444
+2021-04-01,Kano,Operations,31,13880219
+2021-04-01,Kano,Sales,13,1967407
+2021-04-01,Kano,Finance,32,6422304
+2021-04-01,Kano,Admin,54,21664962
+2021-04-01,Kano,Logistics,60,10578240
+2021-04-01,Ibadan,Operations,18,6763860
+2021-04-01,Ibadan,Sales,24,6865488
+2021-04-01,Ibadan,Finance,45,13594230
+2021-04-01,Ibadan,Admin,38,8404422
+2021-04-01,Ibadan,Logistics,11,3498649
+2021-05-01,Lagos,Operations,32,6100416
+2021-05-01,Lagos,Sales,26,3658278
+2021-05-01,Lagos,Finance,41,14324416
+2021-05-01,Lagos,Admin,45,12353175
+2021-05-01,Lagos,Logistics,44,16585756
+2021-05-01,Abuja,Operations,22,9176508
+2021-05-01,Abuja,Sales,21,8505273
+2021-05-01,Abuja,Finance,32,9270432
+2021-05-01,Abuja,Admin,56,20472088
+2021-05-01,Abuja,Logistics,27,11714760
+2021-05-01,Port Harcourt,Operations,45,9182970
+2021-05-01,Port Harcourt,Sales,14,5578552
+2021-05-01,Port Harcourt,Finance,19,6756514
+2021-05-01,Port Harcourt,Admin,28,7225960
+2021-05-01,Port Harcourt,Logistics,44,13748768
+2021-05-01,Kano,Operations,39,4694703
+2021-05-01,Kano,Sales,59,22730753
+2021-05-01,Kano,Finance,34,7387282
+2021-05-01,Kano,Admin,11,4894109
+2021-05-01,Kano,Logistics,33,14690346
+2021-05-01,Ibadan,Operations,25,7203400
+2021-05-01,Ibadan,Sales,56,8579704
+2021-05-01,Ibadan,Finance,52,20933536
+2021-05-01,Ibadan,Admin,34,7464564
+2021-05-01,Ibadan,Logistics,43,16376937
+2021-06-01,Lagos,Operations,59,24138493
+2021-06-01,Lagos,Sales,19,8386771
+2021-06-01,Lagos,Finance,28,8095780
+2021-06-01,Lagos,Admin,36,10397988
+2021-06-01,Lagos,Logistics,17,2897922
+2021-06-01,Abuja,Operations,43,6663237
+2021-06-01,Abuja,Sales,12,2256468
+2021-06-01,Abuja,Finance,21,2864316
+2021-06-01,Abuja,Admin,22,3874794
+2021-06-01,Abuja,Logistics,41,9038942
+2021-06-01,Port Harcourt,Operations,16,2186896
+2021-06-01,Port Harcourt,Sales,46,14891902
+2021-06-01,Port Harcourt,Finance,52,19596356
+2021-06-01,Port Harcourt,Admin,43,19227020
+2021-06-01,Port Harcourt,Logistics,54,23192298
+2021-06-01,Kano,Operations,26,3789110
+2021-06-01,Kano,Sales,33,7778826
+2021-06-01,Kano,Finance,48,7543584
+2021-06-01,Kano,Admin,10,2294380
+2021-06-01,Kano,Logistics,51,19259538
+2021-06-01,Ibadan,Operations,15,5480955
+2021-06-01,Ibadan,Sales,50,7591200
+2021-06-01,Ibadan,Finance,33,13614579
+2021-06-01,Ibadan,Admin,57,19270503
+2021-06-01,Ibadan,Logistics,33,4968678
+2021-07-01,Lagos,Operations,49,12708787
+2021-07-01,Lagos,Sales,43,6076459
+2021-07-01,Lagos,Finance,56,8786568
+2021-07-01,Lagos,Admin,29,4664940
+2021-07-01,Lagos,Logistics,23,9024257
+2021-07-01,Abuja,Operations,16,2769136
+2021-07-01,Abuja,Sales,56,13502664
+2021-07-01,Abuja,Finance,44,14169056
+2021-07-01,Abuja,Admin,22,4867500
+2021-07-01,Abuja,Logistics,43,10768189
+2021-07-01,Port Harcourt,Operations,46,20601100
+2021-07-01,Port Harcourt,Sales,21,8668254
+2021-07-01,Port Harcourt,Finance,57,23519682
+2021-07-01,Port Harcourt,Admin,36,6311484
+2021-07-01,Port Harcourt,Logistics,59,24914815
+2021-07-01,Kano,Operations,32,11536032
+2021-07-01,Kano,Sales,54,18571140
+2021-07-01,Kano,Finance,16,3319296
+2021-07-01,Kano,Admin,60,12874740
+2021-07-01,Kano,Logistics,45,14873895
+2021-07-01,Ibadan,Operations,42,12472026
+2021-07-01,Ibadan,Sales,52,10552360
+2021-07-01,Ibadan,Finance,44,19119232
+2021-07-01,Ibadan,Admin,38,11579322
+2021-07-01,Ibadan,Logistics,30,12252030
+2021-08-01,Lagos,Operations,30,9446640
+2021-08-01,Lagos,Sales,36,12447072
+2021-08-01,Lagos,Finance,56,16216536
+2021-08-01,Lagos,Admin,48,11817936
+2021-08-01,Lagos,Logistics,46,18678990
+2021-08-01,Abuja,Operations,23,7282743
+2021-08-01,Abuja,Sales,59,24100497
+2021-08-01,Abuja,Finance,57,14433255
+2021-08-01,Abuja,Admin,33,11787237
+2021-08-01,Abuja,Logistics,38,12471182
+2021-08-01,Port Harcourt,Operations,10,1381730
+2021-08-01,Port Harcourt,Sales,28,12105828
+2021-08-01,Port Harcourt,Finance,11,4305136
+2021-08-01,Port Harcourt,Admin,18,5008518
+2021-08-01,Port Harcourt,Logistics,10,2774610
+2021-08-01,Kano,Operations,24,5583096
+2021-08-01,Kano,Sales,30,3941310
+2021-08-01,Kano,Finance,59,15616179
+2021-08-01,Kano,Admin,45,17462385
+2021-08-01,Kano,Logistics,45,18863730
+2021-08-01,Ibadan,Operations,46,9251290
+2021-08-01,Ibadan,Sales,16,2236544
+2021-08-01,Ibadan,Finance,39,11952174
+2021-08-01,Ibadan,Admin,19,3658735
+2021-08-01,Ibadan,Logistics,26,8123882
+2021-09-01,Lagos,Operations,47,11796812
+2021-09-01,Lagos,Sales,24,6104280
+2021-09-01,Lagos,Finance,29,4877336
+2021-09-01,Lagos,Admin,46,15162014
+2021-09-01,Lagos,Logistics,46,10763954
+2021-09-01,Abuja,Operations,56,8986600
+2021-09-01,Abuja,Sales,56,16252992
+2021-09-01,Abuja,Finance,60,22379160
+2021-09-01,Abuja,Admin,21,7895937
+2021-09-01,Abuja,Logistics,54,22793994
+2021-09-01,Port Harcourt,Operations,16,6913152
+2021-09-01,Port Harcourt,Sales,51,14152092
+2021-09-01,Port Harcourt,Finance,12,5065656
+2021-09-01,Port Harcourt,Admin,34,5478896
+2021-09-01,Port Harcourt,Logistics,59,8809821
+2021-09-01,Kano,Operations,59,17423644
+2021-09-01,Kano,Sales,32,11126400
+2021-09-01,Kano,Finance,36,6595092
+2021-09-01,Kano,Admin,59,14093035
+2021-09-01,Kano,Logistics,57,24839403
+2021-09-01,Ibadan,Operations,10,3205330
+2021-09-01,Ibadan,Sales,13,3637322
+2021-09-01,Ibadan,Finance,43,6088413
+2021-09-01,Ibadan,Admin,30,12092340
+2021-09-01,Ibadan,Logistics,46,9127458
+2021-10-01,Lagos,Operations,30,11502090
+2021-10-01,Lagos,Sales,54,12731094
+2021-10-01,Lagos,Finance,19,2783234
+2021-10-01,Lagos,Admin,53,17277099
+2021-10-01,Lagos,Logistics,38,16416760
+2021-10-01,Abuja,Operations,46,17692658
+2021-10-01,Abuja,Sales,15,3546540
+2021-10-01,Abuja,Finance,37,10061373
+2021-10-01,Abuja,Admin,60,19604280
+2021-10-01,Abuja,Logistics,19,3596795
+2021-10-01,Port Harcourt,Operations,31,5061587
+2021-10-01,Port Harcourt,Sales,40,16783960
+2021-10-01,Port Harcourt,Finance,57,8313621
+2021-10-01,Port Harcourt,Admin,45,14818095
+2021-10-01,Port Harcourt,Logistics,26,4279730
+2021-10-01,Kano,Operations,35,13408465
+2021-10-01,Kano,Sales,37,6969098
+2021-10-01,Kano,Finance,58,11061238
+2021-10-01,Kano,Admin,40,16529280
+2021-10-01,Kano,Logistics,22,8267138
+2021-10-01,Ibadan,Operations,35,14683935
+2021-10-01,Ibadan,Sales,22,9112686
+2021-10-01,Ibadan,Finance,49,19347944
+2021-10-01,Ibadan,Admin,25,6176050
+2021-10-01,Ibadan,Logistics,14,3634330
+2021-11-01,Lagos,Operations,59,20383202
+2021-11-01,Lagos,Sales,30,12659970
+2021-11-01,Lagos,Finance,15,2684970
+2021-11-01,Lagos,Admin,52,17515472
+2021-11-01,Lagos,Logistics,37,11525685
+2021-11-01,Abuja,Operations,32,7035872
+2021-11-01,Abuja,Sales,30,9018900
+2021-11-01,Abuja,Finance,48,6369168
+2021-11-01,Abuja,Admin,59,16508908
+2021-11-01,Abuja,Logistics,20,6067040
+2021-11-01,Port Harcourt,Operations,49,17240405
+2021-11-01,Port Harcourt,Sales,49,9626050
+2021-11-01,Port Harcourt,Finance,38,5454064
+2021-11-01,Port Harcourt,Admin,24,5392608
+2021-11-01,Port Harcourt,Logistics,53,16747417
+2021-11-01,Kano,Operations,19,3134829
+2021-11-01,Kano,Sales,17,2526081
+2021-11-01,Kano,Finance,25,11139600
+2021-11-01,Kano,Admin,19,5145751
+2021-11-01,Kano,Logistics,10,2999730
+2021-11-01,Ibadan,Operations,54,9630414
+2021-11-01,Ibadan,Sales,29,10322869
+2021-11-01,Ibadan,Finance,40,5277040
+2021-11-01,Ibadan,Admin,31,7117011
+2021-11-01,Ibadan,Logistics,57,22917933
+2021-12-01,Lagos,Operations,23,5217550
+2021-12-01,Lagos,Sales,44,17351048
+2021-12-01,Lagos,Finance,58,14825438
+2021-12-01,Lagos,Admin,45,16795980
+2021-12-01,Lagos,Logistics,49,9511194
+2021-12-01,Abuja,Operations,54,7000560
+2021-12-01,Abuja,Sales,34,14472508
+2021-12-01,Abuja,Finance,52,20602088
+2021-12-01,Abuja,Admin,12,3047184
+2021-12-01,Abuja,Logistics,20,3030280
+2021-12-01,Port Harcourt,Operations,28,6306216
+2021-12-01,Port Harcourt,Sales,60,26639460
+2021-12-01,Port Harcourt,Finance,27,3991437
+2021-12-01,Port Harcourt,Admin,39,4850391
+2021-12-01,Port Harcourt,Logistics,14,4532654
+2021-12-01,Kano,Operations,52,13636688
+2021-12-01,Kano,Sales,52,16060616
+2021-12-01,Kano,Finance,16,2080032
+2021-12-01,Kano,Admin,28,9034172
+2021-12-01,Kano,Logistics,24,7670328
+2021-12-01,Ibadan,Operations,42,7233282
+2021-12-01,Ibadan,Sales,30,11223060
+2021-12-01,Ibadan,Finance,48,19137120
+2021-12-01,Ibadan,Admin,15,3266040
+2021-12-01,Ibadan,Logistics,22,8414670
+2022-01-01,Lagos,Operations,39,16144479
+2022-01-01,Lagos,Sales,55,7219630
+2022-01-01,Lagos,Finance,12,2996448
+2022-01-01,Lagos,Admin,43,12034367
+2022-01-01,Lagos,Logistics,31,11682815
+2022-01-01,Abuja,Operations,35,7081025
+2022-01-01,Abuja,Sales,11,3319932
+2022-01-01,Abuja,Finance,53,16138659
+2022-01-01,Abuja,Admin,32,14329632
+2022-01-01,Abuja,Logistics,29,7071331
+2022-01-01,Port Harcourt,Operations,42,11114838
+2022-01-01,Port Harcourt,Sales,13,5825235
+2022-01-01,Port Harcourt,Finance,26,8397688
+2022-01-01,Port Harcourt,Admin,11,4520428
+2022-01-01,Port Harcourt,Logistics,27,6433290
+2022-01-01,Kano,Operations,19,5684686
+2022-01-01,Kano,Sales,35,6718740
+2022-01-01,Kano,Finance,15,4805790
+2022-01-01,Kano,Admin,43,18967257
+2022-01-01,Kano,Logistics,50,11961850
+2022-01-01,Ibadan,Operations,36,8856648
+2022-01-01,Ibadan,Sales,46,9203864
+2022-01-01,Ibadan,Finance,37,10499786
+2022-01-01,Ibadan,Admin,48,14046720
+2022-01-01,Ibadan,Logistics,38,15362868
+2022-02-01,Lagos,Operations,18,4111200
+2022-02-01,Lagos,Sales,51,9825354
+2022-02-01,Lagos,Finance,47,18979775
+2022-02-01,Lagos,Admin,53,11981604
+2022-02-01,Lagos,Logistics,18,5076072
+2022-02-01,Abuja,Operations,54,21309696
+2022-02-01,Abuja,Sales,18,6218586
+2022-02-01,Abuja,Finance,59,11569959
+2022-02-01,Abuja,Admin,51,21223191
+2022-02-01,Abuja,Logistics,20,5729180
+2022-02-01,Port Harcourt,Operations,14,5770884
+2022-02-01,Port Harcourt,Sales,44,8011036
+2022-02-01,Port Harcourt,Finance,21,6016752
+2022-02-01,Port Harcourt,Admin,19,2573683
+2022-02-01,Port Harcourt,Logistics,58,16650872
+2022-02-01,Kano,Operations,36,12082104
+2022-02-01,Kano,Sales,29,10215569
+2022-02-01,Kano,Finance,57,15022236
+2022-02-01,Kano,Admin,19,4152089
+2022-02-01,Kano,Logistics,16,3023472
+2022-02-01,Ibadan,Operations,21,2808435
+2022-02-01,Ibadan,Sales,58,25569532
+2022-02-01,Ibadan,Finance,49,12735688
+2022-02-01,Ibadan,Admin,48,20030064
+2022-02-01,Ibadan,Logistics,49,11812136
+2022-03-01,Lagos,Operations,48,11603040
+2022-03-01,Lagos,Sales,24,3208200
+2022-03-01,Lagos,Finance,32,5173376
+2022-03-01,Lagos,Admin,54,19973304
+2022-03-01,Lagos,Logistics,18,6900516
+2022-03-01,Abuja,Operations,48,17556816
+2022-03-01,Abuja,Sales,55,17383410
+2022-03-01,Abuja,Finance,21,6785940
+2022-03-01,Abuja,Admin,41,15105712
+2022-03-01,Abuja,Logistics,18,3705678
+2022-03-01,Port Harcourt,Operations,22,5249904
+2022-03-01,Port Harcourt,Sales,12,4010616
+2022-03-01,Port Harcourt,Finance,58,7416518
+2022-03-01,Port Harcourt,Admin,27,9086958
+2022-03-01,Port Harcourt,Logistics,24,5432232
+2022-03-01,Kano,Operations,58,13180442
+2022-03-01,Kano,Sales,14,2979746
+2022-03-01,Kano,Finance,38,16853608
+2022-03-01,Kano,Admin,41,11903858
+2022-03-01,Kano,Logistics,39,9726015
+2022-03-01,Ibadan,Operations,37,12293842
+2022-03-01,Ibadan,Sales,59,8373811
+2022-03-01,Ibadan,Finance,48,15332400
+2022-03-01,Ibadan,Admin,56,15906688
+2022-03-01,Ibadan,Logistics,35,15421140
+2022-04-01,Lagos,Operations,57,23931906
+2022-04-01,Lagos,Sales,48,19252848
+2022-04-01,Lagos,Finance,43,6028213
+2022-04-01,Lagos,Admin,43,7624459
+2022-04-01,Lagos,Logistics,38,13662786
+2022-04-01,Abuja,Operations,12,2985936
+2022-04-01,Abuja,Sales,43,17285914
+2022-04-01,Abuja,Finance,35,4920265
+2022-04-01,Abuja,Admin,45,14539860
+2022-04-01,Abuja,Logistics,43,6271335
+2022-04-01,Port Harcourt,Operations,22,5998542
+2022-04-01,Port Harcourt,Sales,38,12490106
+2022-04-01,Port Harcourt,Finance,29,7827129
+2022-04-01,Port Harcourt,Admin,39,8084154
+2022-04-01,Port Harcourt,Logistics,37,10151320
+2022-04-01,Kano,Operations,49,7281302
+2022-04-01,Kano,Sales,54,21116160
+2022-04-01,Kano,Finance,19,6897912
+2022-04-01,Kano,Admin,51,18197769
+2022-04-01,Kano,Logistics,15,5737320
+2022-04-01,Ibadan,Operations,17,3642267
+2022-04-01,Ibadan,Sales,59,25189637
+2022-04-01,Ibadan,Finance,54,21949596
+2022-04-01,Ibadan,Admin,18,5869440
+2022-04-01,Ibadan,Logistics,36,10425096
+2022-05-01,Lagos,Operations,38,5056318
+2022-05-01,Lagos,Sales,21,7515039
+2022-05-01,Lagos,Finance,47,10615890
+2022-05-01,Lagos,Admin,39,6523920
+2022-05-01,Lagos,Logistics,26,7537608
+2022-05-01,Abuja,Operations,54,11122920
+2022-05-01,Abuja,Sales,55,10162460
+2022-05-01,Abuja,Finance,15,2697825
+2022-05-01,Abuja,Admin,55,19558770
+2022-05-01,Abuja,Logistics,50,15514300
+2022-05-01,Port Harcourt,Operations,15,5919465
+2022-05-01,Port Harcourt,Sales,55,17675460
+2022-05-01,Port Harcourt,Finance,56,21742560
+2022-05-01,Port Harcourt,Admin,49,9987817
+2022-05-01,Port Harcourt,Logistics,34,13890326
+2022-05-01,Kano,Operations,34,4862646
+2022-05-01,Kano,Sales,59,12365928
+2022-05-01,Kano,Finance,31,12910880
+2022-05-01,Kano,Admin,52,10331880
+2022-05-01,Kano,Logistics,20,3916300
+2022-05-01,Ibadan,Operations,21,3084921
+2022-05-01,Ibadan,Sales,36,10134468
+2022-05-01,Ibadan,Finance,29,10265043
+2022-05-01,Ibadan,Admin,28,12556348
+2022-05-01,Ibadan,Logistics,21,3814272
+2022-06-01,Lagos,Operations,18,4074336
+2022-06-01,Lagos,Sales,10,4464000
+2022-06-01,Lagos,Finance,58,14656774
+2022-06-01,Lagos,Admin,10,3604600
+2022-06-01,Lagos,Logistics,41,15638712
+2022-06-01,Abuja,Operations,44,5412616
+2022-06-01,Abuja,Sales,48,18178464
+2022-06-01,Abuja,Finance,25,5842600
+2022-06-01,Abuja,Admin,47,17362270
+2022-06-01,Abuja,Logistics,39,13066443
+2022-06-01,Port Harcourt,Operations,38,6141978
+2022-06-01,Port Harcourt,Sales,48,20862048
+2022-06-01,Port Harcourt,Finance,10,2483000
+2022-06-01,Port Harcourt,Admin,45,11961495
+2022-06-01,Port Harcourt,Logistics,49,22029714
+2022-06-01,Kano,Operations,45,10298745
+2022-06-01,Kano,Sales,13,2819817
+2022-06-01,Kano,Finance,19,2828511
+2022-06-01,Kano,Admin,51,15452286
+2022-06-01,Kano,Logistics,12,2354616
+2022-06-01,Ibadan,Operations,12,5077044
+2022-06-01,Ibadan,Sales,48,13270512
+2022-06-01,Ibadan,Finance,31,5145411
+2022-06-01,Ibadan,Admin,13,2302144
+2022-06-01,Ibadan,Logistics,36,7684308
+2022-07-01,Lagos,Operations,20,5381940
+2022-07-01,Lagos,Sales,49,21164815
+2022-07-01,Lagos,Finance,46,19078132
+2022-07-01,Lagos,Admin,21,7533288
+2022-07-01,Lagos,Logistics,57,24142065
+2022-07-01,Abuja,Operations,33,4580070
+2022-07-01,Abuja,Sales,15,4153740
+2022-07-01,Abuja,Finance,30,9397080
+2022-07-01,Abuja,Admin,34,5286184
+2022-07-01,Abuja,Logistics,58,19954320
+2022-07-01,Port Harcourt,Operations,45,6931755
+2022-07-01,Port Harcourt,Sales,28,10271604
+2022-07-01,Port Harcourt,Finance,18,3311550
+2022-07-01,Port Harcourt,Admin,54,14249196
+2022-07-01,Port Harcourt,Logistics,31,12286137
+2022-07-01,Kano,Operations,36,14222340
+2022-07-01,Kano,Sales,23,5280846
+2022-07-01,Kano,Finance,49,7374745
+2022-07-01,Kano,Admin,16,6712960
+2022-07-01,Kano,Logistics,56,25186840
+2022-07-01,Ibadan,Operations,43,7136452
+2022-07-01,Ibadan,Sales,40,17483080
+2022-07-01,Ibadan,Finance,60,16234080
+2022-07-01,Ibadan,Admin,37,16250733
+2022-07-01,Ibadan,Logistics,30,7684080
+2022-08-01,Lagos,Operations,43,18126220
+2022-08-01,Lagos,Sales,49,14970529
+2022-08-01,Lagos,Finance,18,7957152
+2022-08-01,Lagos,Admin,46,17491684
+2022-08-01,Lagos,Logistics,43,16381237
+2022-08-01,Abuja,Operations,41,8787243
+2022-08-01,Abuja,Sales,49,11858637
+2022-08-01,Abuja,Finance,55,14976445
+2022-08-01,Abuja,Admin,22,2658216
+2022-08-01,Abuja,Logistics,17,2253775
+2022-08-01,Port Harcourt,Operations,39,17468919
+2022-08-01,Port Harcourt,Sales,60,10909620
+2022-08-01,Port Harcourt,Finance,57,13035957
+2022-08-01,Port Harcourt,Admin,49,16531914
+2022-08-01,Port Harcourt,Logistics,36,5178636
+2022-08-01,Kano,Operations,31,9402827
+2022-08-01,Kano,Sales,45,10409670
+2022-08-01,Kano,Finance,10,2254800
+2022-08-01,Kano,Admin,54,14453262
+2022-08-01,Kano,Logistics,26,4044690
+2022-08-01,Ibadan,Operations,29,8045615
+2022-08-01,Ibadan,Sales,42,17150910
+2022-08-01,Ibadan,Finance,30,3696420
+2022-08-01,Ibadan,Admin,17,5010512
+2022-08-01,Ibadan,Logistics,31,10156933
+2022-09-01,Lagos,Operations,56,23423568
+2022-09-01,Lagos,Sales,49,6627985
+2022-09-01,Lagos,Finance,21,4656120
+2022-09-01,Lagos,Admin,31,9212456
+2022-09-01,Lagos,Logistics,53,19673070
+2022-09-01,Abuja,Operations,40,5545680
+2022-09-01,Abuja,Sales,51,9749874
+2022-09-01,Abuja,Finance,40,8058680
+2022-09-01,Abuja,Admin,50,18074800
+2022-09-01,Abuja,Logistics,44,13010492
+2022-09-01,Port Harcourt,Operations,39,13144170
+2022-09-01,Port Harcourt,Sales,57,8514147
+2022-09-01,Port Harcourt,Finance,43,11908506
+2022-09-01,Port Harcourt,Admin,46,13129044
+2022-09-01,Port Harcourt,Logistics,45,18043110
+2022-09-01,Kano,Operations,11,2521079
+2022-09-01,Kano,Sales,46,13520136
+2022-09-01,Kano,Finance,60,18323100
+2022-09-01,Kano,Admin,14,2775892
+2022-09-01,Kano,Logistics,27,3681261
+2022-09-01,Ibadan,Operations,31,9818754
+2022-09-01,Ibadan,Sales,50,20005650
+2022-09-01,Ibadan,Finance,20,8387160
+2022-09-01,Ibadan,Admin,48,15563712
+2022-09-01,Ibadan,Logistics,21,9073071
+2022-10-01,Lagos,Operations,17,4787676
+2022-10-01,Lagos,Sales,55,15668840
+2022-10-01,Lagos,Finance,55,7512010
+2022-10-01,Lagos,Admin,27,9098622
+2022-10-01,Lagos,Logistics,15,5708985
+2022-10-01,Abuja,Operations,25,7870400
+2022-10-01,Abuja,Sales,38,10589232
+2022-10-01,Abuja,Finance,23,9091969
+2022-10-01,Abuja,Admin,29,6140953
+2022-10-01,Abuja,Logistics,17,5375332
+2022-10-01,Port Harcourt,Operations,60,8376300
+2022-10-01,Port Harcourt,Sales,59,13331463
+2022-10-01,Port Harcourt,Finance,15,5289975
+2022-10-01,Port Harcourt,Admin,42,5589066
+2022-10-01,Port Harcourt,Logistics,40,15286880
+2022-10-01,Kano,Operations,19,4174775
+2022-10-01,Kano,Sales,31,11577818
+2022-10-01,Kano,Finance,56,22093736
+2022-10-01,Kano,Admin,29,8456951
+2022-10-01,Kano,Logistics,19,3258728
+2022-10-01,Ibadan,Operations,43,8152026
+2022-10-01,Ibadan,Sales,23,3200772
+2022-10-01,Ibadan,Finance,39,12605073
+2022-10-01,Ibadan,Admin,55,21662245
+2022-10-01,Ibadan,Logistics,17,2076618
+2022-11-01,Lagos,Operations,29,4149436
+2022-11-01,Lagos,Sales,53,22873581
+2022-11-01,Lagos,Finance,15,4421085
+2022-11-01,Lagos,Admin,39,5623410
+2022-11-01,Lagos,Logistics,16,6286912
+2022-11-01,Abuja,Operations,59,16745911
+2022-11-01,Abuja,Sales,11,4650877
+2022-11-01,Abuja,Finance,58,16451816
+2022-11-01,Abuja,Admin,50,11500950
+2022-11-01,Abuja,Logistics,30,6754440
+2022-11-01,Port Harcourt,Operations,22,5945346
+2022-11-01,Port Harcourt,Sales,27,10774755
+2022-11-01,Port Harcourt,Finance,30,10538130
+2022-11-01,Port Harcourt,Admin,52,9447464
+2022-11-01,Port Harcourt,Logistics,27,5353749
+2022-11-01,Kano,Operations,20,5269280
+2022-11-01,Kano,Sales,17,2175966
+2022-11-01,Kano,Finance,49,20256845
+2022-11-01,Kano,Admin,42,7294308
+2022-11-01,Kano,Logistics,23,9302143
+2022-11-01,Ibadan,Operations,32,13056800
+2022-11-01,Ibadan,Sales,30,7863270
+2022-11-01,Ibadan,Finance,19,5101747
+2022-11-01,Ibadan,Admin,46,11424468
+2022-11-01,Ibadan,Logistics,20,3147020
+2022-12-01,Lagos,Operations,29,12804254
+2022-12-01,Lagos,Sales,31,12505958
+2022-12-01,Lagos,Finance,38,5570610
+2022-12-01,Lagos,Admin,18,2433600
+2022-12-01,Lagos,Logistics,40,5858120
+2022-12-01,Abuja,Operations,16,5137856
+2022-12-01,Abuja,Sales,13,2146963
+2022-12-01,Abuja,Finance,37,12042649
+2022-12-01,Abuja,Admin,21,9083319
+2022-12-01,Abuja,Logistics,47,16626062
+2022-12-01,Port Harcourt,Operations,49,15016001
+2022-12-01,Port Harcourt,Sales,29,8532873
+2022-12-01,Port Harcourt,Finance,22,8793378
+2022-12-01,Port Harcourt,Admin,15,5462370
+2022-12-01,Port Harcourt,Logistics,46,8698508
+2022-12-01,Kano,Operations,15,5482665
+2022-12-01,Kano,Sales,16,5741712
+2022-12-01,Kano,Finance,29,10556029
+2022-12-01,Kano,Admin,40,9658960
+2022-12-01,Kano,Logistics,24,4688424
+2022-12-01,Ibadan,Operations,49,12509357
+2022-12-01,Ibadan,Sales,33,10743513
+2022-12-01,Ibadan,Finance,21,6156906
+2022-12-01,Ibadan,Admin,60,17416080
+2022-12-01,Ibadan,Logistics,39,14648127
+2023-01-01,Lagos,Operations,11,1696970
+2023-01-01,Lagos,Sales,40,7167400
+2023-01-01,Lagos,Finance,32,11870432
+2023-01-01,Lagos,Admin,39,8172411
+2023-01-01,Lagos,Logistics,28,8477672
+2023-01-01,Abuja,Operations,48,20222208
+2023-01-01,Abuja,Sales,18,6953598
+2023-01-01,Abuja,Finance,16,5323136
+2023-01-01,Abuja,Admin,55,9684895
+2023-01-01,Abuja,Logistics,30,12347460
+2023-01-01,Port Harcourt,Operations,51,8016384
+2023-01-01,Port Harcourt,Sales,60,16703760
+2023-01-01,Port Harcourt,Finance,44,15914052
+2023-01-01,Port Harcourt,Admin,35,15036350
+2023-01-01,Port Harcourt,Logistics,36,8822952
+2023-01-01,Kano,Operations,49,12140436
+2023-01-01,Kano,Sales,45,9151740
+2023-01-01,Kano,Finance,40,12849200
+2023-01-01,Kano,Admin,14,4180848
+2023-01-01,Kano,Logistics,23,9886274
+2023-01-01,Ibadan,Operations,37,12885250
+2023-01-01,Ibadan,Sales,46,13772906
+2023-01-01,Ibadan,Finance,44,10727728
+2023-01-01,Ibadan,Admin,21,3377619
+2023-01-01,Ibadan,Logistics,57,23999280
+2023-02-01,Lagos,Operations,41,7377458
+2023-02-01,Lagos,Sales,47,20328205
+2023-02-01,Lagos,Finance,39,11333049
+2023-02-01,Lagos,Admin,45,7703910
+2023-02-01,Lagos,Logistics,38,8069870
+2023-02-01,Abuja,Operations,29,9649808
+2023-02-01,Abuja,Sales,14,6071240
+2023-02-01,Abuja,Finance,16,6923008
+2023-02-01,Abuja,Admin,59,18800822
+2023-02-01,Abuja,Logistics,30,11374590
+2023-02-01,Port Harcourt,Operations,51,7763934
+2023-02-01,Port Harcourt,Sales,15,3511365
+2023-02-01,Port Harcourt,Finance,18,7640802
+2023-02-01,Port Harcourt,Admin,58,6965568
+2023-02-01,Port Harcourt,Logistics,58,11421708
+2023-02-01,Kano,Operations,52,10308064
+2023-02-01,Kano,Sales,38,15144178
+2023-02-01,Kano,Finance,28,9084964
+2023-02-01,Kano,Admin,49,20727098
+2023-02-01,Kano,Logistics,38,8458230
+2023-02-01,Ibadan,Operations,23,6577724
+2023-02-01,Ibadan,Sales,29,12150681
+2023-02-01,Ibadan,Finance,60,16780260
+2023-02-01,Ibadan,Admin,37,11118241
+2023-02-01,Ibadan,Logistics,15,6382740
+2023-03-01,Lagos,Operations,10,4405970
+2023-03-01,Lagos,Sales,42,13940430
+2023-03-01,Lagos,Finance,18,4936266
+2023-03-01,Lagos,Admin,13,4076527
+2023-03-01,Lagos,Logistics,45,6653430
+2023-03-01,Abuja,Operations,10,4136170
+2023-03-01,Abuja,Sales,32,5680416
+2023-03-01,Abuja,Finance,28,3817772
+2023-03-01,Abuja,Admin,25,8658575
+2023-03-01,Abuja,Logistics,54,23188410
+2023-03-01,Port Harcourt,Operations,35,15672720
+2023-03-01,Port Harcourt,Sales,30,9620760
+2023-03-01,Port Harcourt,Finance,35,11201715
+2023-03-01,Port Harcourt,Admin,37,15014563
+2023-03-01,Port Harcourt,Logistics,23,4851068
+2023-03-01,Kano,Operations,40,7716480
+2023-03-01,Kano,Sales,22,9046400
+2023-03-01,Kano,Finance,34,10502396
+2023-03-01,Kano,Admin,36,7231680
+2023-03-01,Kano,Logistics,28,5203044
+2023-03-01,Ibadan,Operations,18,2269494
+2023-03-01,Ibadan,Sales,14,1795290
+2023-03-01,Ibadan,Finance,19,7128249
+2023-03-01,Ibadan,Admin,52,18146648
+2023-03-01,Ibadan,Logistics,18,2958984
+2023-04-01,Lagos,Operations,18,6084504
+2023-04-01,Lagos,Sales,39,17038905
+2023-04-01,Lagos,Finance,37,16530157
+2023-04-01,Lagos,Admin,21,7522893
+2023-04-01,Lagos,Logistics,42,14379246
+2023-04-01,Abuja,Operations,45,16017885
+2023-04-01,Abuja,Sales,34,10413622
+2023-04-01,Abuja,Finance,24,5217792
+2023-04-01,Abuja,Admin,37,16167890
+2023-04-01,Abuja,Logistics,10,4230060
+2023-04-01,Port Harcourt,Operations,41,10009125
+2023-04-01,Port Harcourt,Sales,55,21067750
+2023-04-01,Port Harcourt,Finance,27,9055719
+2023-04-01,Port Harcourt,Admin,44,18575656
+2023-04-01,Port Harcourt,Logistics,33,4538919
+2023-04-01,Kano,Operations,12,5014488
+2023-04-01,Kano,Sales,40,12529640
+2023-04-01,Kano,Finance,17,7211859
+2023-04-01,Kano,Admin,40,6479040
+2023-04-01,Kano,Logistics,19,7523791
+2023-04-01,Ibadan,Operations,58,15456768
+2023-04-01,Ibadan,Sales,39,15250170
+2023-04-01,Ibadan,Finance,15,5915835
+2023-04-01,Ibadan,Admin,49,8152179
+2023-04-01,Ibadan,Logistics,25,9192500
+2023-05-01,Lagos,Operations,50,8046850
+2023-05-01,Lagos,Sales,53,21342782
+2023-05-01,Lagos,Finance,47,13340433
+2023-05-01,Lagos,Admin,49,7235732
+2023-05-01,Lagos,Logistics,31,12415841
+2023-05-01,Abuja,Operations,59,7413527
+2023-05-01,Abuja,Sales,40,14321760
+2023-05-01,Abuja,Finance,42,15372504
+2023-05-01,Abuja,Admin,46,13515168
+2023-05-01,Abuja,Logistics,36,10981008
+2023-05-01,Port Harcourt,Operations,28,7605584
+2023-05-01,Port Harcourt,Sales,20,2770420
+2023-05-01,Port Harcourt,Finance,54,23399982
+2023-05-01,Port Harcourt,Admin,57,15926940
+2023-05-01,Port Harcourt,Logistics,56,23270464
+2023-05-01,Kano,Operations,26,3957200
+2023-05-01,Kano,Sales,50,18403600
+2023-05-01,Kano,Finance,47,9806362
+2023-05-01,Kano,Admin,46,6764898
+2023-05-01,Kano,Logistics,52,14194024
+2023-05-01,Ibadan,Operations,57,25497297
+2023-05-01,Ibadan,Sales,11,2974114
+2023-05-01,Ibadan,Finance,41,6693619
+2023-05-01,Ibadan,Admin,18,6931386
+2023-05-01,Ibadan,Logistics,14,3719408
+2023-06-01,Lagos,Operations,26,4926688
+2023-06-01,Lagos,Sales,49,13098190
+2023-06-01,Lagos,Finance,27,6877386
+2023-06-01,Lagos,Admin,10,1784840
+2023-06-01,Lagos,Logistics,48,10154256
+2023-06-01,Abuja,Operations,47,9364186
+2023-06-01,Abuja,Sales,52,18417048
+2023-06-01,Abuja,Finance,33,6994647
+2023-06-01,Abuja,Admin,26,6339684
+2023-06-01,Abuja,Logistics,41,8806636
+2023-06-01,Port Harcourt,Operations,43,5905964
+2023-06-01,Port Harcourt,Sales,31,5091750
+2023-06-01,Port Harcourt,Finance,19,8212484
+2023-06-01,Port Harcourt,Admin,19,7220361
+2023-06-01,Port Harcourt,Logistics,58,19517174
+2023-06-01,Kano,Operations,59,18932451
+2023-06-01,Kano,Sales,25,8769575
+2023-06-01,Kano,Finance,56,11631424
+2023-06-01,Kano,Admin,23,9726953
+2023-06-01,Kano,Logistics,56,16851464
+2023-06-01,Ibadan,Operations,13,3362047
+2023-06-01,Ibadan,Sales,58,10487212
+2023-06-01,Ibadan,Finance,13,2702310
+2023-06-01,Ibadan,Admin,39,12833223
+2023-06-01,Ibadan,Logistics,40,11120120
+2023-07-01,Lagos,Operations,40,15967760
+2023-07-01,Lagos,Sales,24,7658976
+2023-07-01,Lagos,Finance,53,17198977
+2023-07-01,Lagos,Admin,40,10307640
+2023-07-01,Lagos,Logistics,19,7563976
+2023-07-01,Abuja,Operations,37,4670103
+2023-07-01,Abuja,Sales,28,9948708
+2023-07-01,Abuja,Finance,34,9707374
+2023-07-01,Abuja,Admin,43,6084715
+2023-07-01,Abuja,Logistics,16,6376800
+2023-07-01,Port Harcourt,Operations,50,15275350
+2023-07-01,Port Harcourt,Sales,37,16282590
+2023-07-01,Port Harcourt,Finance,51,13408665
+2023-07-01,Port Harcourt,Admin,31,8113568
+2023-07-01,Port Harcourt,Logistics,27,4631175
+2023-07-01,Kano,Operations,26,11083176
+2023-07-01,Kano,Sales,35,12661355
+2023-07-01,Kano,Finance,59,14559489
+2023-07-01,Kano,Admin,56,24005016
+2023-07-01,Kano,Logistics,59,13109623
+2023-07-01,Ibadan,Operations,43,12766614
+2023-07-01,Ibadan,Sales,53,11359384
+2023-07-01,Ibadan,Finance,30,12213180
+2023-07-01,Ibadan,Admin,10,1244430
+2023-07-01,Ibadan,Logistics,14,1767794
+2023-08-01,Lagos,Operations,36,6163992
+2023-08-01,Lagos,Sales,43,7502511
+2023-08-01,Lagos,Finance,53,18751506
+2023-08-01,Lagos,Admin,32,7521184
+2023-08-01,Lagos,Logistics,56,15037624
+2023-08-01,Abuja,Operations,26,5751954
+2023-08-01,Abuja,Sales,12,1589100
+2023-08-01,Abuja,Finance,49,8241947
+2023-08-01,Abuja,Admin,13,5609487
+2023-08-01,Abuja,Logistics,52,12151256
+2023-08-01,Port Harcourt,Operations,48,8824944
+2023-08-01,Port Harcourt,Sales,55,10059610
+2023-08-01,Port Harcourt,Finance,15,6555435
+2023-08-01,Port Harcourt,Admin,18,5707980
+2023-08-01,Port Harcourt,Logistics,52,21672716
+2023-08-01,Kano,Operations,21,3740394
+2023-08-01,Kano,Sales,54,11696724
+2023-08-01,Kano,Finance,26,7135388
+2023-08-01,Kano,Admin,39,6228144
+2023-08-01,Kano,Logistics,50,17886750
+2023-08-01,Ibadan,Operations,27,9284274
+2023-08-01,Ibadan,Sales,54,15636024
+2023-08-01,Ibadan,Finance,26,5327816
+2023-08-01,Ibadan,Admin,59,9368905
+2023-08-01,Ibadan,Logistics,27,4123116
+2023-09-01,Lagos,Operations,34,11006922
+2023-09-01,Lagos,Sales,31,4696128
+2023-09-01,Lagos,Finance,26,6727760
+2023-09-01,Lagos,Admin,21,7370748
+2023-09-01,Lagos,Logistics,14,5289242
+2023-09-01,Abuja,Operations,22,9679406
+2023-09-01,Abuja,Sales,35,7474425
+2023-09-01,Abuja,Finance,51,19276929
+2023-09-01,Abuja,Admin,16,3126880
+2023-09-01,Abuja,Logistics,44,15228444
+2023-09-01,Port Harcourt,Operations,23,10163585
+2023-09-01,Port Harcourt,Sales,51,8960955
+2023-09-01,Port Harcourt,Finance,38,9719944
+2023-09-01,Port Harcourt,Admin,16,2212432
+2023-09-01,Port Harcourt,Logistics,14,2196824
+2023-09-01,Kano,Operations,46,11563664
+2023-09-01,Kano,Sales,59,20872430
+2023-09-01,Kano,Finance,11,4190318
+2023-09-01,Kano,Admin,19,2288626
+2023-09-01,Kano,Logistics,12,3896700
+2023-09-01,Ibadan,Operations,27,5386095
+2023-09-01,Ibadan,Sales,54,15818004
+2023-09-01,Ibadan,Finance,35,14744660
+2023-09-01,Ibadan,Admin,10,3902090
+2023-09-01,Ibadan,Logistics,55,20749135
+2023-10-01,Lagos,Operations,40,13944760
+2023-10-01,Lagos,Sales,35,5486320
+2023-10-01,Lagos,Finance,44,10489952
+2023-10-01,Lagos,Admin,10,3215480
+2023-10-01,Lagos,Logistics,54,20128014
+2023-10-01,Abuja,Operations,17,7095783
+2023-10-01,Abuja,Sales,44,13559744
+2023-10-01,Abuja,Finance,31,8641839
+2023-10-01,Abuja,Admin,35,5212795
+2023-10-01,Abuja,Logistics,50,8376750
+2023-10-01,Port Harcourt,Operations,33,13209834
+2023-10-01,Port Harcourt,Sales,31,5027642
+2023-10-01,Port Harcourt,Finance,39,10608819
+2023-10-01,Port Harcourt,Admin,51,11551143
+2023-10-01,Port Harcourt,Logistics,21,8624784
+2023-10-01,Kano,Operations,12,3856944
+2023-10-01,Kano,Sales,52,11447280
+2023-10-01,Kano,Finance,29,9411283
+2023-10-01,Kano,Admin,16,4933696
+2023-10-01,Kano,Logistics,41,6744172
+2023-10-01,Ibadan,Operations,50,17481450
+2023-10-01,Ibadan,Sales,57,12501981
+2023-10-01,Ibadan,Finance,18,2496888
+2023-10-01,Ibadan,Admin,22,2932556
+2023-10-01,Ibadan,Logistics,56,24128944
+2023-11-01,Lagos,Operations,25,9412450
+2023-11-01,Lagos,Sales,34,5202884
+2023-11-01,Lagos,Finance,60,24204240
+2023-11-01,Lagos,Admin,51,14348289
+2023-11-01,Lagos,Logistics,41,16397458
+2023-11-01,Abuja,Operations,38,4887066
+2023-11-01,Abuja,Sales,12,3574596
+2023-11-01,Abuja,Finance,13,3861793
+2023-11-01,Abuja,Admin,60,8546820
+2023-11-01,Abuja,Logistics,35,6368740
+2023-11-01,Port Harcourt,Operations,23,9068095
+2023-11-01,Port Harcourt,Sales,39,15651168
+2023-11-01,Port Harcourt,Finance,19,8051136
+2023-11-01,Port Harcourt,Admin,24,3786384
+2023-11-01,Port Harcourt,Logistics,12,2330808
+2023-11-01,Kano,Operations,41,5329754
+2023-11-01,Kano,Sales,40,17768200
+2023-11-01,Kano,Finance,12,2966820
+2023-11-01,Kano,Admin,54,10175706
+2023-11-01,Kano,Logistics,10,2103080
+2023-11-01,Ibadan,Operations,50,7309600
+2023-11-01,Ibadan,Sales,29,4959261
+2023-11-01,Ibadan,Finance,39,17177862
+2023-11-01,Ibadan,Admin,20,8597520
+2023-11-01,Ibadan,Logistics,14,2460472
+2023-12-01,Lagos,Operations,17,6470982
+2023-12-01,Lagos,Sales,48,21252768
+2023-12-01,Lagos,Finance,24,3674088
+2023-12-01,Lagos,Admin,22,7556054
+2023-12-01,Lagos,Logistics,31,10253808
+2023-12-01,Abuja,Operations,30,5500050
+2023-12-01,Abuja,Sales,53,22364516
+2023-12-01,Abuja,Finance,44,8448000
+2023-12-01,Abuja,Admin,30,6953820
+2023-12-01,Abuja,Logistics,58,8346200
+2023-12-01,Port Harcourt,Operations,47,9913992
+2023-12-01,Port Harcourt,Sales,31,4747526
+2023-12-01,Port Harcourt,Finance,17,4481183
+2023-12-01,Port Harcourt,Admin,19,6415540
+2023-12-01,Port Harcourt,Logistics,20,6278960
+2023-12-01,Kano,Operations,45,9292950
+2023-12-01,Kano,Sales,38,9414082
+2023-12-01,Kano,Finance,47,6642839
+2023-12-01,Kano,Admin,18,3103398
+2023-12-01,Kano,Logistics,60,26465700
+2023-12-01,Ibadan,Operations,34,6892072
+2023-12-01,Ibadan,Sales,11,4128421
+2023-12-01,Ibadan,Finance,15,1849935
+2023-12-01,Ibadan,Admin,10,2140640
+2023-12-01,Ibadan,Logistics,15,6469275
+2024-01-01,Lagos,Operations,28,9470160
+2024-01-01,Lagos,Sales,54,19956618
+2024-01-01,Lagos,Finance,54,10072512
+2024-01-01,Lagos,Admin,23,4485437
+2024-01-01,Lagos,Logistics,50,13102750
+2024-01-01,Abuja,Operations,43,15314407
+2024-01-01,Abuja,Sales,36,8835732
+2024-01-01,Abuja,Finance,21,9242037
+2024-01-01,Abuja,Admin,54,7545096
+2024-01-01,Abuja,Logistics,48,10289856
+2024-01-01,Port Harcourt,Operations,55,21014675
+2024-01-01,Port Harcourt,Sales,49,8141252
+2024-01-01,Port Harcourt,Finance,50,13895750
+2024-01-01,Port Harcourt,Admin,32,10866048
+2024-01-01,Port Harcourt,Logistics,10,4124000
+2024-01-01,Kano,Operations,25,5515300
+2024-01-01,Kano,Sales,17,6765592
+2024-01-01,Kano,Finance,16,7111872
+2024-01-01,Kano,Admin,33,13298010
+2024-01-01,Kano,Logistics,42,9868446
+2024-01-01,Ibadan,Operations,39,17489433
+2024-01-01,Ibadan,Sales,52,11913616
+2024-01-01,Ibadan,Finance,27,3991221
+2024-01-01,Ibadan,Admin,22,3939672
+2024-01-01,Ibadan,Logistics,60,11893920
+2024-02-01,Lagos,Operations,53,19542584
+2024-02-01,Lagos,Sales,41,8710204
+2024-02-01,Lagos,Finance,20,2852080
+2024-02-01,Lagos,Admin,13,4042246
+2024-02-01,Lagos,Logistics,28,6436780
+2024-02-01,Abuja,Operations,37,9316452
+2024-02-01,Abuja,Sales,31,13745090
+2024-02-01,Abuja,Finance,58,20739582
+2024-02-01,Abuja,Admin,12,2096952
+2024-02-01,Abuja,Logistics,57,8407614
+2024-02-01,Port Harcourt,Operations,44,9337460
+2024-02-01,Port Harcourt,Sales,20,2704760
+2024-02-01,Port Harcourt,Finance,41,15988237
+2024-02-01,Port Harcourt,Admin,17,2671550
+2024-02-01,Port Harcourt,Logistics,25,8830350
+2024-02-01,Kano,Operations,47,19926214
+2024-02-01,Kano,Sales,30,10191330
+2024-02-01,Kano,Finance,22,6396544
+2024-02-01,Kano,Admin,24,4265784
+2024-02-01,Kano,Logistics,30,7182690
+2024-02-01,Ibadan,Operations,16,3909088
+2024-02-01,Ibadan,Sales,57,19170126
+2024-02-01,Ibadan,Finance,22,6971514
+2024-02-01,Ibadan,Admin,24,3805200
+2024-02-01,Ibadan,Logistics,40,17070240
+2024-03-01,Lagos,Operations,41,6088049
+2024-03-01,Lagos,Sales,37,7251630
+2024-03-01,Lagos,Finance,23,10108914
+2024-03-01,Lagos,Admin,39,8320845
+2024-03-01,Lagos,Logistics,34,10737642
+2024-03-01,Abuja,Operations,18,6479766
+2024-03-01,Abuja,Sales,56,12420408
+2024-03-01,Abuja,Finance,50,15400200
+2024-03-01,Abuja,Admin,27,6102432
+2024-03-01,Abuja,Logistics,31,5787545
+2024-03-01,Port Harcourt,Operations,12,5017728
+2024-03-01,Port Harcourt,Sales,13,3472521
+2024-03-01,Port Harcourt,Finance,18,3208554
+2024-03-01,Port Harcourt,Admin,39,14056653
+2024-03-01,Port Harcourt,Logistics,36,7551288
+2024-03-01,Kano,Operations,58,17407656
+2024-03-01,Kano,Sales,24,6593976
+2024-03-01,Kano,Finance,48,9705696
+2024-03-01,Kano,Admin,60,26436960
+2024-03-01,Kano,Logistics,20,8462040
+2024-03-01,Ibadan,Operations,45,10819350
+2024-03-01,Ibadan,Sales,15,5037705
+2024-03-01,Ibadan,Finance,43,16188984
+2024-03-01,Ibadan,Admin,23,9893634
+2024-03-01,Ibadan,Logistics,40,14504840
+2024-04-01,Lagos,Operations,27,3445308
+2024-04-01,Lagos,Sales,56,19289368
+2024-04-01,Lagos,Finance,57,14211069
+2024-04-01,Lagos,Admin,25,7289925
+2024-04-01,Lagos,Logistics,37,15680859
+2024-04-01,Abuja,Operations,24,10326192
+2024-04-01,Abuja,Sales,19,7994896
+2024-04-01,Abuja,Finance,10,3390320
+2024-04-01,Abuja,Admin,12,1692024
+2024-04-01,Abuja,Logistics,40,15374160
+2024-04-01,Port Harcourt,Operations,12,4118256
+2024-04-01,Port Harcourt,Sales,43,14049691
+2024-04-01,Port Harcourt,Finance,40,6855160
+2024-04-01,Port Harcourt,Admin,38,14427536
+2024-04-01,Port Harcourt,Logistics,25,4089075
+2024-04-01,Kano,Operations,45,5693085
+2024-04-01,Kano,Sales,54,17991936
+2024-04-01,Kano,Finance,23,4360317
+2024-04-01,Kano,Admin,32,8802528
+2024-04-01,Kano,Logistics,25,4189200
+2024-04-01,Ibadan,Operations,11,4086984
+2024-04-01,Ibadan,Sales,52,14550744
+2024-04-01,Ibadan,Finance,20,7215920
+2024-04-01,Ibadan,Admin,46,19596230
+2024-04-01,Ibadan,Logistics,11,3943137
+2024-05-01,Lagos,Operations,39,7514442
+2024-05-01,Lagos,Sales,55,18288875
+2024-05-01,Lagos,Finance,21,6598347
+2024-05-01,Lagos,Admin,50,18171200
+2024-05-01,Lagos,Logistics,55,6639270
+2024-05-01,Abuja,Operations,50,7853300
+2024-05-01,Abuja,Sales,34,10014292
+2024-05-01,Abuja,Finance,43,5897493
+2024-05-01,Abuja,Admin,28,9612260
+2024-05-01,Abuja,Logistics,58,15163926
+2024-05-01,Port Harcourt,Operations,54,23820858
+2024-05-01,Port Harcourt,Sales,44,18549740
+2024-05-01,Port Harcourt,Finance,60,13716240
+2024-05-01,Port Harcourt,Admin,60,9746700
+2024-05-01,Port Harcourt,Logistics,49,14504000
+2024-05-01,Kano,Operations,57,8478009
+2024-05-01,Kano,Sales,42,13055070
+2024-05-01,Kano,Finance,13,2316314
+2024-05-01,Kano,Admin,34,10596916
+2024-05-01,Kano,Logistics,39,17339556
+2024-05-01,Ibadan,Operations,12,3739968
+2024-05-01,Ibadan,Sales,33,6992370
+2024-05-01,Ibadan,Finance,51,21061317
+2024-05-01,Ibadan,Admin,55,8532150
+2024-05-01,Ibadan,Logistics,45,10229760
+2024-06-01,Lagos,Operations,18,5320782
+2024-06-01,Lagos,Sales,25,10073075
+2024-06-01,Lagos,Finance,17,6304756
+2024-06-01,Lagos,Admin,57,24176493
+2024-06-01,Lagos,Logistics,54,12419568
+2024-06-01,Abuja,Operations,58,13815252
+2024-06-01,Abuja,Sales,30,9147660
+2024-06-01,Abuja,Finance,27,10368351
+2024-06-01,Abuja,Admin,53,18112008
+2024-06-01,Abuja,Logistics,27,4010904
+2024-06-01,Port Harcourt,Operations,14,4416454
+2024-06-01,Port Harcourt,Sales,32,11430176
+2024-06-01,Port Harcourt,Finance,41,15699064
+2024-06-01,Port Harcourt,Admin,43,7926405
+2024-06-01,Port Harcourt,Logistics,40,15954840
+2024-06-01,Kano,Operations,53,21166557
+2024-06-01,Kano,Sales,28,9995048
+2024-06-01,Kano,Finance,49,15337686
+2024-06-01,Kano,Admin,53,8183571
+2024-06-01,Kano,Logistics,22,7921254
+2024-06-01,Ibadan,Operations,15,2430480
+2024-06-01,Ibadan,Sales,35,7481180
+2024-06-01,Ibadan,Finance,28,4489576
+2024-06-01,Ibadan,Admin,16,3302144
+2024-06-01,Ibadan,Logistics,27,4825791
+2024-07-01,Lagos,Operations,54,10668780
+2024-07-01,Lagos,Sales,41,8155064
+2024-07-01,Lagos,Finance,23,9038770
+2024-07-01,Lagos,Admin,50,6594800
+2024-07-01,Lagos,Logistics,28,9474780
+2024-07-01,Abuja,Operations,53,21404951
+2024-07-01,Abuja,Sales,18,6632316
+2024-07-01,Abuja,Finance,32,10888608
+2024-07-01,Abuja,Admin,38,4987956
+2024-07-01,Abuja,Logistics,28,6135416
+2024-07-01,Port Harcourt,Operations,14,1841742
+2024-07-01,Port Harcourt,Sales,24,9418320
+2024-07-01,Port Harcourt,Finance,51,15100896
+2024-07-01,Port Harcourt,Admin,36,15242652
+2024-07-01,Port Harcourt,Logistics,31,9023418
+2024-07-01,Kano,Operations,41,17674690
+2024-07-01,Kano,Sales,52,20693868
+2024-07-01,Kano,Finance,45,15904890
+2024-07-01,Kano,Admin,39,10897614
+2024-07-01,Kano,Logistics,46,8702372
+2024-07-01,Ibadan,Operations,60,16841460
+2024-07-01,Ibadan,Sales,20,5126360
+2024-07-01,Ibadan,Finance,24,8973168
+2024-07-01,Ibadan,Admin,33,8945343
+2024-07-01,Ibadan,Logistics,59,8543672
+2024-08-01,Lagos,Operations,19,5797603
+2024-08-01,Lagos,Sales,28,10053008
+2024-08-01,Lagos,Finance,20,8886800
+2024-08-01,Lagos,Admin,20,8013200
+2024-08-01,Lagos,Logistics,28,6035876
+2024-08-01,Abuja,Operations,21,4209870
+2024-08-01,Abuja,Sales,20,4894600
+2024-08-01,Abuja,Finance,17,2406775
+2024-08-01,Abuja,Admin,30,12636480
+2024-08-01,Abuja,Logistics,18,6320736
+2024-08-01,Port Harcourt,Operations,26,8159164
+2024-08-01,Port Harcourt,Sales,21,4778760
+2024-08-01,Port Harcourt,Finance,45,6218415
+2024-08-01,Port Harcourt,Admin,52,14880788
+2024-08-01,Port Harcourt,Logistics,32,6322080
+2024-08-01,Kano,Operations,33,11718465
+2024-08-01,Kano,Sales,44,9030868
+2024-08-01,Kano,Finance,44,12236576
+2024-08-01,Kano,Admin,17,2262139
+2024-08-01,Kano,Logistics,35,13364330
+2024-08-01,Ibadan,Operations,59,11577157
+2024-08-01,Ibadan,Sales,39,11227554
+2024-08-01,Ibadan,Finance,19,2322769
+2024-08-01,Ibadan,Admin,57,23161209
+2024-08-01,Ibadan,Logistics,42,12334812
+2024-09-01,Lagos,Operations,51,14022756
+2024-09-01,Lagos,Sales,40,10878080
+2024-09-01,Lagos,Finance,58,24406284
+2024-09-01,Lagos,Admin,52,10249928
+2024-09-01,Lagos,Logistics,46,16182340
+2024-09-01,Abuja,Operations,31,5545435
+2024-09-01,Abuja,Sales,56,20782944
+2024-09-01,Abuja,Finance,12,2317164
+2024-09-01,Abuja,Admin,53,21669633
+2024-09-01,Abuja,Logistics,17,4785891
+2024-09-01,Port Harcourt,Operations,11,3636259
+2024-09-01,Port Harcourt,Sales,49,11541166
+2024-09-01,Port Harcourt,Finance,38,11680326
+2024-09-01,Port Harcourt,Admin,15,4366650
+2024-09-01,Port Harcourt,Logistics,13,5704998
+2024-09-01,Kano,Operations,51,11338014
+2024-09-01,Kano,Sales,47,18612094
+2024-09-01,Kano,Finance,24,6377112
+2024-09-01,Kano,Admin,22,2900062
+2024-09-01,Kano,Logistics,15,6034245
+2024-09-01,Ibadan,Operations,38,6300780
+2024-09-01,Ibadan,Sales,42,13725222
+2024-09-01,Ibadan,Finance,22,8297190
+2024-09-01,Ibadan,Admin,30,13087050
+2024-09-01,Ibadan,Logistics,48,18633696
+2024-10-01,Lagos,Operations,13,4020913
+2024-10-01,Lagos,Sales,35,6914810
+2024-10-01,Lagos,Finance,55,18931330
+2024-10-01,Lagos,Admin,33,10640322
+2024-10-01,Lagos,Logistics,33,4170903
+2024-10-01,Abuja,Operations,28,8423436
+2024-10-01,Abuja,Sales,32,9008800
+2024-10-01,Abuja,Finance,38,15737396
+2024-10-01,Abuja,Admin,15,3496290
+2024-10-01,Abuja,Logistics,56,19762344
+2024-10-01,Port Harcourt,Operations,57,19260243
+2024-10-01,Port Harcourt,Sales,38,10310426
+2024-10-01,Port Harcourt,Finance,20,6844200
+2024-10-01,Port Harcourt,Admin,56,18880736
+2024-10-01,Port Harcourt,Logistics,18,7701318
+2024-10-01,Kano,Operations,48,7926192
+2024-10-01,Kano,Sales,19,4349822
+2024-10-01,Kano,Finance,29,10696157
+2024-10-01,Kano,Admin,43,12721722
+2024-10-01,Kano,Logistics,14,6015590
+2024-10-01,Ibadan,Operations,58,18386696
+2024-10-01,Ibadan,Sales,15,1852050
+2024-10-01,Ibadan,Finance,36,9478908
+2024-10-01,Ibadan,Admin,36,7620984
+2024-10-01,Ibadan,Logistics,45,16302735
+2024-11-01,Lagos,Operations,55,22976305
+2024-11-01,Lagos,Sales,58,11123762
+2024-11-01,Lagos,Finance,22,4785440
+2024-11-01,Lagos,Admin,34,9239908
+2024-11-01,Lagos,Logistics,45,16974360
+2024-11-01,Abuja,Operations,12,3339972
+2024-11-01,Abuja,Sales,47,13128886
+2024-11-01,Abuja,Finance,41,16942184
+2024-11-01,Abuja,Admin,57,20689974
+2024-11-01,Abuja,Logistics,24,3217704
+2024-11-01,Port Harcourt,Operations,60,7276920
+2024-11-01,Port Harcourt,Sales,19,4896642
+2024-11-01,Port Harcourt,Finance,29,10664663
+2024-11-01,Port Harcourt,Admin,17,4604127
+2024-11-01,Port Harcourt,Logistics,36,7705512
+2024-11-01,Kano,Operations,41,10181079
+2024-11-01,Kano,Sales,11,2008336
+2024-11-01,Kano,Finance,58,15389778
+2024-11-01,Kano,Admin,41,6354303
+2024-11-01,Kano,Logistics,48,14863968
+2024-11-01,Ibadan,Operations,47,17479864
+2024-11-01,Ibadan,Sales,46,16036750
+2024-11-01,Ibadan,Finance,26,11680500
+2024-11-01,Ibadan,Admin,53,19587846
+2024-11-01,Ibadan,Logistics,54,9865584
+2024-12-01,Lagos,Operations,33,12827463
+2024-12-01,Lagos,Sales,56,23609768
+2024-12-01,Lagos,Finance,11,2816792
+2024-12-01,Lagos,Admin,20,8499080
+2024-12-01,Lagos,Logistics,13,2556021
+2024-12-01,Abuja,Operations,30,10851570
+2024-12-01,Abuja,Sales,54,10316106
+2024-12-01,Abuja,Finance,32,6579840
+2024-12-01,Abuja,Admin,13,3418441
+2024-12-01,Abuja,Logistics,33,11218218
+2024-12-01,Port Harcourt,Operations,50,15331900
+2024-12-01,Port Harcourt,Sales,13,3535584
+2024-12-01,Port Harcourt,Finance,28,11134732
+2024-12-01,Port Harcourt,Admin,50,8013950
+2024-12-01,Port Harcourt,Logistics,42,9307788
+2024-12-01,Kano,Operations,59,26506812
+2024-12-01,Kano,Sales,21,3560529
+2024-12-01,Kano,Finance,48,9966096
+2024-12-01,Kano,Admin,44,12722072
+2024-12-01,Kano,Logistics,30,8335440
+2024-12-01,Ibadan,Operations,27,8371782
+2024-12-01,Ibadan,Sales,16,6403040
+2024-12-01,Ibadan,Finance,47,14304685
+2024-12-01,Ibadan,Admin,19,2408478
+2024-12-01,Ibadan,Logistics,18,7050060
+2025-01-01,Lagos,Operations,28,8835848
+2025-01-01,Lagos,Sales,59,22079334
+2025-01-01,Lagos,Finance,36,10743192
+2025-01-01,Lagos,Admin,20,3473920
+2025-01-01,Lagos,Logistics,23,4623713
+2025-01-01,Abuja,Operations,42,9908934
+2025-01-01,Abuja,Sales,22,9083712
+2025-01-01,Abuja,Finance,49,19384057
+2025-01-01,Abuja,Admin,44,17993404
+2025-01-01,Abuja,Logistics,54,9706554
+2025-01-01,Port Harcourt,Operations,36,13011480
+2025-01-01,Port Harcourt,Sales,14,2535582
+2025-01-01,Port Harcourt,Finance,18,2323998
+2025-01-01,Port Harcourt,Admin,40,12102480
+2025-01-01,Port Harcourt,Logistics,29,8992610
+2025-01-01,Kano,Operations,18,6330636
+2025-01-01,Kano,Sales,48,18924768
+2025-01-01,Kano,Finance,58,17361140
+2025-01-01,Kano,Admin,21,5874582
+2025-01-01,Kano,Logistics,11,2003958
+2025-01-01,Ibadan,Operations,24,4499592
+2025-01-01,Ibadan,Sales,54,10510398
+2025-01-01,Ibadan,Finance,54,12894660
+2025-01-01,Ibadan,Admin,29,5385764
+2025-01-01,Ibadan,Logistics,23,4330233
+2025-02-01,Lagos,Operations,15,5140800
+2025-02-01,Lagos,Sales,54,9642996
+2025-02-01,Lagos,Finance,14,1818026
+2025-02-01,Lagos,Admin,59,22059451
+2025-02-01,Lagos,Logistics,58,20073626
+2025-02-01,Abuja,Operations,12,2675328
+2025-02-01,Abuja,Sales,16,2195072
+2025-02-01,Abuja,Finance,60,23352600
+2025-02-01,Abuja,Admin,47,7100384
+2025-02-01,Abuja,Logistics,40,7293960
+2025-02-01,Port Harcourt,Operations,26,3709966
+2025-02-01,Port Harcourt,Sales,14,3894086
+2025-02-01,Port Harcourt,Finance,52,6520020
+2025-02-01,Port Harcourt,Admin,58,9894510
+2025-02-01,Port Harcourt,Logistics,60,11094180
+2025-02-01,Kano,Operations,48,10929072
+2025-02-01,Kano,Sales,47,10568890
+2025-02-01,Kano,Finance,21,6390384
+2025-02-01,Kano,Admin,11,1843534
+2025-02-01,Kano,Logistics,19,5043056
+2025-02-01,Ibadan,Operations,47,14211202
+2025-02-01,Ibadan,Sales,32,6533696
+2025-02-01,Ibadan,Finance,42,18537330
+2025-02-01,Ibadan,Admin,25,9617925
+2025-02-01,Ibadan,Logistics,46,7168088
+2025-03-01,Lagos,Operations,16,6769728
+2025-03-01,Lagos,Sales,58,7385198
+2025-03-01,Lagos,Finance,43,10052067
+2025-03-01,Lagos,Admin,55,12123430
+2025-03-01,Lagos,Logistics,28,5881624
+2025-03-01,Abuja,Operations,58,23293264
+2025-03-01,Abuja,Sales,10,1717390
+2025-03-01,Abuja,Finance,23,8839889
+2025-03-01,Abuja,Admin,55,20288785
+2025-03-01,Abuja,Logistics,33,14157165
+2025-03-01,Port Harcourt,Operations,21,7360731
+2025-03-01,Port Harcourt,Sales,53,9342204
+2025-03-01,Port Harcourt,Finance,21,6426609
+2025-03-01,Port Harcourt,Admin,34,11639764
+2025-03-01,Port Harcourt,Logistics,23,8961145
+2025-03-01,Kano,Operations,24,8008512
+2025-03-01,Kano,Sales,17,4841141
+2025-03-01,Kano,Finance,17,6192522
+2025-03-01,Kano,Admin,17,6672262
+2025-03-01,Kano,Logistics,18,6839100
+2025-03-01,Ibadan,Operations,58,17945142
+2025-03-01,Ibadan,Sales,55,14912535
+2025-03-01,Ibadan,Finance,45,6358050
+2025-03-01,Ibadan,Admin,15,4380390
+2025-03-01,Ibadan,Logistics,41,7407511
+2025-04-01,Lagos,Operations,34,9135596
+2025-04-01,Lagos,Sales,39,16956303
+2025-04-01,Lagos,Finance,57,16164117
+2025-04-01,Lagos,Admin,53,18696280
+2025-04-01,Lagos,Logistics,24,9849864
+2025-04-01,Abuja,Operations,36,9804672
+2025-04-01,Abuja,Sales,37,8102149
+2025-04-01,Abuja,Finance,14,5171474
+2025-04-01,Abuja,Admin,53,16570185
+2025-04-01,Abuja,Logistics,21,2660763
+2025-04-01,Port Harcourt,Operations,53,20021545
+2025-04-01,Port Harcourt,Sales,53,9282420
+2025-04-01,Port Harcourt,Finance,35,12238380
+2025-04-01,Port Harcourt,Admin,43,7076381
+2025-04-01,Port Harcourt,Logistics,17,3317805
+2025-04-01,Kano,Operations,35,11551470
+2025-04-01,Kano,Sales,54,23199588
+2025-04-01,Kano,Finance,16,3335344
+2025-04-01,Kano,Admin,14,4349632
+2025-04-01,Kano,Logistics,22,6545880
+2025-04-01,Ibadan,Operations,22,9502460
+2025-04-01,Ibadan,Sales,35,6452670
+2025-04-01,Ibadan,Finance,24,8224008
+2025-04-01,Ibadan,Admin,56,21373912
+2025-04-01,Ibadan,Logistics,27,11477484
+2025-05-01,Lagos,Operations,47,12366452
+2025-05-01,Lagos,Sales,58,19130604
+2025-05-01,Lagos,Finance,32,11823040
+2025-05-01,Lagos,Admin,52,22684064
+2025-05-01,Lagos,Logistics,35,13091190
+2025-05-01,Abuja,Operations,42,11181198
+2025-05-01,Abuja,Sales,19,6808821
+2025-05-01,Abuja,Finance,16,2944992
+2025-05-01,Abuja,Admin,26,9790430
+2025-05-01,Abuja,Logistics,41,9881697
+2025-05-01,Port Harcourt,Operations,50,9528650
+2025-05-01,Port Harcourt,Sales,11,1894420
+2025-05-01,Port Harcourt,Finance,57,8419413
+2025-05-01,Port Harcourt,Admin,14,5336324
+2025-05-01,Port Harcourt,Logistics,53,7103272
+2025-05-01,Kano,Operations,21,6732789
+2025-05-01,Kano,Sales,48,13988112
+2025-05-01,Kano,Finance,19,5295851
+2025-05-01,Kano,Admin,49,21890897
+2025-05-01,Kano,Logistics,16,2561872
+2025-05-01,Ibadan,Operations,52,20415304
+2025-05-01,Ibadan,Sales,59,22304832
+2025-05-01,Ibadan,Finance,60,21859740
+2025-05-01,Ibadan,Admin,22,6026042
+2025-05-01,Ibadan,Logistics,52,19814184
+2025-06-01,Lagos,Operations,41,15770937
+2025-06-01,Lagos,Sales,26,10514218
+2025-06-01,Lagos,Finance,31,12505152
+2025-06-01,Lagos,Admin,44,5687616
+2025-06-01,Lagos,Logistics,58,7920828
+2025-06-01,Abuja,Operations,37,6751020
+2025-06-01,Abuja,Sales,34,12103660
+2025-06-01,Abuja,Finance,30,9519240
+2025-06-01,Abuja,Admin,38,13717696
+2025-06-01,Abuja,Logistics,12,1646724
+2025-06-01,Port Harcourt,Operations,21,8648913
+2025-06-01,Port Harcourt,Sales,52,14501864
+2025-06-01,Port Harcourt,Finance,55,11333190
+2025-06-01,Port Harcourt,Admin,41,14177800
+2025-06-01,Port Harcourt,Logistics,18,5108724
+2025-06-01,Kano,Operations,55,17819450
+2025-06-01,Kano,Sales,41,7271227
+2025-06-01,Kano,Finance,46,17350786
+2025-06-01,Kano,Admin,52,21337784
+2025-06-01,Kano,Logistics,53,21348188
+2025-06-01,Ibadan,Operations,46,16850720
+2025-06-01,Ibadan,Sales,40,16591320
+2025-06-01,Ibadan,Finance,20,7712960
+2025-06-01,Ibadan,Admin,13,4227574
+2025-06-01,Ibadan,Logistics,26,9863360
+2025-07-01,Lagos,Operations,47,14949478
+2025-07-01,Lagos,Sales,49,14942501
+2025-07-01,Lagos,Finance,59,15878493
+2025-07-01,Lagos,Admin,30,4566090
+2025-07-01,Lagos,Logistics,11,4725292
+2025-07-01,Abuja,Operations,12,2246544
+2025-07-01,Abuja,Sales,33,9996063
+2025-07-01,Abuja,Finance,57,24291462
+2025-07-01,Abuja,Admin,11,4925360
+2025-07-01,Abuja,Logistics,31,9905430
+2025-07-01,Port Harcourt,Operations,16,5511552
+2025-07-01,Port Harcourt,Sales,32,9835584
+2025-07-01,Port Harcourt,Finance,36,10949976
+2025-07-01,Port Harcourt,Admin,13,3224598
+2025-07-01,Port Harcourt,Logistics,25,6075225
+2025-07-01,Kano,Operations,51,14465130
+2025-07-01,Kano,Sales,47,7733051
+2025-07-01,Kano,Finance,54,8334360
+2025-07-01,Kano,Admin,29,5220435
+2025-07-01,Kano,Logistics,31,6479403
+2025-07-01,Ibadan,Operations,11,4425135
+2025-07-01,Ibadan,Sales,30,4187880
+2025-07-01,Ibadan,Finance,39,13318383
+2025-07-01,Ibadan,Admin,46,17934572
+2025-07-01,Ibadan,Logistics,36,9352260
+2025-08-01,Lagos,Operations,11,4028838
+2025-08-01,Lagos,Sales,47,6187926
+2025-08-01,Lagos,Finance,30,9541290
+2025-08-01,Lagos,Admin,46,14932980
+2025-08-01,Lagos,Logistics,30,12605250
+2025-08-01,Abuja,Operations,16,6016640
+2025-08-01,Abuja,Sales,16,3647280
+2025-08-01,Abuja,Finance,31,11793330
+2025-08-01,Abuja,Admin,42,12516672
+2025-08-01,Abuja,Logistics,20,8846920
+2025-08-01,Port Harcourt,Operations,29,9004239
+2025-08-01,Port Harcourt,Sales,37,8353823
+2025-08-01,Port Harcourt,Finance,41,6539049
+2025-08-01,Port Harcourt,Admin,44,10218516
+2025-08-01,Port Harcourt,Logistics,28,7252476
+2025-08-01,Kano,Operations,13,3586453
+2025-08-01,Kano,Sales,46,15215788
+2025-08-01,Kano,Finance,24,10738920
+2025-08-01,Kano,Admin,57,9588084
+2025-08-01,Kano,Logistics,55,23272645
+2025-08-01,Ibadan,Operations,16,6884912
+2025-08-01,Ibadan,Sales,31,8162951
+2025-08-01,Ibadan,Finance,14,5837594
+2025-08-01,Ibadan,Admin,43,15874611
+2025-08-01,Ibadan,Logistics,37,8508631
+2025-09-01,Lagos,Operations,32,5126144
+2025-09-01,Lagos,Sales,51,14190954
+2025-09-01,Lagos,Finance,42,11643996
+2025-09-01,Lagos,Admin,37,14914256
+2025-09-01,Lagos,Logistics,30,6746910
+2025-09-01,Abuja,Operations,36,11913156
+2025-09-01,Abuja,Sales,26,11639186
+2025-09-01,Abuja,Finance,42,15020124
+2025-09-01,Abuja,Admin,52,21168160
+2025-09-01,Abuja,Logistics,21,2724813
+2025-09-01,Port Harcourt,Operations,50,19532500
+2025-09-01,Port Harcourt,Sales,21,8871072
+2025-09-01,Port Harcourt,Finance,41,9497568
+2025-09-01,Port Harcourt,Admin,52,18979844
+2025-09-01,Port Harcourt,Logistics,27,10781046
+2025-09-01,Kano,Operations,49,17022404
+2025-09-01,Kano,Sales,46,20635646
+2025-09-01,Kano,Finance,13,5119647
+2025-09-01,Kano,Admin,22,6841648
+2025-09-01,Kano,Logistics,39,7700940
+2025-09-01,Ibadan,Operations,25,4972275
+2025-09-01,Ibadan,Sales,57,15813510
+2025-09-01,Ibadan,Finance,37,12398478
+2025-09-01,Ibadan,Admin,30,4613340
+2025-09-01,Ibadan,Logistics,50,11336150
+2025-10-01,Lagos,Operations,36,9358200
+2025-10-01,Lagos,Sales,28,5717376
+2025-10-01,Lagos,Finance,26,11315668
+2025-10-01,Lagos,Admin,25,8319750
+2025-10-01,Lagos,Logistics,25,4488425
+2025-10-01,Abuja,Operations,19,4191761
+2025-10-01,Abuja,Sales,11,2736338
+2025-10-01,Abuja,Finance,29,10537237
+2025-10-01,Abuja,Admin,41,16953869
+2025-10-01,Abuja,Logistics,37,12626583
+2025-10-01,Port Harcourt,Operations,51,7109400
+2025-10-01,Port Harcourt,Sales,22,4478078
+2025-10-01,Port Harcourt,Finance,27,5171256
+2025-10-01,Port Harcourt,Admin,11,2810214
+2025-10-01,Port Harcourt,Logistics,60,15937920
+2025-10-01,Kano,Operations,52,21253856
+2025-10-01,Kano,Sales,21,2984961
+2025-10-01,Kano,Finance,56,20984376
+2025-10-01,Kano,Admin,60,7826220
+2025-10-01,Kano,Logistics,13,2132039
+2025-10-01,Ibadan,Operations,30,13062330
+2025-10-01,Ibadan,Sales,29,4446715
+2025-10-01,Ibadan,Finance,36,11179584
+2025-10-01,Ibadan,Admin,52,8701992
+2025-10-01,Ibadan,Logistics,35,6779290
+2025-11-01,Lagos,Operations,25,4467100
+2025-11-01,Lagos,Sales,46,17584604
+2025-11-01,Lagos,Finance,17,6692152
+2025-11-01,Lagos,Admin,52,22063964
+2025-11-01,Lagos,Logistics,59,23327833
+2025-11-01,Abuja,Operations,26,9887358
+2025-11-01,Abuja,Sales,15,3672300
+2025-11-01,Abuja,Finance,48,8837184
+2025-11-01,Abuja,Admin,59,16774703
+2025-11-01,Abuja,Logistics,31,13217005
+2025-11-01,Port Harcourt,Operations,57,18493422
+2025-11-01,Port Harcourt,Sales,57,13890843
+2025-11-01,Port Harcourt,Finance,37,8669063
+2025-11-01,Port Harcourt,Admin,19,3344019
+2025-11-01,Port Harcourt,Logistics,21,4877334
+2025-11-01,Kano,Operations,27,9461097
+2025-11-01,Kano,Sales,36,9119844
+2025-11-01,Kano,Finance,47,7018087
+2025-11-01,Kano,Admin,41,16387331
+2025-11-01,Kano,Logistics,33,5914392
+2025-11-01,Ibadan,Operations,30,12183810
+2025-11-01,Ibadan,Sales,37,13651520
+2025-11-01,Ibadan,Finance,53,13205268
+2025-11-01,Ibadan,Admin,27,5291325
+2025-11-01,Ibadan,Logistics,33,12182049
+2025-12-01,Lagos,Operations,55,17204055
+2025-12-01,Lagos,Sales,29,3800392
+2025-12-01,Lagos,Finance,51,22318671
+2025-12-01,Lagos,Admin,12,1783968
+2025-12-01,Lagos,Logistics,54,13265586
+2025-12-01,Abuja,Operations,26,10654488
+2025-12-01,Abuja,Sales,34,9592930
+2025-12-01,Abuja,Finance,50,15512000
+2025-12-01,Abuja,Admin,53,9751523
+2025-12-01,Abuja,Logistics,44,10733008
+2025-12-01,Port Harcourt,Operations,38,12299460
+2025-12-01,Port Harcourt,Sales,10,3260320
+2025-12-01,Port Harcourt,Finance,26,7221552
+2025-12-01,Port Harcourt,Admin,15,3651735
+2025-12-01,Port Harcourt,Logistics,29,6678787
+2025-12-01,Kano,Operations,20,7001620
+2025-12-01,Kano,Sales,50,14314750
+2025-12-01,Kano,Finance,59,19647708
+2025-12-01,Kano,Admin,60,8265780
+2025-12-01,Kano,Logistics,27,4373784
+2025-12-01,Ibadan,Operations,59,22289492
+2025-12-01,Ibadan,Sales,40,13460400
+2025-12-01,Ibadan,Finance,31,10584671
+2025-12-01,Ibadan,Admin,16,3265056
+2025-12-01,Ibadan,Logistics,54,13868442

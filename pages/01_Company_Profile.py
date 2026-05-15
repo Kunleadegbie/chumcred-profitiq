@@ -1,7 +1,7 @@
 import streamlit as st
 from datetime import date, datetime
 from supabase_config import get_supabase_client
-
+FF
 # ==========================================================
 # PAGE CONFIG
 # ==========================================================
@@ -443,26 +443,103 @@ reporting_frequency_options = [
 ]
 
 # ----------------------------------------------------------
+# USE EXISTING PROFILE VARIABLE
+# ----------------------------------------------------------
+profile = st.session_state.get("company_profile", {})
+
+# ----------------------------------------------------------
 # DEFAULT VALUES
 # ----------------------------------------------------------
-saved_review_type = company_profile.get(
+saved_review_type = profile.get(
     "review_type",
     "Single Period Review"
 )
 
-saved_reporting_frequency = company_profile.get(
+saved_reporting_frequency = profile.get(
     "reporting_frequency",
     "Monthly"
 )
 
-saved_review_start_date = company_profile.get(
-    "review_start_date",
-    date.today().replace(year=date.today().year - 1)
+saved_review_start_date = get_valid_review_date(
+    profile.get(
+        "review_start_date",
+        date.today().replace(year=date.today().year - 1)
+    )
 )
 
-saved_review_end_date = company_profile.get(
-    "review_end_date",
-    date.today()
+saved_review_end_date = get_valid_review_date(
+    profile.get(
+        "review_end_date",
+        date.today()
+    )
+)
+
+# ----------------------------------------------------------
+# REVIEW SETTINGS
+# ----------------------------------------------------------
+col1, col2 = st.columns(2)
+
+with col1:
+    review_type = st.selectbox(
+        "Review Type",
+        review_type_options,
+        index=safe_select_index(
+            review_type_options,
+            saved_review_type,
+            0
+        ),
+    )
+
+with col2:
+    reporting_frequency = st.selectbox(
+        "Reporting Frequency",
+        reporting_frequency_options,
+        index=safe_select_index(
+            reporting_frequency_options,
+            saved_reporting_frequency,
+            0
+        ),
+    )
+
+# ----------------------------------------------------------
+# DATE RANGE
+# ----------------------------------------------------------
+col1, col2 = st.columns(2)
+
+with col1:
+    review_start_date = st.date_input(
+        "Review Start Date",
+        value=saved_review_start_date,
+    )
+
+with col2:
+    review_end_date = st.date_input(
+        "Review End Date",
+        value=saved_review_end_date,
+    )
+
+# ----------------------------------------------------------
+# SAVE TO SESSION PROFILE
+# ----------------------------------------------------------
+profile["review_type"] = review_type
+profile["reporting_frequency"] = reporting_frequency
+profile["review_start_date"] = str(review_start_date)
+profile["review_end_date"] = str(review_end_date)
+
+st.session_state.company_profile = profile
+
+# ----------------------------------------------------------
+# REVIEW SUMMARY
+# ----------------------------------------------------------
+st.info(
+    f"""
+Review Type: {review_type}
+
+Reporting Frequency: {reporting_frequency}
+
+Review Period:
+{review_start_date} → {review_end_date}
+"""
 )
 
 # ----------------------------------------------------------
@@ -549,6 +626,10 @@ if submitted:
         "key_challenges": key_challenges,
         "review_objective": review_objective,
         "expected_outcome": expected_outcome,
+        "review_type": review_type,
+        "reporting_frequency": reporting_frequency,
+        "review_start_date": str(review_start_date),
+        "review_end_date": str(review_end_date),
     }
 
     st.session_state.company_profile = profile_data

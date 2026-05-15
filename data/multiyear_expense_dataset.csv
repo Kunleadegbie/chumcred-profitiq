@@ -1,0 +1,2101 @@
+Date,Branch,Expense Category,Expense Amount
+2021-01-01,Lagos,Rent,1991919
+2021-01-01,Lagos,Utilities,868956
+2021-01-01,Lagos,Fuel,3573723
+2021-01-01,Lagos,Marketing,3870591
+2021-01-01,Lagos,Repairs,2499015
+2021-01-01,Lagos,Security,3988188
+2021-01-01,Lagos,Travel,2685184
+2021-01-01,Abuja,Rent,421417
+2021-01-01,Abuja,Utilities,1028707
+2021-01-01,Abuja,Fuel,1108508
+2021-01-01,Abuja,Marketing,3970773
+2021-01-01,Abuja,Repairs,3793561
+2021-01-01,Abuja,Security,1141909
+2021-01-01,Abuja,Travel,3810534
+2021-01-01,Port Harcourt,Rent,541707
+2021-01-01,Port Harcourt,Utilities,1346438
+2021-01-01,Port Harcourt,Fuel,438710
+2021-01-01,Port Harcourt,Marketing,2214484
+2021-01-01,Port Harcourt,Repairs,512060
+2021-01-01,Port Harcourt,Security,1811522
+2021-01-01,Port Harcourt,Travel,3255448
+2021-01-01,Kano,Rent,1135126
+2021-01-01,Kano,Utilities,1449144
+2021-01-01,Kano,Fuel,1844979
+2021-01-01,Kano,Marketing,3754035
+2021-01-01,Kano,Repairs,2247073
+2021-01-01,Kano,Security,2418653
+2021-01-01,Kano,Travel,1964896
+2021-01-01,Ibadan,Rent,2965101
+2021-01-01,Ibadan,Utilities,819560
+2021-01-01,Ibadan,Fuel,3157052
+2021-01-01,Ibadan,Marketing,428191
+2021-01-01,Ibadan,Repairs,1314761
+2021-01-01,Ibadan,Security,1862238
+2021-01-01,Ibadan,Travel,2350120
+2021-02-01,Lagos,Rent,2791599
+2021-02-01,Lagos,Utilities,2171093
+2021-02-01,Lagos,Fuel,1044839
+2021-02-01,Lagos,Marketing,3951060
+2021-02-01,Lagos,Repairs,2290542
+2021-02-01,Lagos,Security,2761554
+2021-02-01,Lagos,Travel,2612461
+2021-02-01,Abuja,Rent,1766999
+2021-02-01,Abuja,Utilities,1743884
+2021-02-01,Abuja,Fuel,985825
+2021-02-01,Abuja,Marketing,3813374
+2021-02-01,Abuja,Repairs,1384898
+2021-02-01,Abuja,Security,3441370
+2021-02-01,Abuja,Travel,3784922
+2021-02-01,Port Harcourt,Rent,3189248
+2021-02-01,Port Harcourt,Utilities,679131
+2021-02-01,Port Harcourt,Fuel,1495667
+2021-02-01,Port Harcourt,Marketing,415135
+2021-02-01,Port Harcourt,Repairs,1921373
+2021-02-01,Port Harcourt,Security,508251
+2021-02-01,Port Harcourt,Travel,983283
+2021-02-01,Kano,Rent,3881186
+2021-02-01,Kano,Utilities,2700224
+2021-02-01,Kano,Fuel,3570844
+2021-02-01,Kano,Marketing,1198917
+2021-02-01,Kano,Repairs,3894984
+2021-02-01,Kano,Security,1228413
+2021-02-01,Kano,Travel,3015308
+2021-02-01,Ibadan,Rent,1244188
+2021-02-01,Ibadan,Utilities,3142459
+2021-02-01,Ibadan,Fuel,1167092
+2021-02-01,Ibadan,Marketing,1428618
+2021-02-01,Ibadan,Repairs,3032955
+2021-02-01,Ibadan,Security,2017597
+2021-02-01,Ibadan,Travel,2452857
+2021-03-01,Lagos,Rent,384105
+2021-03-01,Lagos,Utilities,3926520
+2021-03-01,Lagos,Fuel,3572830
+2021-03-01,Lagos,Marketing,3519433
+2021-03-01,Lagos,Repairs,3161353
+2021-03-01,Lagos,Security,337320
+2021-03-01,Lagos,Travel,2288507
+2021-03-01,Abuja,Rent,854965
+2021-03-01,Abuja,Utilities,3015273
+2021-03-01,Abuja,Fuel,1026456
+2021-03-01,Abuja,Marketing,2821372
+2021-03-01,Abuja,Repairs,3659070
+2021-03-01,Abuja,Security,335499
+2021-03-01,Abuja,Travel,1238559
+2021-03-01,Port Harcourt,Rent,1358602
+2021-03-01,Port Harcourt,Utilities,2851579
+2021-03-01,Port Harcourt,Fuel,3676773
+2021-03-01,Port Harcourt,Marketing,1581190
+2021-03-01,Port Harcourt,Repairs,3289450
+2021-03-01,Port Harcourt,Security,3275305
+2021-03-01,Port Harcourt,Travel,2995848
+2021-03-01,Kano,Rent,1455021
+2021-03-01,Kano,Utilities,2077574
+2021-03-01,Kano,Fuel,1879052
+2021-03-01,Kano,Marketing,3871811
+2021-03-01,Kano,Repairs,1762592
+2021-03-01,Kano,Security,2225177
+2021-03-01,Kano,Travel,1356959
+2021-03-01,Ibadan,Rent,1215235
+2021-03-01,Ibadan,Utilities,2257473
+2021-03-01,Ibadan,Fuel,1567288
+2021-03-01,Ibadan,Marketing,3140366
+2021-03-01,Ibadan,Repairs,2483713
+2021-03-01,Ibadan,Security,3757410
+2021-03-01,Ibadan,Travel,2915593
+2021-04-01,Lagos,Rent,1965778
+2021-04-01,Lagos,Utilities,2751516
+2021-04-01,Lagos,Fuel,729128
+2021-04-01,Lagos,Marketing,330817
+2021-04-01,Lagos,Repairs,2445444
+2021-04-01,Lagos,Security,3078120
+2021-04-01,Lagos,Travel,3836989
+2021-04-01,Abuja,Rent,3820608
+2021-04-01,Abuja,Utilities,1869633
+2021-04-01,Abuja,Fuel,2654921
+2021-04-01,Abuja,Marketing,3015149
+2021-04-01,Abuja,Repairs,2790462
+2021-04-01,Abuja,Security,2854541
+2021-04-01,Abuja,Travel,1485632
+2021-04-01,Port Harcourt,Rent,1551898
+2021-04-01,Port Harcourt,Utilities,3170636
+2021-04-01,Port Harcourt,Fuel,753423
+2021-04-01,Port Harcourt,Marketing,2320557
+2021-04-01,Port Harcourt,Repairs,567752
+2021-04-01,Port Harcourt,Security,1710475
+2021-04-01,Port Harcourt,Travel,1459654
+2021-04-01,Kano,Rent,2986849
+2021-04-01,Kano,Utilities,1663723
+2021-04-01,Kano,Fuel,3913357
+2021-04-01,Kano,Marketing,1461339
+2021-04-01,Kano,Repairs,1395329
+2021-04-01,Kano,Security,3051965
+2021-04-01,Kano,Travel,3282543
+2021-04-01,Ibadan,Rent,3032448
+2021-04-01,Ibadan,Utilities,1553220
+2021-04-01,Ibadan,Fuel,1090039
+2021-04-01,Ibadan,Marketing,928849
+2021-04-01,Ibadan,Repairs,2469686
+2021-04-01,Ibadan,Security,3510632
+2021-04-01,Ibadan,Travel,1307899
+2021-05-01,Lagos,Rent,538130
+2021-05-01,Lagos,Utilities,3678217
+2021-05-01,Lagos,Fuel,3895841
+2021-05-01,Lagos,Marketing,3665357
+2021-05-01,Lagos,Repairs,3697507
+2021-05-01,Lagos,Security,2816722
+2021-05-01,Lagos,Travel,1994911
+2021-05-01,Abuja,Rent,3070464
+2021-05-01,Abuja,Utilities,1640439
+2021-05-01,Abuja,Fuel,3155296
+2021-05-01,Abuja,Marketing,886906
+2021-05-01,Abuja,Repairs,3325281
+2021-05-01,Abuja,Security,406767
+2021-05-01,Abuja,Travel,3048949
+2021-05-01,Port Harcourt,Rent,2386132
+2021-05-01,Port Harcourt,Utilities,1539855
+2021-05-01,Port Harcourt,Fuel,1388112
+2021-05-01,Port Harcourt,Marketing,2055591
+2021-05-01,Port Harcourt,Repairs,1997010
+2021-05-01,Port Harcourt,Security,1928543
+2021-05-01,Port Harcourt,Travel,3390078
+2021-05-01,Kano,Rent,448138
+2021-05-01,Kano,Utilities,2745378
+2021-05-01,Kano,Fuel,3269856
+2021-05-01,Kano,Marketing,2699319
+2021-05-01,Kano,Repairs,3722613
+2021-05-01,Kano,Security,1096561
+2021-05-01,Kano,Travel,1739346
+2021-05-01,Ibadan,Rent,3347371
+2021-05-01,Ibadan,Utilities,3292087
+2021-05-01,Ibadan,Fuel,1232658
+2021-05-01,Ibadan,Marketing,3178626
+2021-05-01,Ibadan,Repairs,2542422
+2021-05-01,Ibadan,Security,2977281
+2021-05-01,Ibadan,Travel,3592096
+2021-06-01,Lagos,Rent,2295378
+2021-06-01,Lagos,Utilities,3118020
+2021-06-01,Lagos,Fuel,1803645
+2021-06-01,Lagos,Marketing,2427832
+2021-06-01,Lagos,Repairs,1559108
+2021-06-01,Lagos,Security,3845945
+2021-06-01,Lagos,Travel,1012975
+2021-06-01,Abuja,Rent,3825894
+2021-06-01,Abuja,Utilities,3058235
+2021-06-01,Abuja,Fuel,3976285
+2021-06-01,Abuja,Marketing,2641462
+2021-06-01,Abuja,Repairs,1059738
+2021-06-01,Abuja,Security,1532219
+2021-06-01,Abuja,Travel,709376
+2021-06-01,Port Harcourt,Rent,2274598
+2021-06-01,Port Harcourt,Utilities,836636
+2021-06-01,Port Harcourt,Fuel,3407639
+2021-06-01,Port Harcourt,Marketing,1384864
+2021-06-01,Port Harcourt,Repairs,3341653
+2021-06-01,Port Harcourt,Security,3690439
+2021-06-01,Port Harcourt,Travel,2644748
+2021-06-01,Kano,Rent,3499910
+2021-06-01,Kano,Utilities,1067844
+2021-06-01,Kano,Fuel,3150920
+2021-06-01,Kano,Marketing,1707744
+2021-06-01,Kano,Repairs,3044897
+2021-06-01,Kano,Security,674550
+2021-06-01,Kano,Travel,1232198
+2021-06-01,Ibadan,Rent,1790166
+2021-06-01,Ibadan,Utilities,1236705
+2021-06-01,Ibadan,Fuel,3421442
+2021-06-01,Ibadan,Marketing,3955051
+2021-06-01,Ibadan,Repairs,1588008
+2021-06-01,Ibadan,Security,2063589
+2021-06-01,Ibadan,Travel,3605490
+2021-07-01,Lagos,Rent,1689644
+2021-07-01,Lagos,Utilities,1858949
+2021-07-01,Lagos,Fuel,1392864
+2021-07-01,Lagos,Marketing,2756061
+2021-07-01,Lagos,Repairs,1533339
+2021-07-01,Lagos,Security,2245153
+2021-07-01,Lagos,Travel,3870249
+2021-07-01,Abuja,Rent,794011
+2021-07-01,Abuja,Utilities,2273573
+2021-07-01,Abuja,Fuel,525137
+2021-07-01,Abuja,Marketing,3933917
+2021-07-01,Abuja,Repairs,2960852
+2021-07-01,Abuja,Security,2747689
+2021-07-01,Abuja,Travel,2734009
+2021-07-01,Port Harcourt,Rent,2903214
+2021-07-01,Port Harcourt,Utilities,598700
+2021-07-01,Port Harcourt,Fuel,2280632
+2021-07-01,Port Harcourt,Marketing,1115975
+2021-07-01,Port Harcourt,Repairs,2399154
+2021-07-01,Port Harcourt,Security,802544
+2021-07-01,Port Harcourt,Travel,3938549
+2021-07-01,Kano,Rent,3155053
+2021-07-01,Kano,Utilities,1900836
+2021-07-01,Kano,Fuel,2522303
+2021-07-01,Kano,Marketing,1551394
+2021-07-01,Kano,Repairs,2032697
+2021-07-01,Kano,Security,526752
+2021-07-01,Kano,Travel,3952606
+2021-07-01,Ibadan,Rent,3882941
+2021-07-01,Ibadan,Utilities,932410
+2021-07-01,Ibadan,Fuel,876151
+2021-07-01,Ibadan,Marketing,1140104
+2021-07-01,Ibadan,Repairs,1737261
+2021-07-01,Ibadan,Security,2016274
+2021-07-01,Ibadan,Travel,2688251
+2021-08-01,Lagos,Rent,2219193
+2021-08-01,Lagos,Utilities,900725
+2021-08-01,Lagos,Fuel,1627008
+2021-08-01,Lagos,Marketing,3917142
+2021-08-01,Lagos,Repairs,3301731
+2021-08-01,Lagos,Security,1056471
+2021-08-01,Lagos,Travel,3567116
+2021-08-01,Abuja,Rent,638947
+2021-08-01,Abuja,Utilities,2345062
+2021-08-01,Abuja,Fuel,1695149
+2021-08-01,Abuja,Marketing,2946743
+2021-08-01,Abuja,Repairs,1041654
+2021-08-01,Abuja,Security,1614553
+2021-08-01,Abuja,Travel,2961281
+2021-08-01,Port Harcourt,Rent,543326
+2021-08-01,Port Harcourt,Utilities,319769
+2021-08-01,Port Harcourt,Fuel,2196048
+2021-08-01,Port Harcourt,Marketing,1447259
+2021-08-01,Port Harcourt,Repairs,1178213
+2021-08-01,Port Harcourt,Security,3492676
+2021-08-01,Port Harcourt,Travel,3544471
+2021-08-01,Kano,Rent,1007183
+2021-08-01,Kano,Utilities,2717088
+2021-08-01,Kano,Fuel,3506477
+2021-08-01,Kano,Marketing,964525
+2021-08-01,Kano,Repairs,2353435
+2021-08-01,Kano,Security,3593413
+2021-08-01,Kano,Travel,3502641
+2021-08-01,Ibadan,Rent,3570518
+2021-08-01,Ibadan,Utilities,669272
+2021-08-01,Ibadan,Fuel,842767
+2021-08-01,Ibadan,Marketing,2877314
+2021-08-01,Ibadan,Repairs,2119117
+2021-08-01,Ibadan,Security,2957039
+2021-08-01,Ibadan,Travel,2101074
+2021-09-01,Lagos,Rent,1991954
+2021-09-01,Lagos,Utilities,2099463
+2021-09-01,Lagos,Fuel,2302361
+2021-09-01,Lagos,Marketing,1907745
+2021-09-01,Lagos,Repairs,319583
+2021-09-01,Lagos,Security,458231
+2021-09-01,Lagos,Travel,2538846
+2021-09-01,Abuja,Rent,1136403
+2021-09-01,Abuja,Utilities,3364606
+2021-09-01,Abuja,Fuel,1864900
+2021-09-01,Abuja,Marketing,359043
+2021-09-01,Abuja,Repairs,1651459
+2021-09-01,Abuja,Security,3474449
+2021-09-01,Abuja,Travel,3794814
+2021-09-01,Port Harcourt,Rent,2527317
+2021-09-01,Port Harcourt,Utilities,1099336
+2021-09-01,Port Harcourt,Fuel,375145
+2021-09-01,Port Harcourt,Marketing,3138487
+2021-09-01,Port Harcourt,Repairs,317296
+2021-09-01,Port Harcourt,Security,2928515
+2021-09-01,Port Harcourt,Travel,3376955
+2021-09-01,Kano,Rent,1343639
+2021-09-01,Kano,Utilities,1249027
+2021-09-01,Kano,Fuel,3208853
+2021-09-01,Kano,Marketing,3978342
+2021-09-01,Kano,Repairs,1744307
+2021-09-01,Kano,Security,1609009
+2021-09-01,Kano,Travel,840774
+2021-09-01,Ibadan,Rent,730789
+2021-09-01,Ibadan,Utilities,1908727
+2021-09-01,Ibadan,Fuel,2411146
+2021-09-01,Ibadan,Marketing,2769063
+2021-09-01,Ibadan,Repairs,1583939
+2021-09-01,Ibadan,Security,1000533
+2021-09-01,Ibadan,Travel,573833
+2021-10-01,Lagos,Rent,3755451
+2021-10-01,Lagos,Utilities,491756
+2021-10-01,Lagos,Fuel,1550750
+2021-10-01,Lagos,Marketing,1519820
+2021-10-01,Lagos,Repairs,2212293
+2021-10-01,Lagos,Security,3352748
+2021-10-01,Lagos,Travel,2482247
+2021-10-01,Abuja,Rent,2801356
+2021-10-01,Abuja,Utilities,2498308
+2021-10-01,Abuja,Fuel,1716983
+2021-10-01,Abuja,Marketing,2118923
+2021-10-01,Abuja,Repairs,3180564
+2021-10-01,Abuja,Security,861153
+2021-10-01,Abuja,Travel,1737525
+2021-10-01,Port Harcourt,Rent,2355958
+2021-10-01,Port Harcourt,Utilities,1806807
+2021-10-01,Port Harcourt,Fuel,3446212
+2021-10-01,Port Harcourt,Marketing,1090316
+2021-10-01,Port Harcourt,Repairs,991571
+2021-10-01,Port Harcourt,Security,3705809
+2021-10-01,Port Harcourt,Travel,1991947
+2021-10-01,Kano,Rent,380214
+2021-10-01,Kano,Utilities,1258055
+2021-10-01,Kano,Fuel,1240871
+2021-10-01,Kano,Marketing,3349967
+2021-10-01,Kano,Repairs,850316
+2021-10-01,Kano,Security,1185796
+2021-10-01,Kano,Travel,3378940
+2021-10-01,Ibadan,Rent,391910
+2021-10-01,Ibadan,Utilities,2773351
+2021-10-01,Ibadan,Fuel,2416586
+2021-10-01,Ibadan,Marketing,1008773
+2021-10-01,Ibadan,Repairs,816578
+2021-10-01,Ibadan,Security,1837595
+2021-10-01,Ibadan,Travel,3282611
+2021-11-01,Lagos,Rent,3028564
+2021-11-01,Lagos,Utilities,3622422
+2021-11-01,Lagos,Fuel,456713
+2021-11-01,Lagos,Marketing,1873671
+2021-11-01,Lagos,Repairs,3976492
+2021-11-01,Lagos,Security,2985701
+2021-11-01,Lagos,Travel,1372857
+2021-11-01,Abuja,Rent,3534855
+2021-11-01,Abuja,Utilities,2542834
+2021-11-01,Abuja,Fuel,2913616
+2021-11-01,Abuja,Marketing,503788
+2021-11-01,Abuja,Repairs,2791098
+2021-11-01,Abuja,Security,501160
+2021-11-01,Abuja,Travel,3076503
+2021-11-01,Port Harcourt,Rent,753460
+2021-11-01,Port Harcourt,Utilities,3041261
+2021-11-01,Port Harcourt,Fuel,3806941
+2021-11-01,Port Harcourt,Marketing,382802
+2021-11-01,Port Harcourt,Repairs,502312
+2021-11-01,Port Harcourt,Security,3193020
+2021-11-01,Port Harcourt,Travel,785657
+2021-11-01,Kano,Rent,2048083
+2021-11-01,Kano,Utilities,2163589
+2021-11-01,Kano,Fuel,1894899
+2021-11-01,Kano,Marketing,818395
+2021-11-01,Kano,Repairs,2595468
+2021-11-01,Kano,Security,1360061
+2021-11-01,Kano,Travel,2289762
+2021-11-01,Ibadan,Rent,3243848
+2021-11-01,Ibadan,Utilities,942261
+2021-11-01,Ibadan,Fuel,1161908
+2021-11-01,Ibadan,Marketing,3215846
+2021-11-01,Ibadan,Repairs,3176202
+2021-11-01,Ibadan,Security,2943717
+2021-11-01,Ibadan,Travel,339026
+2021-12-01,Lagos,Rent,1562973
+2021-12-01,Lagos,Utilities,2065262
+2021-12-01,Lagos,Fuel,3075222
+2021-12-01,Lagos,Marketing,723540
+2021-12-01,Lagos,Repairs,3078654
+2021-12-01,Lagos,Security,2482335
+2021-12-01,Lagos,Travel,1432366
+2021-12-01,Abuja,Rent,2912203
+2021-12-01,Abuja,Utilities,2840214
+2021-12-01,Abuja,Fuel,3239059
+2021-12-01,Abuja,Marketing,875305
+2021-12-01,Abuja,Repairs,2056682
+2021-12-01,Abuja,Security,3784010
+2021-12-01,Abuja,Travel,740042
+2021-12-01,Port Harcourt,Rent,2445742
+2021-12-01,Port Harcourt,Utilities,3314724
+2021-12-01,Port Harcourt,Fuel,2890813
+2021-12-01,Port Harcourt,Marketing,793814
+2021-12-01,Port Harcourt,Repairs,1485758
+2021-12-01,Port Harcourt,Security,778203
+2021-12-01,Port Harcourt,Travel,3591522
+2021-12-01,Kano,Rent,745702
+2021-12-01,Kano,Utilities,2387668
+2021-12-01,Kano,Fuel,1133184
+2021-12-01,Kano,Marketing,2854338
+2021-12-01,Kano,Repairs,1137809
+2021-12-01,Kano,Security,3562996
+2021-12-01,Kano,Travel,1403076
+2021-12-01,Ibadan,Rent,3787558
+2021-12-01,Ibadan,Utilities,2494233
+2021-12-01,Ibadan,Fuel,1145878
+2021-12-01,Ibadan,Marketing,1801232
+2021-12-01,Ibadan,Repairs,3250427
+2021-12-01,Ibadan,Security,2018642
+2021-12-01,Ibadan,Travel,1538792
+2022-01-01,Lagos,Rent,972655
+2022-01-01,Lagos,Utilities,465279
+2022-01-01,Lagos,Fuel,2599060
+2022-01-01,Lagos,Marketing,2381862
+2022-01-01,Lagos,Repairs,1171131
+2022-01-01,Lagos,Security,3186536
+2022-01-01,Lagos,Travel,2316050
+2022-01-01,Abuja,Rent,1686652
+2022-01-01,Abuja,Utilities,1283586
+2022-01-01,Abuja,Fuel,311484
+2022-01-01,Abuja,Marketing,353474
+2022-01-01,Abuja,Repairs,3117033
+2022-01-01,Abuja,Security,673304
+2022-01-01,Abuja,Travel,763180
+2022-01-01,Port Harcourt,Rent,3803217
+2022-01-01,Port Harcourt,Utilities,2708171
+2022-01-01,Port Harcourt,Fuel,3106081
+2022-01-01,Port Harcourt,Marketing,2372422
+2022-01-01,Port Harcourt,Repairs,925557
+2022-01-01,Port Harcourt,Security,677834
+2022-01-01,Port Harcourt,Travel,3569569
+2022-01-01,Kano,Rent,2446247
+2022-01-01,Kano,Utilities,614775
+2022-01-01,Kano,Fuel,3334845
+2022-01-01,Kano,Marketing,3334898
+2022-01-01,Kano,Repairs,724843
+2022-01-01,Kano,Security,1373289
+2022-01-01,Kano,Travel,3002544
+2022-01-01,Ibadan,Rent,1269556
+2022-01-01,Ibadan,Utilities,2215753
+2022-01-01,Ibadan,Fuel,1541607
+2022-01-01,Ibadan,Marketing,1407820
+2022-01-01,Ibadan,Repairs,2247320
+2022-01-01,Ibadan,Security,510051
+2022-01-01,Ibadan,Travel,718628
+2022-02-01,Lagos,Rent,3710717
+2022-02-01,Lagos,Utilities,1032752
+2022-02-01,Lagos,Fuel,3966410
+2022-02-01,Lagos,Marketing,465442
+2022-02-01,Lagos,Repairs,3874590
+2022-02-01,Lagos,Security,1518727
+2022-02-01,Lagos,Travel,1810849
+2022-02-01,Abuja,Rent,3662137
+2022-02-01,Abuja,Utilities,3138564
+2022-02-01,Abuja,Fuel,1611588
+2022-02-01,Abuja,Marketing,2086753
+2022-02-01,Abuja,Repairs,3397662
+2022-02-01,Abuja,Security,786124
+2022-02-01,Abuja,Travel,698452
+2022-02-01,Port Harcourt,Rent,3870384
+2022-02-01,Port Harcourt,Utilities,3480138
+2022-02-01,Port Harcourt,Fuel,492472
+2022-02-01,Port Harcourt,Marketing,340568
+2022-02-01,Port Harcourt,Repairs,3873541
+2022-02-01,Port Harcourt,Security,880468
+2022-02-01,Port Harcourt,Travel,3082312
+2022-02-01,Kano,Rent,3014547
+2022-02-01,Kano,Utilities,1015180
+2022-02-01,Kano,Fuel,1678503
+2022-02-01,Kano,Marketing,1799578
+2022-02-01,Kano,Repairs,2135907
+2022-02-01,Kano,Security,2908047
+2022-02-01,Kano,Travel,1425371
+2022-02-01,Ibadan,Rent,3984593
+2022-02-01,Ibadan,Utilities,3374709
+2022-02-01,Ibadan,Fuel,689866
+2022-02-01,Ibadan,Marketing,1862890
+2022-02-01,Ibadan,Repairs,3718207
+2022-02-01,Ibadan,Security,1737483
+2022-02-01,Ibadan,Travel,1067009
+2022-03-01,Lagos,Rent,777446
+2022-03-01,Lagos,Utilities,1980982
+2022-03-01,Lagos,Fuel,1978771
+2022-03-01,Lagos,Marketing,2214862
+2022-03-01,Lagos,Repairs,1440150
+2022-03-01,Lagos,Security,3805214
+2022-03-01,Lagos,Travel,1917808
+2022-03-01,Abuja,Rent,3193660
+2022-03-01,Abuja,Utilities,3867975
+2022-03-01,Abuja,Fuel,2305904
+2022-03-01,Abuja,Marketing,3655019
+2022-03-01,Abuja,Repairs,2068905
+2022-03-01,Abuja,Security,3021459
+2022-03-01,Abuja,Travel,3642480
+2022-03-01,Port Harcourt,Rent,999520
+2022-03-01,Port Harcourt,Utilities,774193
+2022-03-01,Port Harcourt,Fuel,855793
+2022-03-01,Port Harcourt,Marketing,3219948
+2022-03-01,Port Harcourt,Repairs,3346789
+2022-03-01,Port Harcourt,Security,545980
+2022-03-01,Port Harcourt,Travel,3841459
+2022-03-01,Kano,Rent,968552
+2022-03-01,Kano,Utilities,735004
+2022-03-01,Kano,Fuel,2044946
+2022-03-01,Kano,Marketing,2777786
+2022-03-01,Kano,Repairs,2324485
+2022-03-01,Kano,Security,3664942
+2022-03-01,Kano,Travel,2686321
+2022-03-01,Ibadan,Rent,3145387
+2022-03-01,Ibadan,Utilities,2137788
+2022-03-01,Ibadan,Fuel,1060261
+2022-03-01,Ibadan,Marketing,2864075
+2022-03-01,Ibadan,Repairs,1892790
+2022-03-01,Ibadan,Security,3568051
+2022-03-01,Ibadan,Travel,1804072
+2022-04-01,Lagos,Rent,2864223
+2022-04-01,Lagos,Utilities,420864
+2022-04-01,Lagos,Fuel,3917905
+2022-04-01,Lagos,Marketing,3170850
+2022-04-01,Lagos,Repairs,3990778
+2022-04-01,Lagos,Security,3817076
+2022-04-01,Lagos,Travel,3350427
+2022-04-01,Abuja,Rent,848008
+2022-04-01,Abuja,Utilities,2326182
+2022-04-01,Abuja,Fuel,2347335
+2022-04-01,Abuja,Marketing,773694
+2022-04-01,Abuja,Repairs,2025051
+2022-04-01,Abuja,Security,2148378
+2022-04-01,Abuja,Travel,492821
+2022-04-01,Port Harcourt,Rent,565650
+2022-04-01,Port Harcourt,Utilities,1397283
+2022-04-01,Port Harcourt,Fuel,3047158
+2022-04-01,Port Harcourt,Marketing,1618009
+2022-04-01,Port Harcourt,Repairs,351842
+2022-04-01,Port Harcourt,Security,3255173
+2022-04-01,Port Harcourt,Travel,3942049
+2022-04-01,Kano,Rent,3143439
+2022-04-01,Kano,Utilities,2501245
+2022-04-01,Kano,Fuel,3519248
+2022-04-01,Kano,Marketing,3418984
+2022-04-01,Kano,Repairs,2718641
+2022-04-01,Kano,Security,3335726
+2022-04-01,Kano,Travel,2669833
+2022-04-01,Ibadan,Rent,1239460
+2022-04-01,Ibadan,Utilities,3109530
+2022-04-01,Ibadan,Fuel,3962229
+2022-04-01,Ibadan,Marketing,1718935
+2022-04-01,Ibadan,Repairs,2477261
+2022-04-01,Ibadan,Security,2494053
+2022-04-01,Ibadan,Travel,3186694
+2022-05-01,Lagos,Rent,3238446
+2022-05-01,Lagos,Utilities,2893082
+2022-05-01,Lagos,Fuel,699474
+2022-05-01,Lagos,Marketing,2115495
+2022-05-01,Lagos,Repairs,3075426
+2022-05-01,Lagos,Security,3347799
+2022-05-01,Lagos,Travel,1342607
+2022-05-01,Abuja,Rent,2321359
+2022-05-01,Abuja,Utilities,1750178
+2022-05-01,Abuja,Fuel,3083804
+2022-05-01,Abuja,Marketing,3136589
+2022-05-01,Abuja,Repairs,2990245
+2022-05-01,Abuja,Security,1914289
+2022-05-01,Abuja,Travel,923501
+2022-05-01,Port Harcourt,Rent,3819159
+2022-05-01,Port Harcourt,Utilities,3766331
+2022-05-01,Port Harcourt,Fuel,2641865
+2022-05-01,Port Harcourt,Marketing,2870747
+2022-05-01,Port Harcourt,Repairs,528866
+2022-05-01,Port Harcourt,Security,348842
+2022-05-01,Port Harcourt,Travel,2998609
+2022-05-01,Kano,Rent,958201
+2022-05-01,Kano,Utilities,2420504
+2022-05-01,Kano,Fuel,3860316
+2022-05-01,Kano,Marketing,2268340
+2022-05-01,Kano,Repairs,3873006
+2022-05-01,Kano,Security,2379682
+2022-05-01,Kano,Travel,3946593
+2022-05-01,Ibadan,Rent,993754
+2022-05-01,Ibadan,Utilities,614007
+2022-05-01,Ibadan,Fuel,3451725
+2022-05-01,Ibadan,Marketing,2362121
+2022-05-01,Ibadan,Repairs,1644835
+2022-05-01,Ibadan,Security,1310373
+2022-05-01,Ibadan,Travel,1687873
+2022-06-01,Lagos,Rent,1466675
+2022-06-01,Lagos,Utilities,511186
+2022-06-01,Lagos,Fuel,2426215
+2022-06-01,Lagos,Marketing,1234098
+2022-06-01,Lagos,Repairs,2608945
+2022-06-01,Lagos,Security,2998268
+2022-06-01,Lagos,Travel,1888121
+2022-06-01,Abuja,Rent,1991466
+2022-06-01,Abuja,Utilities,3727179
+2022-06-01,Abuja,Fuel,1285661
+2022-06-01,Abuja,Marketing,630639
+2022-06-01,Abuja,Repairs,2225582
+2022-06-01,Abuja,Security,2163063
+2022-06-01,Abuja,Travel,3660733
+2022-06-01,Port Harcourt,Rent,2703482
+2022-06-01,Port Harcourt,Utilities,2179461
+2022-06-01,Port Harcourt,Fuel,669182
+2022-06-01,Port Harcourt,Marketing,3892795
+2022-06-01,Port Harcourt,Repairs,2390676
+2022-06-01,Port Harcourt,Security,2175139
+2022-06-01,Port Harcourt,Travel,1625658
+2022-06-01,Kano,Rent,797892
+2022-06-01,Kano,Utilities,2386135
+2022-06-01,Kano,Fuel,3425758
+2022-06-01,Kano,Marketing,3040445
+2022-06-01,Kano,Repairs,374529
+2022-06-01,Kano,Security,730517
+2022-06-01,Kano,Travel,1992148
+2022-06-01,Ibadan,Rent,2029473
+2022-06-01,Ibadan,Utilities,450290
+2022-06-01,Ibadan,Fuel,2636776
+2022-06-01,Ibadan,Marketing,2603087
+2022-06-01,Ibadan,Repairs,300711
+2022-06-01,Ibadan,Security,3764112
+2022-06-01,Ibadan,Travel,681243
+2022-07-01,Lagos,Rent,3620979
+2022-07-01,Lagos,Utilities,2834212
+2022-07-01,Lagos,Fuel,2896551
+2022-07-01,Lagos,Marketing,2974028
+2022-07-01,Lagos,Repairs,1577576
+2022-07-01,Lagos,Security,2432123
+2022-07-01,Lagos,Travel,2658593
+2022-07-01,Abuja,Rent,1167597
+2022-07-01,Abuja,Utilities,3045574
+2022-07-01,Abuja,Fuel,3116367
+2022-07-01,Abuja,Marketing,2213474
+2022-07-01,Abuja,Repairs,1729646
+2022-07-01,Abuja,Security,1823968
+2022-07-01,Abuja,Travel,3761605
+2022-07-01,Port Harcourt,Rent,527646
+2022-07-01,Port Harcourt,Utilities,3725021
+2022-07-01,Port Harcourt,Fuel,1234986
+2022-07-01,Port Harcourt,Marketing,3841324
+2022-07-01,Port Harcourt,Repairs,2206143
+2022-07-01,Port Harcourt,Security,1692394
+2022-07-01,Port Harcourt,Travel,2649442
+2022-07-01,Kano,Rent,3518777
+2022-07-01,Kano,Utilities,2899453
+2022-07-01,Kano,Fuel,2816377
+2022-07-01,Kano,Marketing,2284466
+2022-07-01,Kano,Repairs,3305881
+2022-07-01,Kano,Security,3056359
+2022-07-01,Kano,Travel,1823767
+2022-07-01,Ibadan,Rent,3302758
+2022-07-01,Ibadan,Utilities,2198058
+2022-07-01,Ibadan,Fuel,778248
+2022-07-01,Ibadan,Marketing,708680
+2022-07-01,Ibadan,Repairs,3484818
+2022-07-01,Ibadan,Security,3063669
+2022-07-01,Ibadan,Travel,1230074
+2022-08-01,Lagos,Rent,309214
+2022-08-01,Lagos,Utilities,1731755
+2022-08-01,Lagos,Fuel,1789560
+2022-08-01,Lagos,Marketing,3780785
+2022-08-01,Lagos,Repairs,2957767
+2022-08-01,Lagos,Security,3655077
+2022-08-01,Lagos,Travel,1524667
+2022-08-01,Abuja,Rent,2597180
+2022-08-01,Abuja,Utilities,2489364
+2022-08-01,Abuja,Fuel,1868209
+2022-08-01,Abuja,Marketing,3244804
+2022-08-01,Abuja,Repairs,745947
+2022-08-01,Abuja,Security,492007
+2022-08-01,Abuja,Travel,988517
+2022-08-01,Port Harcourt,Rent,2365368
+2022-08-01,Port Harcourt,Utilities,889086
+2022-08-01,Port Harcourt,Fuel,3747041
+2022-08-01,Port Harcourt,Marketing,3306712
+2022-08-01,Port Harcourt,Repairs,3414316
+2022-08-01,Port Harcourt,Security,3326438
+2022-08-01,Port Harcourt,Travel,2016354
+2022-08-01,Kano,Rent,748629
+2022-08-01,Kano,Utilities,1366566
+2022-08-01,Kano,Fuel,2862098
+2022-08-01,Kano,Marketing,1121754
+2022-08-01,Kano,Repairs,1086614
+2022-08-01,Kano,Security,806444
+2022-08-01,Kano,Travel,3874362
+2022-08-01,Ibadan,Rent,1947927
+2022-08-01,Ibadan,Utilities,1204247
+2022-08-01,Ibadan,Fuel,2216989
+2022-08-01,Ibadan,Marketing,3758430
+2022-08-01,Ibadan,Repairs,3577514
+2022-08-01,Ibadan,Security,1099345
+2022-08-01,Ibadan,Travel,3306426
+2022-09-01,Lagos,Rent,1717396
+2022-09-01,Lagos,Utilities,752002
+2022-09-01,Lagos,Fuel,3475714
+2022-09-01,Lagos,Marketing,2038414
+2022-09-01,Lagos,Repairs,495036
+2022-09-01,Lagos,Security,2956003
+2022-09-01,Lagos,Travel,3812587
+2022-09-01,Abuja,Rent,3119166
+2022-09-01,Abuja,Utilities,2769652
+2022-09-01,Abuja,Fuel,816818
+2022-09-01,Abuja,Marketing,3538611
+2022-09-01,Abuja,Repairs,2189553
+2022-09-01,Abuja,Security,2218423
+2022-09-01,Abuja,Travel,3061767
+2022-09-01,Port Harcourt,Rent,2771771
+2022-09-01,Port Harcourt,Utilities,2414757
+2022-09-01,Port Harcourt,Fuel,864704
+2022-09-01,Port Harcourt,Marketing,2392238
+2022-09-01,Port Harcourt,Repairs,318193
+2022-09-01,Port Harcourt,Security,2524509
+2022-09-01,Port Harcourt,Travel,3387905
+2022-09-01,Kano,Rent,503724
+2022-09-01,Kano,Utilities,2620399
+2022-09-01,Kano,Fuel,2115338
+2022-09-01,Kano,Marketing,3818249
+2022-09-01,Kano,Repairs,2754174
+2022-09-01,Kano,Security,2325563
+2022-09-01,Kano,Travel,2432102
+2022-09-01,Ibadan,Rent,3576093
+2022-09-01,Ibadan,Utilities,1043240
+2022-09-01,Ibadan,Fuel,3201693
+2022-09-01,Ibadan,Marketing,2726632
+2022-09-01,Ibadan,Repairs,1028342
+2022-09-01,Ibadan,Security,3363916
+2022-09-01,Ibadan,Travel,3719381
+2022-10-01,Lagos,Rent,838472
+2022-10-01,Lagos,Utilities,734336
+2022-10-01,Lagos,Fuel,1924896
+2022-10-01,Lagos,Marketing,3057846
+2022-10-01,Lagos,Repairs,2818872
+2022-10-01,Lagos,Security,2842422
+2022-10-01,Lagos,Travel,1649910
+2022-10-01,Abuja,Rent,2414391
+2022-10-01,Abuja,Utilities,3996819
+2022-10-01,Abuja,Fuel,1913392
+2022-10-01,Abuja,Marketing,2056007
+2022-10-01,Abuja,Repairs,2854304
+2022-10-01,Abuja,Security,3204620
+2022-10-01,Abuja,Travel,3497631
+2022-10-01,Port Harcourt,Rent,1341188
+2022-10-01,Port Harcourt,Utilities,1447544
+2022-10-01,Port Harcourt,Fuel,1968787
+2022-10-01,Port Harcourt,Marketing,1738054
+2022-10-01,Port Harcourt,Repairs,1533853
+2022-10-01,Port Harcourt,Security,2199372
+2022-10-01,Port Harcourt,Travel,3675562
+2022-10-01,Kano,Rent,859402
+2022-10-01,Kano,Utilities,879568
+2022-10-01,Kano,Fuel,2031179
+2022-10-01,Kano,Marketing,2827170
+2022-10-01,Kano,Repairs,3236072
+2022-10-01,Kano,Security,3439129
+2022-10-01,Kano,Travel,2448719
+2022-10-01,Ibadan,Rent,1553732
+2022-10-01,Ibadan,Utilities,3836110
+2022-10-01,Ibadan,Fuel,3242280
+2022-10-01,Ibadan,Marketing,2597664
+2022-10-01,Ibadan,Repairs,3910069
+2022-10-01,Ibadan,Security,1616637
+2022-10-01,Ibadan,Travel,3285817
+2022-11-01,Lagos,Rent,3390441
+2022-11-01,Lagos,Utilities,2621889
+2022-11-01,Lagos,Fuel,2953246
+2022-11-01,Lagos,Marketing,1211600
+2022-11-01,Lagos,Repairs,1142589
+2022-11-01,Lagos,Security,1179598
+2022-11-01,Lagos,Travel,2917948
+2022-11-01,Abuja,Rent,3296345
+2022-11-01,Abuja,Utilities,1518778
+2022-11-01,Abuja,Fuel,3179856
+2022-11-01,Abuja,Marketing,1748266
+2022-11-01,Abuja,Repairs,3120139
+2022-11-01,Abuja,Security,856465
+2022-11-01,Abuja,Travel,3279618
+2022-11-01,Port Harcourt,Rent,3026659
+2022-11-01,Port Harcourt,Utilities,1045800
+2022-11-01,Port Harcourt,Fuel,2413482
+2022-11-01,Port Harcourt,Marketing,2575374
+2022-11-01,Port Harcourt,Repairs,3212155
+2022-11-01,Port Harcourt,Security,2971257
+2022-11-01,Port Harcourt,Travel,1652165
+2022-11-01,Kano,Rent,3279435
+2022-11-01,Kano,Utilities,784044
+2022-11-01,Kano,Fuel,3490921
+2022-11-01,Kano,Marketing,1777392
+2022-11-01,Kano,Repairs,2658374
+2022-11-01,Kano,Security,2314817
+2022-11-01,Kano,Travel,2744466
+2022-11-01,Ibadan,Rent,2693430
+2022-11-01,Ibadan,Utilities,3098260
+2022-11-01,Ibadan,Fuel,3278474
+2022-11-01,Ibadan,Marketing,2051029
+2022-11-01,Ibadan,Repairs,3127982
+2022-11-01,Ibadan,Security,3436788
+2022-11-01,Ibadan,Travel,3829042
+2022-12-01,Lagos,Rent,2539350
+2022-12-01,Lagos,Utilities,1499268
+2022-12-01,Lagos,Fuel,3980406
+2022-12-01,Lagos,Marketing,3853838
+2022-12-01,Lagos,Repairs,2071616
+2022-12-01,Lagos,Security,3690275
+2022-12-01,Lagos,Travel,353563
+2022-12-01,Abuja,Rent,2492488
+2022-12-01,Abuja,Utilities,746569
+2022-12-01,Abuja,Fuel,405999
+2022-12-01,Abuja,Marketing,1897485
+2022-12-01,Abuja,Repairs,909544
+2022-12-01,Abuja,Security,522570
+2022-12-01,Abuja,Travel,3111249
+2022-12-01,Port Harcourt,Rent,537417
+2022-12-01,Port Harcourt,Utilities,1138451
+2022-12-01,Port Harcourt,Fuel,1419788
+2022-12-01,Port Harcourt,Marketing,3446504
+2022-12-01,Port Harcourt,Repairs,3594760
+2022-12-01,Port Harcourt,Security,975011
+2022-12-01,Port Harcourt,Travel,1502152
+2022-12-01,Kano,Rent,3166346
+2022-12-01,Kano,Utilities,1350929
+2022-12-01,Kano,Fuel,914165
+2022-12-01,Kano,Marketing,3820622
+2022-12-01,Kano,Repairs,560184
+2022-12-01,Kano,Security,3196564
+2022-12-01,Kano,Travel,3589833
+2022-12-01,Ibadan,Rent,1537909
+2022-12-01,Ibadan,Utilities,1155641
+2022-12-01,Ibadan,Fuel,3460802
+2022-12-01,Ibadan,Marketing,2569840
+2022-12-01,Ibadan,Repairs,435502
+2022-12-01,Ibadan,Security,1804423
+2022-12-01,Ibadan,Travel,3714273
+2023-01-01,Lagos,Rent,2198318
+2023-01-01,Lagos,Utilities,729832
+2023-01-01,Lagos,Fuel,2884147
+2023-01-01,Lagos,Marketing,3940804
+2023-01-01,Lagos,Repairs,3133361
+2023-01-01,Lagos,Security,3401656
+2023-01-01,Lagos,Travel,2656716
+2023-01-01,Abuja,Rent,3927408
+2023-01-01,Abuja,Utilities,1240813
+2023-01-01,Abuja,Fuel,3413904
+2023-01-01,Abuja,Marketing,3014215
+2023-01-01,Abuja,Repairs,2654139
+2023-01-01,Abuja,Security,1931108
+2023-01-01,Abuja,Travel,1296547
+2023-01-01,Port Harcourt,Rent,2442963
+2023-01-01,Port Harcourt,Utilities,3589622
+2023-01-01,Port Harcourt,Fuel,3642162
+2023-01-01,Port Harcourt,Marketing,3650501
+2023-01-01,Port Harcourt,Repairs,3219774
+2023-01-01,Port Harcourt,Security,1506443
+2023-01-01,Port Harcourt,Travel,3206384
+2023-01-01,Kano,Rent,3087088
+2023-01-01,Kano,Utilities,497047
+2023-01-01,Kano,Fuel,1900473
+2023-01-01,Kano,Marketing,1925522
+2023-01-01,Kano,Repairs,2047205
+2023-01-01,Kano,Security,3605579
+2023-01-01,Kano,Travel,3173722
+2023-01-01,Ibadan,Rent,1611365
+2023-01-01,Ibadan,Utilities,2615778
+2023-01-01,Ibadan,Fuel,525662
+2023-01-01,Ibadan,Marketing,354380
+2023-01-01,Ibadan,Repairs,3419177
+2023-01-01,Ibadan,Security,1354201
+2023-01-01,Ibadan,Travel,1151809
+2023-02-01,Lagos,Rent,2902824
+2023-02-01,Lagos,Utilities,3944220
+2023-02-01,Lagos,Fuel,3575436
+2023-02-01,Lagos,Marketing,3908966
+2023-02-01,Lagos,Repairs,3949539
+2023-02-01,Lagos,Security,2158344
+2023-02-01,Lagos,Travel,3781203
+2023-02-01,Abuja,Rent,1246018
+2023-02-01,Abuja,Utilities,2958301
+2023-02-01,Abuja,Fuel,3255428
+2023-02-01,Abuja,Marketing,3276049
+2023-02-01,Abuja,Repairs,3016367
+2023-02-01,Abuja,Security,1842418
+2023-02-01,Abuja,Travel,3467151
+2023-02-01,Port Harcourt,Rent,2767866
+2023-02-01,Port Harcourt,Utilities,2592670
+2023-02-01,Port Harcourt,Fuel,3397283
+2023-02-01,Port Harcourt,Marketing,2830788
+2023-02-01,Port Harcourt,Repairs,1124051
+2023-02-01,Port Harcourt,Security,3555395
+2023-02-01,Port Harcourt,Travel,3340511
+2023-02-01,Kano,Rent,1111588
+2023-02-01,Kano,Utilities,1533870
+2023-02-01,Kano,Fuel,2182466
+2023-02-01,Kano,Marketing,1044178
+2023-02-01,Kano,Repairs,3163278
+2023-02-01,Kano,Security,612345
+2023-02-01,Kano,Travel,1084236
+2023-02-01,Ibadan,Rent,1028949
+2023-02-01,Ibadan,Utilities,3383146
+2023-02-01,Ibadan,Fuel,2455229
+2023-02-01,Ibadan,Marketing,800606
+2023-02-01,Ibadan,Repairs,1882084
+2023-02-01,Ibadan,Security,470432
+2023-02-01,Ibadan,Travel,2097292
+2023-03-01,Lagos,Rent,1470681
+2023-03-01,Lagos,Utilities,2634543
+2023-03-01,Lagos,Fuel,1408301
+2023-03-01,Lagos,Marketing,845538
+2023-03-01,Lagos,Repairs,974984
+2023-03-01,Lagos,Security,2749415
+2023-03-01,Lagos,Travel,3848440
+2023-03-01,Abuja,Rent,1369615
+2023-03-01,Abuja,Utilities,323677
+2023-03-01,Abuja,Fuel,1686480
+2023-03-01,Abuja,Marketing,2255935
+2023-03-01,Abuja,Repairs,3276652
+2023-03-01,Abuja,Security,949302
+2023-03-01,Abuja,Travel,467522
+2023-03-01,Port Harcourt,Rent,944678
+2023-03-01,Port Harcourt,Utilities,1653208
+2023-03-01,Port Harcourt,Fuel,2803497
+2023-03-01,Port Harcourt,Marketing,513303
+2023-03-01,Port Harcourt,Repairs,3544969
+2023-03-01,Port Harcourt,Security,2922977
+2023-03-01,Port Harcourt,Travel,2882049
+2023-03-01,Kano,Rent,3836385
+2023-03-01,Kano,Utilities,3076168
+2023-03-01,Kano,Fuel,1563134
+2023-03-01,Kano,Marketing,2357519
+2023-03-01,Kano,Repairs,3613115
+2023-03-01,Kano,Security,2701981
+2023-03-01,Kano,Travel,2607539
+2023-03-01,Ibadan,Rent,1801919
+2023-03-01,Ibadan,Utilities,605684
+2023-03-01,Ibadan,Fuel,3588466
+2023-03-01,Ibadan,Marketing,3268231
+2023-03-01,Ibadan,Repairs,1633197
+2023-03-01,Ibadan,Security,2503666
+2023-03-01,Ibadan,Travel,1222587
+2023-04-01,Lagos,Rent,1071202
+2023-04-01,Lagos,Utilities,2483581
+2023-04-01,Lagos,Fuel,585952
+2023-04-01,Lagos,Marketing,3597806
+2023-04-01,Lagos,Repairs,2418712
+2023-04-01,Lagos,Security,968448
+2023-04-01,Lagos,Travel,2044542
+2023-04-01,Abuja,Rent,2577843
+2023-04-01,Abuja,Utilities,2552492
+2023-04-01,Abuja,Fuel,1992053
+2023-04-01,Abuja,Marketing,685647
+2023-04-01,Abuja,Repairs,1765502
+2023-04-01,Abuja,Security,1227771
+2023-04-01,Abuja,Travel,1194870
+2023-04-01,Port Harcourt,Rent,3082226
+2023-04-01,Port Harcourt,Utilities,1692020
+2023-04-01,Port Harcourt,Fuel,1688593
+2023-04-01,Port Harcourt,Marketing,1813295
+2023-04-01,Port Harcourt,Repairs,1531340
+2023-04-01,Port Harcourt,Security,1216225
+2023-04-01,Port Harcourt,Travel,3456866
+2023-04-01,Kano,Rent,2893256
+2023-04-01,Kano,Utilities,2525073
+2023-04-01,Kano,Fuel,2291695
+2023-04-01,Kano,Marketing,2654408
+2023-04-01,Kano,Repairs,3754799
+2023-04-01,Kano,Security,3454677
+2023-04-01,Kano,Travel,3023362
+2023-04-01,Ibadan,Rent,336925
+2023-04-01,Ibadan,Utilities,781178
+2023-04-01,Ibadan,Fuel,3105731
+2023-04-01,Ibadan,Marketing,1751259
+2023-04-01,Ibadan,Repairs,2169263
+2023-04-01,Ibadan,Security,1308092
+2023-04-01,Ibadan,Travel,2993851
+2023-05-01,Lagos,Rent,2874048
+2023-05-01,Lagos,Utilities,2905215
+2023-05-01,Lagos,Fuel,1322685
+2023-05-01,Lagos,Marketing,467257
+2023-05-01,Lagos,Repairs,3162827
+2023-05-01,Lagos,Security,1646107
+2023-05-01,Lagos,Travel,1899592
+2023-05-01,Abuja,Rent,3639532
+2023-05-01,Abuja,Utilities,775525
+2023-05-01,Abuja,Fuel,1918480
+2023-05-01,Abuja,Marketing,1376218
+2023-05-01,Abuja,Repairs,2565919
+2023-05-01,Abuja,Security,3336573
+2023-05-01,Abuja,Travel,1486270
+2023-05-01,Port Harcourt,Rent,403623
+2023-05-01,Port Harcourt,Utilities,2467900
+2023-05-01,Port Harcourt,Fuel,3748175
+2023-05-01,Port Harcourt,Marketing,3531687
+2023-05-01,Port Harcourt,Repairs,1872688
+2023-05-01,Port Harcourt,Security,2457168
+2023-05-01,Port Harcourt,Travel,3667257
+2023-05-01,Kano,Rent,2433791
+2023-05-01,Kano,Utilities,2168801
+2023-05-01,Kano,Fuel,2341806
+2023-05-01,Kano,Marketing,483927
+2023-05-01,Kano,Repairs,1543334
+2023-05-01,Kano,Security,3032707
+2023-05-01,Kano,Travel,1107455
+2023-05-01,Ibadan,Rent,1643489
+2023-05-01,Ibadan,Utilities,2455430
+2023-05-01,Ibadan,Fuel,645381
+2023-05-01,Ibadan,Marketing,702470
+2023-05-01,Ibadan,Repairs,1002104
+2023-05-01,Ibadan,Security,3543532
+2023-05-01,Ibadan,Travel,2556429
+2023-06-01,Lagos,Rent,2536427
+2023-06-01,Lagos,Utilities,330746
+2023-06-01,Lagos,Fuel,2929547
+2023-06-01,Lagos,Marketing,574608
+2023-06-01,Lagos,Repairs,1184081
+2023-06-01,Lagos,Security,3111589
+2023-06-01,Lagos,Travel,2940375
+2023-06-01,Abuja,Rent,3544639
+2023-06-01,Abuja,Utilities,1194121
+2023-06-01,Abuja,Fuel,3927866
+2023-06-01,Abuja,Marketing,3174797
+2023-06-01,Abuja,Repairs,2079263
+2023-06-01,Abuja,Security,3805033
+2023-06-01,Abuja,Travel,735900
+2023-06-01,Port Harcourt,Rent,1162263
+2023-06-01,Port Harcourt,Utilities,2555504
+2023-06-01,Port Harcourt,Fuel,3776023
+2023-06-01,Port Harcourt,Marketing,3247517
+2023-06-01,Port Harcourt,Repairs,3985271
+2023-06-01,Port Harcourt,Security,3409552
+2023-06-01,Port Harcourt,Travel,3551452
+2023-06-01,Kano,Rent,2125519
+2023-06-01,Kano,Utilities,3011874
+2023-06-01,Kano,Fuel,3725716
+2023-06-01,Kano,Marketing,602495
+2023-06-01,Kano,Repairs,3432687
+2023-06-01,Kano,Security,3177475
+2023-06-01,Kano,Travel,944893
+2023-06-01,Ibadan,Rent,399627
+2023-06-01,Ibadan,Utilities,2226130
+2023-06-01,Ibadan,Fuel,3306763
+2023-06-01,Ibadan,Marketing,1691315
+2023-06-01,Ibadan,Repairs,458906
+2023-06-01,Ibadan,Security,667089
+2023-06-01,Ibadan,Travel,607224
+2023-07-01,Lagos,Rent,527616
+2023-07-01,Lagos,Utilities,1046553
+2023-07-01,Lagos,Fuel,3631178
+2023-07-01,Lagos,Marketing,1356578
+2023-07-01,Lagos,Repairs,2640774
+2023-07-01,Lagos,Security,595455
+2023-07-01,Lagos,Travel,2711566
+2023-07-01,Abuja,Rent,3746121
+2023-07-01,Abuja,Utilities,1254814
+2023-07-01,Abuja,Fuel,1384848
+2023-07-01,Abuja,Marketing,2009735
+2023-07-01,Abuja,Repairs,1927526
+2023-07-01,Abuja,Security,2192158
+2023-07-01,Abuja,Travel,2943322
+2023-07-01,Port Harcourt,Rent,1996377
+2023-07-01,Port Harcourt,Utilities,2116238
+2023-07-01,Port Harcourt,Fuel,1627095
+2023-07-01,Port Harcourt,Marketing,370845
+2023-07-01,Port Harcourt,Repairs,1933689
+2023-07-01,Port Harcourt,Security,3124019
+2023-07-01,Port Harcourt,Travel,796210
+2023-07-01,Kano,Rent,2543257
+2023-07-01,Kano,Utilities,324741
+2023-07-01,Kano,Fuel,2990321
+2023-07-01,Kano,Marketing,3321097
+2023-07-01,Kano,Repairs,2893545
+2023-07-01,Kano,Security,565237
+2023-07-01,Kano,Travel,3470728
+2023-07-01,Ibadan,Rent,3428745
+2023-07-01,Ibadan,Utilities,2756218
+2023-07-01,Ibadan,Fuel,490911
+2023-07-01,Ibadan,Marketing,3239712
+2023-07-01,Ibadan,Repairs,3857823
+2023-07-01,Ibadan,Security,604462
+2023-07-01,Ibadan,Travel,1800303
+2023-08-01,Lagos,Rent,2409051
+2023-08-01,Lagos,Utilities,745164
+2023-08-01,Lagos,Fuel,1515662
+2023-08-01,Lagos,Marketing,3600463
+2023-08-01,Lagos,Repairs,3176783
+2023-08-01,Lagos,Security,1563956
+2023-08-01,Lagos,Travel,2844121
+2023-08-01,Abuja,Rent,662829
+2023-08-01,Abuja,Utilities,1480769
+2023-08-01,Abuja,Fuel,3509792
+2023-08-01,Abuja,Marketing,2135746
+2023-08-01,Abuja,Repairs,1899764
+2023-08-01,Abuja,Security,1957225
+2023-08-01,Abuja,Travel,3748231
+2023-08-01,Port Harcourt,Rent,3071273
+2023-08-01,Port Harcourt,Utilities,429264
+2023-08-01,Port Harcourt,Fuel,2288048
+2023-08-01,Port Harcourt,Marketing,955668
+2023-08-01,Port Harcourt,Repairs,2537525
+2023-08-01,Port Harcourt,Security,1222183
+2023-08-01,Port Harcourt,Travel,872025
+2023-08-01,Kano,Rent,3432112
+2023-08-01,Kano,Utilities,1939941
+2023-08-01,Kano,Fuel,3641897
+2023-08-01,Kano,Marketing,3644892
+2023-08-01,Kano,Repairs,3862924
+2023-08-01,Kano,Security,2588934
+2023-08-01,Kano,Travel,1537229
+2023-08-01,Ibadan,Rent,2959380
+2023-08-01,Ibadan,Utilities,904296
+2023-08-01,Ibadan,Fuel,1550139
+2023-08-01,Ibadan,Marketing,3140756
+2023-08-01,Ibadan,Repairs,3634543
+2023-08-01,Ibadan,Security,3937044
+2023-08-01,Ibadan,Travel,3359008
+2023-09-01,Lagos,Rent,3017659
+2023-09-01,Lagos,Utilities,1865022
+2023-09-01,Lagos,Fuel,346767
+2023-09-01,Lagos,Marketing,2621648
+2023-09-01,Lagos,Repairs,3969038
+2023-09-01,Lagos,Security,2628131
+2023-09-01,Lagos,Travel,892964
+2023-09-01,Abuja,Rent,816885
+2023-09-01,Abuja,Utilities,475209
+2023-09-01,Abuja,Fuel,321096
+2023-09-01,Abuja,Marketing,2702155
+2023-09-01,Abuja,Repairs,2802551
+2023-09-01,Abuja,Security,1952898
+2023-09-01,Abuja,Travel,2552978
+2023-09-01,Port Harcourt,Rent,2596488
+2023-09-01,Port Harcourt,Utilities,657047
+2023-09-01,Port Harcourt,Fuel,1577967
+2023-09-01,Port Harcourt,Marketing,1181025
+2023-09-01,Port Harcourt,Repairs,3438583
+2023-09-01,Port Harcourt,Security,3409784
+2023-09-01,Port Harcourt,Travel,3344801
+2023-09-01,Kano,Rent,1742218
+2023-09-01,Kano,Utilities,1188089
+2023-09-01,Kano,Fuel,2030798
+2023-09-01,Kano,Marketing,3009233
+2023-09-01,Kano,Repairs,3871277
+2023-09-01,Kano,Security,2449801
+2023-09-01,Kano,Travel,897500
+2023-09-01,Ibadan,Rent,975091
+2023-09-01,Ibadan,Utilities,1071721
+2023-09-01,Ibadan,Fuel,1226051
+2023-09-01,Ibadan,Marketing,2887402
+2023-09-01,Ibadan,Repairs,3801188
+2023-09-01,Ibadan,Security,1360075
+2023-09-01,Ibadan,Travel,1115063
+2023-10-01,Lagos,Rent,780761
+2023-10-01,Lagos,Utilities,1060670
+2023-10-01,Lagos,Fuel,3114285
+2023-10-01,Lagos,Marketing,3654017
+2023-10-01,Lagos,Repairs,2679397
+2023-10-01,Lagos,Security,3874600
+2023-10-01,Lagos,Travel,528121
+2023-10-01,Abuja,Rent,3870978
+2023-10-01,Abuja,Utilities,3450097
+2023-10-01,Abuja,Fuel,2602048
+2023-10-01,Abuja,Marketing,2234686
+2023-10-01,Abuja,Repairs,3003960
+2023-10-01,Abuja,Security,2605460
+2023-10-01,Abuja,Travel,606790
+2023-10-01,Port Harcourt,Rent,1519085
+2023-10-01,Port Harcourt,Utilities,3117252
+2023-10-01,Port Harcourt,Fuel,582539
+2023-10-01,Port Harcourt,Marketing,1351460
+2023-10-01,Port Harcourt,Repairs,711890
+2023-10-01,Port Harcourt,Security,1128029
+2023-10-01,Port Harcourt,Travel,3343341
+2023-10-01,Kano,Rent,2735194
+2023-10-01,Kano,Utilities,2343424
+2023-10-01,Kano,Fuel,1687689
+2023-10-01,Kano,Marketing,1797946
+2023-10-01,Kano,Repairs,837773
+2023-10-01,Kano,Security,3115617
+2023-10-01,Kano,Travel,3049252
+2023-10-01,Ibadan,Rent,1283702
+2023-10-01,Ibadan,Utilities,719619
+2023-10-01,Ibadan,Fuel,1495951
+2023-10-01,Ibadan,Marketing,2898437
+2023-10-01,Ibadan,Repairs,592799
+2023-10-01,Ibadan,Security,1111591
+2023-10-01,Ibadan,Travel,1632890
+2023-11-01,Lagos,Rent,2337849
+2023-11-01,Lagos,Utilities,2190146
+2023-11-01,Lagos,Fuel,1677183
+2023-11-01,Lagos,Marketing,2885127
+2023-11-01,Lagos,Repairs,3065817
+2023-11-01,Lagos,Security,1582095
+2023-11-01,Lagos,Travel,3208574
+2023-11-01,Abuja,Rent,2750186
+2023-11-01,Abuja,Utilities,939190
+2023-11-01,Abuja,Fuel,2672097
+2023-11-01,Abuja,Marketing,2677591
+2023-11-01,Abuja,Repairs,1828796
+2023-11-01,Abuja,Security,3687738
+2023-11-01,Abuja,Travel,1626797
+2023-11-01,Port Harcourt,Rent,2096451
+2023-11-01,Port Harcourt,Utilities,1007325
+2023-11-01,Port Harcourt,Fuel,320266
+2023-11-01,Port Harcourt,Marketing,1613718
+2023-11-01,Port Harcourt,Repairs,1332533
+2023-11-01,Port Harcourt,Security,3595297
+2023-11-01,Port Harcourt,Travel,1229146
+2023-11-01,Kano,Rent,3287179
+2023-11-01,Kano,Utilities,3403014
+2023-11-01,Kano,Fuel,2987871
+2023-11-01,Kano,Marketing,2129236
+2023-11-01,Kano,Repairs,1460479
+2023-11-01,Kano,Security,3823676
+2023-11-01,Kano,Travel,1807793
+2023-11-01,Ibadan,Rent,863319
+2023-11-01,Ibadan,Utilities,3150365
+2023-11-01,Ibadan,Fuel,3374310
+2023-11-01,Ibadan,Marketing,1690675
+2023-11-01,Ibadan,Repairs,3982120
+2023-11-01,Ibadan,Security,2313072
+2023-11-01,Ibadan,Travel,2241326
+2023-12-01,Lagos,Rent,2167966
+2023-12-01,Lagos,Utilities,1804671
+2023-12-01,Lagos,Fuel,3549608
+2023-12-01,Lagos,Marketing,1581241
+2023-12-01,Lagos,Repairs,2342506
+2023-12-01,Lagos,Security,2613879
+2023-12-01,Lagos,Travel,756477
+2023-12-01,Abuja,Rent,1037233
+2023-12-01,Abuja,Utilities,3007639
+2023-12-01,Abuja,Fuel,2844380
+2023-12-01,Abuja,Marketing,643822
+2023-12-01,Abuja,Repairs,3830735
+2023-12-01,Abuja,Security,1476988
+2023-12-01,Abuja,Travel,3901706
+2023-12-01,Port Harcourt,Rent,3766356
+2023-12-01,Port Harcourt,Utilities,887209
+2023-12-01,Port Harcourt,Fuel,2559127
+2023-12-01,Port Harcourt,Marketing,1123895
+2023-12-01,Port Harcourt,Repairs,1404086
+2023-12-01,Port Harcourt,Security,3376709
+2023-12-01,Port Harcourt,Travel,2928230
+2023-12-01,Kano,Rent,620706
+2023-12-01,Kano,Utilities,3351043
+2023-12-01,Kano,Fuel,616250
+2023-12-01,Kano,Marketing,378141
+2023-12-01,Kano,Repairs,3863427
+2023-12-01,Kano,Security,2427260
+2023-12-01,Kano,Travel,2949233
+2023-12-01,Ibadan,Rent,430838
+2023-12-01,Ibadan,Utilities,3708469
+2023-12-01,Ibadan,Fuel,2740625
+2023-12-01,Ibadan,Marketing,2728085
+2023-12-01,Ibadan,Repairs,1999257
+2023-12-01,Ibadan,Security,3526259
+2023-12-01,Ibadan,Travel,2774791
+2024-01-01,Lagos,Rent,1192382
+2024-01-01,Lagos,Utilities,453747
+2024-01-01,Lagos,Fuel,2613552
+2024-01-01,Lagos,Marketing,1393104
+2024-01-01,Lagos,Repairs,2579475
+2024-01-01,Lagos,Security,2563569
+2024-01-01,Lagos,Travel,2280147
+2024-01-01,Abuja,Rent,3042689
+2024-01-01,Abuja,Utilities,3551412
+2024-01-01,Abuja,Fuel,923411
+2024-01-01,Abuja,Marketing,1834354
+2024-01-01,Abuja,Repairs,1946257
+2024-01-01,Abuja,Security,1236615
+2024-01-01,Abuja,Travel,3538610
+2024-01-01,Port Harcourt,Rent,2772964
+2024-01-01,Port Harcourt,Utilities,3375376
+2024-01-01,Port Harcourt,Fuel,3895207
+2024-01-01,Port Harcourt,Marketing,1520538
+2024-01-01,Port Harcourt,Repairs,861538
+2024-01-01,Port Harcourt,Security,2249097
+2024-01-01,Port Harcourt,Travel,2401862
+2024-01-01,Kano,Rent,2440823
+2024-01-01,Kano,Utilities,679811
+2024-01-01,Kano,Fuel,1964237
+2024-01-01,Kano,Marketing,1826162
+2024-01-01,Kano,Repairs,2406242
+2024-01-01,Kano,Security,344424
+2024-01-01,Kano,Travel,3079475
+2024-01-01,Ibadan,Rent,1301938
+2024-01-01,Ibadan,Utilities,3856693
+2024-01-01,Ibadan,Fuel,3682874
+2024-01-01,Ibadan,Marketing,2875453
+2024-01-01,Ibadan,Repairs,3169581
+2024-01-01,Ibadan,Security,995598
+2024-01-01,Ibadan,Travel,3475952
+2024-02-01,Lagos,Rent,2456445
+2024-02-01,Lagos,Utilities,888757
+2024-02-01,Lagos,Fuel,2171584
+2024-02-01,Lagos,Marketing,967827
+2024-02-01,Lagos,Repairs,1051389
+2024-02-01,Lagos,Security,2675474
+2024-02-01,Lagos,Travel,2673189
+2024-02-01,Abuja,Rent,3065779
+2024-02-01,Abuja,Utilities,3958251
+2024-02-01,Abuja,Fuel,913203
+2024-02-01,Abuja,Marketing,3386671
+2024-02-01,Abuja,Repairs,3370249
+2024-02-01,Abuja,Security,2327960
+2024-02-01,Abuja,Travel,1804897
+2024-02-01,Port Harcourt,Rent,469533
+2024-02-01,Port Harcourt,Utilities,1217793
+2024-02-01,Port Harcourt,Fuel,3493846
+2024-02-01,Port Harcourt,Marketing,2345319
+2024-02-01,Port Harcourt,Repairs,1272029
+2024-02-01,Port Harcourt,Security,563658
+2024-02-01,Port Harcourt,Travel,1408794
+2024-02-01,Kano,Rent,1849523
+2024-02-01,Kano,Utilities,1281545
+2024-02-01,Kano,Fuel,479551
+2024-02-01,Kano,Marketing,3104251
+2024-02-01,Kano,Repairs,1167273
+2024-02-01,Kano,Security,2472168
+2024-02-01,Kano,Travel,3619625
+2024-02-01,Ibadan,Rent,1815198
+2024-02-01,Ibadan,Utilities,1927780
+2024-02-01,Ibadan,Fuel,2269956
+2024-02-01,Ibadan,Marketing,2206912
+2024-02-01,Ibadan,Repairs,3997497
+2024-02-01,Ibadan,Security,494772
+2024-02-01,Ibadan,Travel,467372
+2024-03-01,Lagos,Rent,3020109
+2024-03-01,Lagos,Utilities,1659252
+2024-03-01,Lagos,Fuel,732957
+2024-03-01,Lagos,Marketing,3251683
+2024-03-01,Lagos,Repairs,2486796
+2024-03-01,Lagos,Security,2957372
+2024-03-01,Lagos,Travel,3779792
+2024-03-01,Abuja,Rent,1447122
+2024-03-01,Abuja,Utilities,3801708
+2024-03-01,Abuja,Fuel,3411794
+2024-03-01,Abuja,Marketing,1404427
+2024-03-01,Abuja,Repairs,2726956
+2024-03-01,Abuja,Security,2583169
+2024-03-01,Abuja,Travel,2691425
+2024-03-01,Port Harcourt,Rent,1029178
+2024-03-01,Port Harcourt,Utilities,1879824
+2024-03-01,Port Harcourt,Fuel,3041712
+2024-03-01,Port Harcourt,Marketing,1887621
+2024-03-01,Port Harcourt,Repairs,1832165
+2024-03-01,Port Harcourt,Security,2764903
+2024-03-01,Port Harcourt,Travel,3040292
+2024-03-01,Kano,Rent,3804211
+2024-03-01,Kano,Utilities,626474
+2024-03-01,Kano,Fuel,2467041
+2024-03-01,Kano,Marketing,1355229
+2024-03-01,Kano,Repairs,1878437
+2024-03-01,Kano,Security,1234907
+2024-03-01,Kano,Travel,2465820
+2024-03-01,Ibadan,Rent,2002225
+2024-03-01,Ibadan,Utilities,1780161
+2024-03-01,Ibadan,Fuel,3727739
+2024-03-01,Ibadan,Marketing,3939479
+2024-03-01,Ibadan,Repairs,1747170
+2024-03-01,Ibadan,Security,2342045
+2024-03-01,Ibadan,Travel,3624646
+2024-04-01,Lagos,Rent,2322116
+2024-04-01,Lagos,Utilities,2834244
+2024-04-01,Lagos,Fuel,327672
+2024-04-01,Lagos,Marketing,2404856
+2024-04-01,Lagos,Repairs,3999519
+2024-04-01,Lagos,Security,882875
+2024-04-01,Lagos,Travel,2145068
+2024-04-01,Abuja,Rent,994601
+2024-04-01,Abuja,Utilities,1264651
+2024-04-01,Abuja,Fuel,623331
+2024-04-01,Abuja,Marketing,2458142
+2024-04-01,Abuja,Repairs,2998938
+2024-04-01,Abuja,Security,1477800
+2024-04-01,Abuja,Travel,1187167
+2024-04-01,Port Harcourt,Rent,930153
+2024-04-01,Port Harcourt,Utilities,1083939
+2024-04-01,Port Harcourt,Fuel,960004
+2024-04-01,Port Harcourt,Marketing,1819273
+2024-04-01,Port Harcourt,Repairs,2825056
+2024-04-01,Port Harcourt,Security,3308585
+2024-04-01,Port Harcourt,Travel,3726557
+2024-04-01,Kano,Rent,796312
+2024-04-01,Kano,Utilities,3072894
+2024-04-01,Kano,Fuel,1266142
+2024-04-01,Kano,Marketing,2039015
+2024-04-01,Kano,Repairs,3702304
+2024-04-01,Kano,Security,1685063
+2024-04-01,Kano,Travel,3320971
+2024-04-01,Ibadan,Rent,775376
+2024-04-01,Ibadan,Utilities,2319627
+2024-04-01,Ibadan,Fuel,3132117
+2024-04-01,Ibadan,Marketing,2308294
+2024-04-01,Ibadan,Repairs,2309160
+2024-04-01,Ibadan,Security,1183756
+2024-04-01,Ibadan,Travel,2777956
+2024-05-01,Lagos,Rent,976315
+2024-05-01,Lagos,Utilities,3014801
+2024-05-01,Lagos,Fuel,3795386
+2024-05-01,Lagos,Marketing,2023436
+2024-05-01,Lagos,Repairs,394145
+2024-05-01,Lagos,Security,1322027
+2024-05-01,Lagos,Travel,480960
+2024-05-01,Abuja,Rent,836389
+2024-05-01,Abuja,Utilities,2705376
+2024-05-01,Abuja,Fuel,2784486
+2024-05-01,Abuja,Marketing,975824
+2024-05-01,Abuja,Repairs,865073
+2024-05-01,Abuja,Security,2940483
+2024-05-01,Abuja,Travel,2450179
+2024-05-01,Port Harcourt,Rent,464378
+2024-05-01,Port Harcourt,Utilities,2700271
+2024-05-01,Port Harcourt,Fuel,915996
+2024-05-01,Port Harcourt,Marketing,534511
+2024-05-01,Port Harcourt,Repairs,997686
+2024-05-01,Port Harcourt,Security,1383219
+2024-05-01,Port Harcourt,Travel,1055132
+2024-05-01,Kano,Rent,2466948
+2024-05-01,Kano,Utilities,2000607
+2024-05-01,Kano,Fuel,2813887
+2024-05-01,Kano,Marketing,2663929
+2024-05-01,Kano,Repairs,2974383
+2024-05-01,Kano,Security,378098
+2024-05-01,Kano,Travel,3984733
+2024-05-01,Ibadan,Rent,3318000
+2024-05-01,Ibadan,Utilities,3353345
+2024-05-01,Ibadan,Fuel,3075559
+2024-05-01,Ibadan,Marketing,3744795
+2024-05-01,Ibadan,Repairs,1488894
+2024-05-01,Ibadan,Security,659655
+2024-05-01,Ibadan,Travel,1208458
+2024-06-01,Lagos,Rent,2184095
+2024-06-01,Lagos,Utilities,2843953
+2024-06-01,Lagos,Fuel,2277251
+2024-06-01,Lagos,Marketing,3937729
+2024-06-01,Lagos,Repairs,2320263
+2024-06-01,Lagos,Security,1015408
+2024-06-01,Lagos,Travel,1220078
+2024-06-01,Abuja,Rent,3782797
+2024-06-01,Abuja,Utilities,2022881
+2024-06-01,Abuja,Fuel,2820100
+2024-06-01,Abuja,Marketing,898578
+2024-06-01,Abuja,Repairs,3632861
+2024-06-01,Abuja,Security,2743795
+2024-06-01,Abuja,Travel,3741230
+2024-06-01,Port Harcourt,Rent,3519086
+2024-06-01,Port Harcourt,Utilities,1062877
+2024-06-01,Port Harcourt,Fuel,2913939
+2024-06-01,Port Harcourt,Marketing,3066767
+2024-06-01,Port Harcourt,Repairs,2442471
+2024-06-01,Port Harcourt,Security,1409480
+2024-06-01,Port Harcourt,Travel,1003475
+2024-06-01,Kano,Rent,3337459
+2024-06-01,Kano,Utilities,3175577
+2024-06-01,Kano,Fuel,1737267
+2024-06-01,Kano,Marketing,2201991
+2024-06-01,Kano,Repairs,2802042
+2024-06-01,Kano,Security,2777139
+2024-06-01,Kano,Travel,588748
+2024-06-01,Ibadan,Rent,1263908
+2024-06-01,Ibadan,Utilities,1886333
+2024-06-01,Ibadan,Fuel,1916744
+2024-06-01,Ibadan,Marketing,854542
+2024-06-01,Ibadan,Repairs,755376
+2024-06-01,Ibadan,Security,369468
+2024-06-01,Ibadan,Travel,1148711
+2024-07-01,Lagos,Rent,2492410
+2024-07-01,Lagos,Utilities,3905388
+2024-07-01,Lagos,Fuel,2415437
+2024-07-01,Lagos,Marketing,3170446
+2024-07-01,Lagos,Repairs,2060747
+2024-07-01,Lagos,Security,3766651
+2024-07-01,Lagos,Travel,927305
+2024-07-01,Abuja,Rent,2839697
+2024-07-01,Abuja,Utilities,703905
+2024-07-01,Abuja,Fuel,1044162
+2024-07-01,Abuja,Marketing,2295940
+2024-07-01,Abuja,Repairs,2878440
+2024-07-01,Abuja,Security,2815801
+2024-07-01,Abuja,Travel,463731
+2024-07-01,Port Harcourt,Rent,3981561
+2024-07-01,Port Harcourt,Utilities,3587781
+2024-07-01,Port Harcourt,Fuel,2528978
+2024-07-01,Port Harcourt,Marketing,2411115
+2024-07-01,Port Harcourt,Repairs,3455723
+2024-07-01,Port Harcourt,Security,792899
+2024-07-01,Port Harcourt,Travel,690867
+2024-07-01,Kano,Rent,2322665
+2024-07-01,Kano,Utilities,3065693
+2024-07-01,Kano,Fuel,846638
+2024-07-01,Kano,Marketing,2831156
+2024-07-01,Kano,Repairs,2561929
+2024-07-01,Kano,Security,3770877
+2024-07-01,Kano,Travel,305034
+2024-07-01,Ibadan,Rent,3550042
+2024-07-01,Ibadan,Utilities,3146084
+2024-07-01,Ibadan,Fuel,3023075
+2024-07-01,Ibadan,Marketing,2109828
+2024-07-01,Ibadan,Repairs,2489612
+2024-07-01,Ibadan,Security,2064476
+2024-07-01,Ibadan,Travel,1853475
+2024-08-01,Lagos,Rent,3969279
+2024-08-01,Lagos,Utilities,482193
+2024-08-01,Lagos,Fuel,3226126
+2024-08-01,Lagos,Marketing,2522211
+2024-08-01,Lagos,Repairs,2099172
+2024-08-01,Lagos,Security,1262535
+2024-08-01,Lagos,Travel,3665090
+2024-08-01,Abuja,Rent,2322172
+2024-08-01,Abuja,Utilities,3611636
+2024-08-01,Abuja,Fuel,3524042
+2024-08-01,Abuja,Marketing,1899021
+2024-08-01,Abuja,Repairs,1770178
+2024-08-01,Abuja,Security,2770646
+2024-08-01,Abuja,Travel,3674825
+2024-08-01,Port Harcourt,Rent,3409631
+2024-08-01,Port Harcourt,Utilities,3494127
+2024-08-01,Port Harcourt,Fuel,3811431
+2024-08-01,Port Harcourt,Marketing,3222203
+2024-08-01,Port Harcourt,Repairs,2716425
+2024-08-01,Port Harcourt,Security,709854
+2024-08-01,Port Harcourt,Travel,2084631
+2024-08-01,Kano,Rent,861546
+2024-08-01,Kano,Utilities,1367525
+2024-08-01,Kano,Fuel,2301275
+2024-08-01,Kano,Marketing,3512245
+2024-08-01,Kano,Repairs,1275229
+2024-08-01,Kano,Security,3903130
+2024-08-01,Kano,Travel,651556
+2024-08-01,Ibadan,Rent,1488106
+2024-08-01,Ibadan,Utilities,2809419
+2024-08-01,Ibadan,Fuel,3977424
+2024-08-01,Ibadan,Marketing,2580573
+2024-08-01,Ibadan,Repairs,2013988
+2024-08-01,Ibadan,Security,1381312
+2024-08-01,Ibadan,Travel,1092811
+2024-09-01,Lagos,Rent,322940
+2024-09-01,Lagos,Utilities,3274385
+2024-09-01,Lagos,Fuel,3419076
+2024-09-01,Lagos,Marketing,3611077
+2024-09-01,Lagos,Repairs,329838
+2024-09-01,Lagos,Security,2724253
+2024-09-01,Lagos,Travel,2491694
+2024-09-01,Abuja,Rent,794208
+2024-09-01,Abuja,Utilities,2480039
+2024-09-01,Abuja,Fuel,330174
+2024-09-01,Abuja,Marketing,1872989
+2024-09-01,Abuja,Repairs,3045365
+2024-09-01,Abuja,Security,1161588
+2024-09-01,Abuja,Travel,3184702
+2024-09-01,Port Harcourt,Rent,3673424
+2024-09-01,Port Harcourt,Utilities,1624987
+2024-09-01,Port Harcourt,Fuel,2014820
+2024-09-01,Port Harcourt,Marketing,1819469
+2024-09-01,Port Harcourt,Repairs,747042
+2024-09-01,Port Harcourt,Security,949188
+2024-09-01,Port Harcourt,Travel,2087073
+2024-09-01,Kano,Rent,3032907
+2024-09-01,Kano,Utilities,2755220
+2024-09-01,Kano,Fuel,1363812
+2024-09-01,Kano,Marketing,1395983
+2024-09-01,Kano,Repairs,3886033
+2024-09-01,Kano,Security,2548586
+2024-09-01,Kano,Travel,2076545
+2024-09-01,Ibadan,Rent,2668398
+2024-09-01,Ibadan,Utilities,1833622
+2024-09-01,Ibadan,Fuel,2866413
+2024-09-01,Ibadan,Marketing,1455784
+2024-09-01,Ibadan,Repairs,3154667
+2024-09-01,Ibadan,Security,1967043
+2024-09-01,Ibadan,Travel,3466581
+2024-10-01,Lagos,Rent,1154353
+2024-10-01,Lagos,Utilities,2033204
+2024-10-01,Lagos,Fuel,2615695
+2024-10-01,Lagos,Marketing,3587446
+2024-10-01,Lagos,Repairs,2638587
+2024-10-01,Lagos,Security,2323616
+2024-10-01,Lagos,Travel,1049604
+2024-10-01,Abuja,Rent,1852785
+2024-10-01,Abuja,Utilities,2645009
+2024-10-01,Abuja,Fuel,2627466
+2024-10-01,Abuja,Marketing,2329037
+2024-10-01,Abuja,Repairs,1364420
+2024-10-01,Abuja,Security,1586196
+2024-10-01,Abuja,Travel,2722844
+2024-10-01,Port Harcourt,Rent,1744335
+2024-10-01,Port Harcourt,Utilities,3547207
+2024-10-01,Port Harcourt,Fuel,3259058
+2024-10-01,Port Harcourt,Marketing,1969877
+2024-10-01,Port Harcourt,Repairs,3386095
+2024-10-01,Port Harcourt,Security,879101
+2024-10-01,Port Harcourt,Travel,3886125
+2024-10-01,Kano,Rent,3923167
+2024-10-01,Kano,Utilities,3065232
+2024-10-01,Kano,Fuel,799481
+2024-10-01,Kano,Marketing,3436560
+2024-10-01,Kano,Repairs,1263730
+2024-10-01,Kano,Security,2173154
+2024-10-01,Kano,Travel,3584598
+2024-10-01,Ibadan,Rent,3233124
+2024-10-01,Ibadan,Utilities,978617
+2024-10-01,Ibadan,Fuel,720599
+2024-10-01,Ibadan,Marketing,1199502
+2024-10-01,Ibadan,Repairs,2432147
+2024-10-01,Ibadan,Security,1980074
+2024-10-01,Ibadan,Travel,3597063
+2024-11-01,Lagos,Rent,1719511
+2024-11-01,Lagos,Utilities,3659024
+2024-11-01,Lagos,Fuel,2609284
+2024-11-01,Lagos,Marketing,2875409
+2024-11-01,Lagos,Repairs,3223670
+2024-11-01,Lagos,Security,3171271
+2024-11-01,Lagos,Travel,3264491
+2024-11-01,Abuja,Rent,518325
+2024-11-01,Abuja,Utilities,974184
+2024-11-01,Abuja,Fuel,1932019
+2024-11-01,Abuja,Marketing,2967059
+2024-11-01,Abuja,Repairs,322190
+2024-11-01,Abuja,Security,3673769
+2024-11-01,Abuja,Travel,682053
+2024-11-01,Port Harcourt,Rent,3752983
+2024-11-01,Port Harcourt,Utilities,909551
+2024-11-01,Port Harcourt,Fuel,2278321
+2024-11-01,Port Harcourt,Marketing,2817611
+2024-11-01,Port Harcourt,Repairs,2126105
+2024-11-01,Port Harcourt,Security,669688
+2024-11-01,Port Harcourt,Travel,568772
+2024-11-01,Kano,Rent,1403487
+2024-11-01,Kano,Utilities,1230171
+2024-11-01,Kano,Fuel,1855395
+2024-11-01,Kano,Marketing,635710
+2024-11-01,Kano,Repairs,2854452
+2024-11-01,Kano,Security,458357
+2024-11-01,Kano,Travel,3338751
+2024-11-01,Ibadan,Rent,1911980
+2024-11-01,Ibadan,Utilities,1980426
+2024-11-01,Ibadan,Fuel,2875158
+2024-11-01,Ibadan,Marketing,3052198
+2024-11-01,Ibadan,Repairs,2485255
+2024-11-01,Ibadan,Security,1501539
+2024-11-01,Ibadan,Travel,3284691
+2024-12-01,Lagos,Rent,2805981
+2024-12-01,Lagos,Utilities,541017
+2024-12-01,Lagos,Fuel,3544749
+2024-12-01,Lagos,Marketing,3740288
+2024-12-01,Lagos,Repairs,1035140
+2024-12-01,Lagos,Security,2985576
+2024-12-01,Lagos,Travel,2373531
+2024-12-01,Abuja,Rent,2141182
+2024-12-01,Abuja,Utilities,344922
+2024-12-01,Abuja,Fuel,1146021
+2024-12-01,Abuja,Marketing,3867539
+2024-12-01,Abuja,Repairs,3055172
+2024-12-01,Abuja,Security,3671842
+2024-12-01,Abuja,Travel,2473292
+2024-12-01,Port Harcourt,Rent,1499598
+2024-12-01,Port Harcourt,Utilities,1116826
+2024-12-01,Port Harcourt,Fuel,440967
+2024-12-01,Port Harcourt,Marketing,3588164
+2024-12-01,Port Harcourt,Repairs,2814547
+2024-12-01,Port Harcourt,Security,2441392
+2024-12-01,Port Harcourt,Travel,2463479
+2024-12-01,Kano,Rent,3229510
+2024-12-01,Kano,Utilities,1271698
+2024-12-01,Kano,Fuel,2880293
+2024-12-01,Kano,Marketing,1010862
+2024-12-01,Kano,Repairs,3127063
+2024-12-01,Kano,Security,451251
+2024-12-01,Kano,Travel,1808858
+2024-12-01,Ibadan,Rent,1303515
+2024-12-01,Ibadan,Utilities,3047349
+2024-12-01,Ibadan,Fuel,301204
+2024-12-01,Ibadan,Marketing,960371
+2024-12-01,Ibadan,Repairs,664245
+2024-12-01,Ibadan,Security,1457363
+2024-12-01,Ibadan,Travel,3570185
+2025-01-01,Lagos,Rent,1975346
+2025-01-01,Lagos,Utilities,1781124
+2025-01-01,Lagos,Fuel,3108766
+2025-01-01,Lagos,Marketing,1957350
+2025-01-01,Lagos,Repairs,2000584
+2025-01-01,Lagos,Security,2758198
+2025-01-01,Lagos,Travel,1140162
+2025-01-01,Abuja,Rent,2471570
+2025-01-01,Abuja,Utilities,364451
+2025-01-01,Abuja,Fuel,3390889
+2025-01-01,Abuja,Marketing,3251204
+2025-01-01,Abuja,Repairs,587801
+2025-01-01,Abuja,Security,678183
+2025-01-01,Abuja,Travel,2605158
+2025-01-01,Port Harcourt,Rent,1493253
+2025-01-01,Port Harcourt,Utilities,3345646
+2025-01-01,Port Harcourt,Fuel,3780285
+2025-01-01,Port Harcourt,Marketing,2645093
+2025-01-01,Port Harcourt,Repairs,2744995
+2025-01-01,Port Harcourt,Security,1760017
+2025-01-01,Port Harcourt,Travel,1757416
+2025-01-01,Kano,Rent,3720517
+2025-01-01,Kano,Utilities,1459757
+2025-01-01,Kano,Fuel,1249152
+2025-01-01,Kano,Marketing,2843272
+2025-01-01,Kano,Repairs,1115897
+2025-01-01,Kano,Security,2207397
+2025-01-01,Kano,Travel,1994316
+2025-01-01,Ibadan,Rent,2711333
+2025-01-01,Ibadan,Utilities,319509
+2025-01-01,Ibadan,Fuel,1395164
+2025-01-01,Ibadan,Marketing,1034149
+2025-01-01,Ibadan,Repairs,2007646
+2025-01-01,Ibadan,Security,2423316
+2025-01-01,Ibadan,Travel,746546
+2025-02-01,Lagos,Rent,2643067
+2025-02-01,Lagos,Utilities,603608
+2025-02-01,Lagos,Fuel,2410444
+2025-02-01,Lagos,Marketing,1534181
+2025-02-01,Lagos,Repairs,1725920
+2025-02-01,Lagos,Security,790771
+2025-02-01,Lagos,Travel,3667783
+2025-02-01,Abuja,Rent,2452880
+2025-02-01,Abuja,Utilities,1380844
+2025-02-01,Abuja,Fuel,3974684
+2025-02-01,Abuja,Marketing,2556130
+2025-02-01,Abuja,Repairs,3710587
+2025-02-01,Abuja,Security,3627715
+2025-02-01,Abuja,Travel,2711279
+2025-02-01,Port Harcourt,Rent,1349169
+2025-02-01,Port Harcourt,Utilities,3211651
+2025-02-01,Port Harcourt,Fuel,2157106
+2025-02-01,Port Harcourt,Marketing,1881589
+2025-02-01,Port Harcourt,Repairs,2662100
+2025-02-01,Port Harcourt,Security,2328490
+2025-02-01,Port Harcourt,Travel,3529476
+2025-02-01,Kano,Rent,1320361
+2025-02-01,Kano,Utilities,3477073
+2025-02-01,Kano,Fuel,1724640
+2025-02-01,Kano,Marketing,3553097
+2025-02-01,Kano,Repairs,2224549
+2025-02-01,Kano,Security,3158815
+2025-02-01,Kano,Travel,2232401
+2025-02-01,Ibadan,Rent,2761328
+2025-02-01,Ibadan,Utilities,3915587
+2025-02-01,Ibadan,Fuel,414717
+2025-02-01,Ibadan,Marketing,2321529
+2025-02-01,Ibadan,Repairs,787664
+2025-02-01,Ibadan,Security,1381374
+2025-02-01,Ibadan,Travel,583343
+2025-03-01,Lagos,Rent,1905047
+2025-03-01,Lagos,Utilities,2957770
+2025-03-01,Lagos,Fuel,3607863
+2025-03-01,Lagos,Marketing,1224350
+2025-03-01,Lagos,Repairs,3139178
+2025-03-01,Lagos,Security,3240945
+2025-03-01,Lagos,Travel,1264396
+2025-03-01,Abuja,Rent,3656120
+2025-03-01,Abuja,Utilities,1624270
+2025-03-01,Abuja,Fuel,2029839
+2025-03-01,Abuja,Marketing,1780993
+2025-03-01,Abuja,Repairs,2466375
+2025-03-01,Abuja,Security,2546686
+2025-03-01,Abuja,Travel,340782
+2025-03-01,Port Harcourt,Rent,3239446
+2025-03-01,Port Harcourt,Utilities,3790403
+2025-03-01,Port Harcourt,Fuel,1404568
+2025-03-01,Port Harcourt,Marketing,1341267
+2025-03-01,Port Harcourt,Repairs,1504979
+2025-03-01,Port Harcourt,Security,690109
+2025-03-01,Port Harcourt,Travel,1973236
+2025-03-01,Kano,Rent,3125693
+2025-03-01,Kano,Utilities,3440645
+2025-03-01,Kano,Fuel,3743836
+2025-03-01,Kano,Marketing,1734422
+2025-03-01,Kano,Repairs,618887
+2025-03-01,Kano,Security,2625957
+2025-03-01,Kano,Travel,1048623
+2025-03-01,Ibadan,Rent,2298818
+2025-03-01,Ibadan,Utilities,1616477
+2025-03-01,Ibadan,Fuel,1782845
+2025-03-01,Ibadan,Marketing,1216732
+2025-03-01,Ibadan,Repairs,2706325
+2025-03-01,Ibadan,Security,1428585
+2025-03-01,Ibadan,Travel,1066653
+2025-04-01,Lagos,Rent,3429606
+2025-04-01,Lagos,Utilities,3165159
+2025-04-01,Lagos,Fuel,1097620
+2025-04-01,Lagos,Marketing,2392954
+2025-04-01,Lagos,Repairs,3391672
+2025-04-01,Lagos,Security,1137462
+2025-04-01,Lagos,Travel,1285079
+2025-04-01,Abuja,Rent,3384613
+2025-04-01,Abuja,Utilities,1315258
+2025-04-01,Abuja,Fuel,3960547
+2025-04-01,Abuja,Marketing,1413190
+2025-04-01,Abuja,Repairs,1167292
+2025-04-01,Abuja,Security,1261366
+2025-04-01,Abuja,Travel,1150464
+2025-04-01,Port Harcourt,Rent,3801994
+2025-04-01,Port Harcourt,Utilities,1347298
+2025-04-01,Port Harcourt,Fuel,3807842
+2025-04-01,Port Harcourt,Marketing,2894583
+2025-04-01,Port Harcourt,Repairs,1793287
+2025-04-01,Port Harcourt,Security,954292
+2025-04-01,Port Harcourt,Travel,3567104
+2025-04-01,Kano,Rent,747487
+2025-04-01,Kano,Utilities,802806
+2025-04-01,Kano,Fuel,629200
+2025-04-01,Kano,Marketing,3134561
+2025-04-01,Kano,Repairs,3082602
+2025-04-01,Kano,Security,2366386
+2025-04-01,Kano,Travel,2874576
+2025-04-01,Ibadan,Rent,327781
+2025-04-01,Ibadan,Utilities,3505472
+2025-04-01,Ibadan,Fuel,3894893
+2025-04-01,Ibadan,Marketing,2571106
+2025-04-01,Ibadan,Repairs,477264
+2025-04-01,Ibadan,Security,3856814
+2025-04-01,Ibadan,Travel,2322879
+2025-05-01,Lagos,Rent,1856911
+2025-05-01,Lagos,Utilities,2903268
+2025-05-01,Lagos,Fuel,1622954
+2025-05-01,Lagos,Marketing,2365025
+2025-05-01,Lagos,Repairs,3995128
+2025-05-01,Lagos,Security,2709708
+2025-05-01,Lagos,Travel,3943880
+2025-05-01,Abuja,Rent,1452313
+2025-05-01,Abuja,Utilities,2358586
+2025-05-01,Abuja,Fuel,1067020
+2025-05-01,Abuja,Marketing,3505548
+2025-05-01,Abuja,Repairs,2443849
+2025-05-01,Abuja,Security,1475523
+2025-05-01,Abuja,Travel,1968827
+2025-05-01,Port Harcourt,Rent,1231524
+2025-05-01,Port Harcourt,Utilities,3446438
+2025-05-01,Port Harcourt,Fuel,2718709
+2025-05-01,Port Harcourt,Marketing,837902
+2025-05-01,Port Harcourt,Repairs,527113
+2025-05-01,Port Harcourt,Security,2505094
+2025-05-01,Port Harcourt,Travel,3652381
+2025-05-01,Kano,Rent,2074928
+2025-05-01,Kano,Utilities,2306219
+2025-05-01,Kano,Fuel,2568145
+2025-05-01,Kano,Marketing,436577
+2025-05-01,Kano,Repairs,2407533
+2025-05-01,Kano,Security,1756635
+2025-05-01,Kano,Travel,1951368
+2025-05-01,Ibadan,Rent,3908779
+2025-05-01,Ibadan,Utilities,3178712
+2025-05-01,Ibadan,Fuel,3554377
+2025-05-01,Ibadan,Marketing,1033165
+2025-05-01,Ibadan,Repairs,2217619
+2025-05-01,Ibadan,Security,804860
+2025-05-01,Ibadan,Travel,3228649
+2025-06-01,Lagos,Rent,2473509
+2025-06-01,Lagos,Utilities,2229675
+2025-06-01,Lagos,Fuel,1623937
+2025-06-01,Lagos,Marketing,3190758
+2025-06-01,Lagos,Repairs,335310
+2025-06-01,Lagos,Security,349576
+2025-06-01,Lagos,Travel,3127393
+2025-06-01,Abuja,Rent,1183959
+2025-06-01,Abuja,Utilities,1891436
+2025-06-01,Abuja,Fuel,2736925
+2025-06-01,Abuja,Marketing,722567
+2025-06-01,Abuja,Repairs,1664978
+2025-06-01,Abuja,Security,1816670
+2025-06-01,Abuja,Travel,2870177
+2025-06-01,Port Harcourt,Rent,3914827
+2025-06-01,Port Harcourt,Utilities,1389263
+2025-06-01,Port Harcourt,Fuel,1084974
+2025-06-01,Port Harcourt,Marketing,2600841
+2025-06-01,Port Harcourt,Repairs,1402468
+2025-06-01,Port Harcourt,Security,1294633
+2025-06-01,Port Harcourt,Travel,1429980
+2025-06-01,Kano,Rent,2276965
+2025-06-01,Kano,Utilities,2871460
+2025-06-01,Kano,Fuel,1739050
+2025-06-01,Kano,Marketing,1834797
+2025-06-01,Kano,Repairs,1071389
+2025-06-01,Kano,Security,2391993
+2025-06-01,Kano,Travel,2078145
+2025-06-01,Ibadan,Rent,1183037
+2025-06-01,Ibadan,Utilities,2057803
+2025-06-01,Ibadan,Fuel,3239001
+2025-06-01,Ibadan,Marketing,3454937
+2025-06-01,Ibadan,Repairs,1861579
+2025-06-01,Ibadan,Security,1831248
+2025-06-01,Ibadan,Travel,3883303
+2025-07-01,Lagos,Rent,1980207
+2025-07-01,Lagos,Utilities,1472851
+2025-07-01,Lagos,Fuel,2190494
+2025-07-01,Lagos,Marketing,1054510
+2025-07-01,Lagos,Repairs,2696666
+2025-07-01,Lagos,Security,850037
+2025-07-01,Lagos,Travel,2715469
+2025-07-01,Abuja,Rent,3177342
+2025-07-01,Abuja,Utilities,1258678
+2025-07-01,Abuja,Fuel,3714963
+2025-07-01,Abuja,Marketing,718884
+2025-07-01,Abuja,Repairs,3323319
+2025-07-01,Abuja,Security,1432248
+2025-07-01,Abuja,Travel,3672587
+2025-07-01,Port Harcourt,Rent,1289038
+2025-07-01,Port Harcourt,Utilities,2629264
+2025-07-01,Port Harcourt,Fuel,2112856
+2025-07-01,Port Harcourt,Marketing,3891619
+2025-07-01,Port Harcourt,Repairs,1897540
+2025-07-01,Port Harcourt,Security,1122348
+2025-07-01,Port Harcourt,Travel,911712
+2025-07-01,Kano,Rent,3655600
+2025-07-01,Kano,Utilities,3397669
+2025-07-01,Kano,Fuel,927250
+2025-07-01,Kano,Marketing,2283851
+2025-07-01,Kano,Repairs,3679218
+2025-07-01,Kano,Security,340862
+2025-07-01,Kano,Travel,1040744
+2025-07-01,Ibadan,Rent,2067985
+2025-07-01,Ibadan,Utilities,2395465
+2025-07-01,Ibadan,Fuel,864015
+2025-07-01,Ibadan,Marketing,3862599
+2025-07-01,Ibadan,Repairs,2945146
+2025-07-01,Ibadan,Security,2468484
+2025-07-01,Ibadan,Travel,2539685
+2025-08-01,Lagos,Rent,3322249
+2025-08-01,Lagos,Utilities,1624256
+2025-08-01,Lagos,Fuel,3593925
+2025-08-01,Lagos,Marketing,2341033
+2025-08-01,Lagos,Repairs,1558434
+2025-08-01,Lagos,Security,1352661
+2025-08-01,Lagos,Travel,2657779
+2025-08-01,Abuja,Rent,3900818
+2025-08-01,Abuja,Utilities,2681670
+2025-08-01,Abuja,Fuel,500107
+2025-08-01,Abuja,Marketing,1971018
+2025-08-01,Abuja,Repairs,715130
+2025-08-01,Abuja,Security,3196348
+2025-08-01,Abuja,Travel,985105
+2025-08-01,Port Harcourt,Rent,551810
+2025-08-01,Port Harcourt,Utilities,1203735
+2025-08-01,Port Harcourt,Fuel,3713400
+2025-08-01,Port Harcourt,Marketing,1366568
+2025-08-01,Port Harcourt,Repairs,2298751
+2025-08-01,Port Harcourt,Security,3818902
+2025-08-01,Port Harcourt,Travel,2941833
+2025-08-01,Kano,Rent,703919
+2025-08-01,Kano,Utilities,2186827
+2025-08-01,Kano,Fuel,3423050
+2025-08-01,Kano,Marketing,1703651
+2025-08-01,Kano,Repairs,1389550
+2025-08-01,Kano,Security,1813984
+2025-08-01,Kano,Travel,1811235
+2025-08-01,Ibadan,Rent,2650278
+2025-08-01,Ibadan,Utilities,2638288
+2025-08-01,Ibadan,Fuel,3697452
+2025-08-01,Ibadan,Marketing,1380934
+2025-08-01,Ibadan,Repairs,1743428
+2025-08-01,Ibadan,Security,383195
+2025-08-01,Ibadan,Travel,2027050
+2025-09-01,Lagos,Rent,808506
+2025-09-01,Lagos,Utilities,1772580
+2025-09-01,Lagos,Fuel,3938007
+2025-09-01,Lagos,Marketing,3150389
+2025-09-01,Lagos,Repairs,2839969
+2025-09-01,Lagos,Security,1134490
+2025-09-01,Lagos,Travel,2719500
+2025-09-01,Abuja,Rent,2715476
+2025-09-01,Abuja,Utilities,3025733
+2025-09-01,Abuja,Fuel,3022652
+2025-09-01,Abuja,Marketing,2558373
+2025-09-01,Abuja,Repairs,1032068
+2025-09-01,Abuja,Security,3572853
+2025-09-01,Abuja,Travel,1493735
+2025-09-01,Port Harcourt,Rent,1789435
+2025-09-01,Port Harcourt,Utilities,1663527
+2025-09-01,Port Harcourt,Fuel,3123575
+2025-09-01,Port Harcourt,Marketing,2440959
+2025-09-01,Port Harcourt,Repairs,2344696
+2025-09-01,Port Harcourt,Security,3549513
+2025-09-01,Port Harcourt,Travel,3389214
+2025-09-01,Kano,Rent,2174560
+2025-09-01,Kano,Utilities,628864
+2025-09-01,Kano,Fuel,1898327
+2025-09-01,Kano,Marketing,2873892
+2025-09-01,Kano,Repairs,1501766
+2025-09-01,Kano,Security,2245117
+2025-09-01,Kano,Travel,2949592
+2025-09-01,Ibadan,Rent,907537
+2025-09-01,Ibadan,Utilities,3941736
+2025-09-01,Ibadan,Fuel,1002862
+2025-09-01,Ibadan,Marketing,2986789
+2025-09-01,Ibadan,Repairs,3687811
+2025-09-01,Ibadan,Security,1715109
+2025-09-01,Ibadan,Travel,2069226
+2025-10-01,Lagos,Rent,2947752
+2025-10-01,Lagos,Utilities,2868214
+2025-10-01,Lagos,Fuel,2697621
+2025-10-01,Lagos,Marketing,1997739
+2025-10-01,Lagos,Repairs,3860547
+2025-10-01,Lagos,Security,599238
+2025-10-01,Lagos,Travel,631819
+2025-10-01,Abuja,Rent,979475
+2025-10-01,Abuja,Utilities,1741269
+2025-10-01,Abuja,Fuel,1257215
+2025-10-01,Abuja,Marketing,1614839
+2025-10-01,Abuja,Repairs,1629083
+2025-10-01,Abuja,Security,3038935
+2025-10-01,Abuja,Travel,1522037
+2025-10-01,Port Harcourt,Rent,3279774
+2025-10-01,Port Harcourt,Utilities,1421860
+2025-10-01,Port Harcourt,Fuel,2839168
+2025-10-01,Port Harcourt,Marketing,3003834
+2025-10-01,Port Harcourt,Repairs,1958659
+2025-10-01,Port Harcourt,Security,1437696
+2025-10-01,Port Harcourt,Travel,2166039
+2025-10-01,Kano,Rent,3575642
+2025-10-01,Kano,Utilities,3918872
+2025-10-01,Kano,Fuel,1823223
+2025-10-01,Kano,Marketing,3436901
+2025-10-01,Kano,Repairs,2761719
+2025-10-01,Kano,Security,2484962
+2025-10-01,Kano,Travel,2188647
+2025-10-01,Ibadan,Rent,2036395
+2025-10-01,Ibadan,Utilities,1001783
+2025-10-01,Ibadan,Fuel,1071274
+2025-10-01,Ibadan,Marketing,3882824
+2025-10-01,Ibadan,Repairs,396893
+2025-10-01,Ibadan,Security,824455
+2025-10-01,Ibadan,Travel,3352498
+2025-11-01,Lagos,Rent,1284097
+2025-11-01,Lagos,Utilities,3076723
+2025-11-01,Lagos,Fuel,1355484
+2025-11-01,Lagos,Marketing,3420039
+2025-11-01,Lagos,Repairs,3238935
+2025-11-01,Lagos,Security,3444636
+2025-11-01,Lagos,Travel,635815
+2025-11-01,Abuja,Rent,1183200
+2025-11-01,Abuja,Utilities,1000073
+2025-11-01,Abuja,Fuel,1965329
+2025-11-01,Abuja,Marketing,732052
+2025-11-01,Abuja,Repairs,700781
+2025-11-01,Abuja,Security,567564
+2025-11-01,Abuja,Travel,3985497
+2025-11-01,Port Harcourt,Rent,2284685
+2025-11-01,Port Harcourt,Utilities,2600297
+2025-11-01,Port Harcourt,Fuel,525760
+2025-11-01,Port Harcourt,Marketing,410582
+2025-11-01,Port Harcourt,Repairs,3533530
+2025-11-01,Port Harcourt,Security,1965191
+2025-11-01,Port Harcourt,Travel,2497743
+2025-11-01,Kano,Rent,3508627
+2025-11-01,Kano,Utilities,649180
+2025-11-01,Kano,Fuel,735907
+2025-11-01,Kano,Marketing,1400804
+2025-11-01,Kano,Repairs,2892508
+2025-11-01,Kano,Security,951267
+2025-11-01,Kano,Travel,653627
+2025-11-01,Ibadan,Rent,3046567
+2025-11-01,Ibadan,Utilities,1935133
+2025-11-01,Ibadan,Fuel,1597594
+2025-11-01,Ibadan,Marketing,1261988
+2025-11-01,Ibadan,Repairs,1337656
+2025-11-01,Ibadan,Security,3393690
+2025-11-01,Ibadan,Travel,1491917
+2025-12-01,Lagos,Rent,2158749
+2025-12-01,Lagos,Utilities,2927650
+2025-12-01,Lagos,Fuel,830209
+2025-12-01,Lagos,Marketing,850616
+2025-12-01,Lagos,Repairs,2509317
+2025-12-01,Lagos,Security,3816998
+2025-12-01,Lagos,Travel,1015581
+2025-12-01,Abuja,Rent,419836
+2025-12-01,Abuja,Utilities,447450
+2025-12-01,Abuja,Fuel,3083126
+2025-12-01,Abuja,Marketing,1796700
+2025-12-01,Abuja,Repairs,3908648
+2025-12-01,Abuja,Security,1663993
+2025-12-01,Abuja,Travel,3924890
+2025-12-01,Port Harcourt,Rent,2297137
+2025-12-01,Port Harcourt,Utilities,2259551
+2025-12-01,Port Harcourt,Fuel,3952812
+2025-12-01,Port Harcourt,Marketing,2567374
+2025-12-01,Port Harcourt,Repairs,1442588
+2025-12-01,Port Harcourt,Security,2600765
+2025-12-01,Port Harcourt,Travel,2165814
+2025-12-01,Kano,Rent,866712
+2025-12-01,Kano,Utilities,3226042
+2025-12-01,Kano,Fuel,2561936
+2025-12-01,Kano,Marketing,1042545
+2025-12-01,Kano,Repairs,2778124
+2025-12-01,Kano,Security,2806449
+2025-12-01,Kano,Travel,2214881
+2025-12-01,Ibadan,Rent,2946805
+2025-12-01,Ibadan,Utilities,3441162
+2025-12-01,Ibadan,Fuel,2966952
+2025-12-01,Ibadan,Marketing,3979636
+2025-12-01,Ibadan,Repairs,2665522
+2025-12-01,Ibadan,Security,2124427
+2025-12-01,Ibadan,Travel,2495549
