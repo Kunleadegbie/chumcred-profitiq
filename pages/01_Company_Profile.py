@@ -470,69 +470,6 @@ saved_review_end_date = get_valid_review_date(
     )
 )
 
-# ----------------------------------------------------------
-# REVIEW SETTINGS
-# ----------------------------------------------------------
-col1, col2 = st.columns(2)
-
-with col1:
-    review_type = st.selectbox(
-        "Review Type",
-        review_type_options,
-        index=safe_select_index(review_type_options, saved_review_type, 0),
-        key="review_type_selectbox",
-    )
-
-with col2:
-    reporting_frequency = st.selectbox(
-        "Reporting Frequency",
-        reporting_frequency_options,
-        index=safe_select_index(reporting_frequency_options, saved_reporting_frequency, 0),
-        key="reporting_frequency_selectbox",
-    )
-
-# ----------------------------------------------------------
-# DATE RANGE
-# ----------------------------------------------------------
-col1, col2 = st.columns(2)
-
-with col1:
-    review_start_date = st.date_input(
-        "Review Start Date",
-        value=saved_review_start_date,
-        key="review_start_date_input",
-    )
-
-with col2:
-    review_end_date = st.date_input(
-        "Review End Date",
-        value=saved_review_end_date,
-        key="review_end_date_input",
-    )
-
-# ----------------------------------------------------------
-# SAVE TO SESSION PROFILE
-# ----------------------------------------------------------
-profile["review_type"] = review_type
-profile["reporting_frequency"] = reporting_frequency
-profile["review_start_date"] = str(review_start_date)
-profile["review_end_date"] = str(review_end_date)
-
-st.session_state.profile = profile
-
-# ----------------------------------------------------------
-# REVIEW SUMMARY
-# ----------------------------------------------------------
-st.info(
-    f"""
-Review Type: {review_type}
-
-Reporting Frequency: {reporting_frequency}
-
-Review Period:
-{review_start_date} → {review_end_date}
-"""
-)
 
 # ----------------------------------------------------------
 # REVIEW SETTINGS
