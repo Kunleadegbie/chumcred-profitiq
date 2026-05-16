@@ -239,8 +239,23 @@ def upload_section(title, description, key_name, required=False):
         st.info(f"{title} already available from saved data.")
         show_dataset_preview(title, st.session_state[key_name])
 
+        if st.button(f"Clear {title}", key=f"clear_{key_name}"):
+            clear_dataset(key_name)
+
     st.markdown("</div>", unsafe_allow_html=True)
 
+# ==========================================================
+# CLEAR DATASET
+# ==========================================================
+def clear_dataset(key_name):
+    st.session_state[key_name] = None
+
+    uploader_key = f"{key_name}_uploader"
+    if uploader_key in st.session_state:
+        del st.session_state[uploader_key]
+
+    st.success("Dataset cleared. You can now upload a new file.")
+    st.rerun()
 
 # ==========================================================
 # CORE REQUIRED UPLOADS
@@ -367,6 +382,23 @@ with col2:
         """
     )
     st.markdown("</div>", unsafe_allow_html=True)
+
+# ==========================================================
+# CLEAR ALL UPLOADED DATA
+# ==========================================================
+st.markdown("---")
+st.markdown("## Manage Uploaded Data")
+
+if st.button("Clear All Uploaded Data", key="clear_all_uploaded_data"):
+    for key in upload_keys:
+        st.session_state[key] = None
+
+        uploader_key = f"{key}_uploader"
+        if uploader_key in st.session_state:
+            del st.session_state[uploader_key]
+
+    st.success("All uploaded datasets cleared. You can now upload fresh files.")
+    st.rerun()
 
 # ==========================================================
 # UPLOAD SUMMARY

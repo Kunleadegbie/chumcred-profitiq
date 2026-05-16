@@ -333,16 +333,12 @@ executive_summary = generate_report_narrative(
     total_cost_saving=total_cost_saving,
 )
 
-st.markdown(
-    f"""
-    <div class="report-card">
-        <p style="line-height:1.8; color:#4A5568;">
-            {executive_summary}
-        </p>
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
+# ==========================================================
+# DISPLAY EXECUTIVE SUMMARY SAFELY
+# ==========================================================
+with st.container(border=True):
+    st.markdown("### Executive Narrative")
+    st.write(executive_summary)
 
 # ==========================================================
 # BUSINESS DIAGNOSTIC REPORT
