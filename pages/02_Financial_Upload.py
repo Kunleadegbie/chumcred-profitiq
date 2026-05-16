@@ -114,6 +114,9 @@ for key in upload_keys:
     if key not in st.session_state:
         st.session_state[key] = None
 
+if "cleared_dataset_keys" not in st.session_state:
+    st.session_state["cleared_dataset_keys"] = set()
+
 if "active_project" not in st.session_state:
     try:
         st.session_state["active_project"] = get_or_create_active_project()
@@ -144,7 +147,10 @@ def load_saved_datasets_from_supabase():
                     latest_datasets[dataset_type] = data_json
 
             for dataset_type, data_json in latest_datasets.items():
-                if st.session_state.get(dataset_type) is None:
+                if (
+                    st.session_state.get(dataset_type) is None
+                    and dataset_type not in st.session_state.get("cleared_dataset_keys", set())
+                ):
                     st.session_state[dataset_type] = pd.DataFrame(data_json)
 
     except Exception as e:
@@ -231,9 +237,13 @@ def upload_section(title, description, key_name, required=False):
 
         if df is not None:
             st.session_state[key_name] = df
-            st.success(f"{title} uploaded successfully.")
-            save_dataset_to_supabase(key_name, title, uploaded_file, df)
-            show_dataset_preview(title, df)
+
+        if "cleared_dataset_keys" in st.session_state:
+            st.session_state["cleared_dataset_keys"].discard(key_name)
+
+        st.success(f"{title} uploaded successfully.")
+        save_dataset_to_supabase(key_name, title, uploaded_file, df)
+        show_dataset_preview(title, df)
 
     elif st.session_state[key_name] is not None:
         st.info(f"{title} already available from saved data.")
@@ -250,11 +260,12 @@ def upload_section(title, description, key_name, required=False):
 def clear_dataset(key_name):
     st.session_state[key_name] = None
 
-    uploader_key = f"{key_name}_uploader"
-    if uploader_key in st.session_state:
-        del st.session_state[uploader_key]
+    if "cleared_dataset_keys" not in st.session_state:
+        st.session_state["cleared_dataset_keys"] = set()
 
-    st.success("Dataset cleared. You can now upload a new file.")
+    st.session_state["cleared_dataset_keys"].add(key_name)
+
+    st.success("Dataset cleared from this session. You can now upload a new file.")
     st.rerun()
 
 # ==========================================================
@@ -390,14 +401,14 @@ st.markdown("---")
 st.markdown("## Manage Uploaded Data")
 
 if st.button("Clear All Uploaded Data", key="clear_all_uploaded_data"):
+    if "cleared_dataset_keys" not in st.session_state:
+        st.session_state["cleared_dataset_keys"] = set()
+
     for key in upload_keys:
         st.session_state[key] = None
+        st.session_state["cleared_dataset_keys"].add(key)
 
-        uploader_key = f"{key}_uploader"
-        if uploader_key in st.session_state:
-            del st.session_state[uploader_key]
-
-    st.success("All uploaded datasets cleared. You can now upload fresh files.")
+    st.success("All uploaded datasets cleared from this session. You can now upload fresh files.")
     st.rerun()
 
 # ==========================================================
