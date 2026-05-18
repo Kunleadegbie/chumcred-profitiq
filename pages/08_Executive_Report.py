@@ -309,6 +309,7 @@ review_type = profile.get("review_type", "Single Period Review")
 reporting_frequency = profile.get("reporting_frequency", "Monthly")
 review_start_date = profile.get("review_start_date", "Not Provided")
 review_end_date = profile.get("review_end_date", "Not Provided")
+engagement_type = profile.get("engagement_type", "Private Sector")
 
 # ==========================================================
 # EXECUTIVE SUMMARY REPORT
@@ -486,6 +487,51 @@ else:
         "Industry benchmarking is not available yet. "
         "Please complete benchmarking from the Opportunity Dashboard."
     )
+
+
+# ==========================================================
+# GOVERNMENT REVENUE INTELLIGENCE SECTION
+# ==========================================================
+if engagement_type == "Government":
+    st.markdown("## Government Revenue Intelligence")
+
+    st.info(
+        "This section summarizes government revenue performance, IGR trends, "
+        "MDA/LGA contribution, revenue stream performance, collection channel visibility, "
+        "and revenue improvement/control flags."
+    )
+
+    if government_monthly_igr_df is not None and not government_monthly_igr_df.empty:
+        st.markdown("### Monthly IGR Trend")
+        st.dataframe(government_monthly_igr_df, use_container_width=True)
+
+    if government_mda_lga_performance_df is not None and not government_mda_lga_performance_df.empty:
+        st.markdown("### MDA / LGA Revenue Performance")
+        st.dataframe(government_mda_lga_performance_df, use_container_width=True)
+
+    if government_revenue_stream_performance_df is not None and not government_revenue_stream_performance_df.empty:
+        st.markdown("### Revenue Stream Performance")
+        st.dataframe(government_revenue_stream_performance_df, use_container_width=True)
+
+    if government_collection_channel_df is not None and not government_collection_channel_df.empty:
+        st.markdown("### Collection Channel Analysis")
+        st.dataframe(government_collection_channel_df, use_container_width=True)
+
+    if government_revenue_flags_df is not None and not government_revenue_flags_df.empty:
+        st.markdown("### Revenue Opportunity & Control Flags")
+        st.dataframe(government_revenue_flags_df, use_container_width=True)
+
+    if (
+        (government_monthly_igr_df is None or government_monthly_igr_df.empty)
+        and (government_mda_lga_performance_df is None or government_mda_lga_performance_df.empty)
+        and (government_revenue_stream_performance_df is None or government_revenue_stream_performance_df.empty)
+        and (government_collection_channel_df is None or government_collection_channel_df.empty)
+        and (government_revenue_flags_df is None or government_revenue_flags_df.empty)
+    ):
+        st.info(
+            "Government Revenue Intelligence is not available yet. "
+            "Please complete the Government Revenue Intelligence page first."
+        )
 
 
 # ==========================================================
@@ -686,6 +732,11 @@ for rec in recommendations:
 recommendations_df = pd.DataFrame({"Recommendation": recommendations})
 st.session_state["management_recommendations_df"] = recommendations_df
 
+government_monthly_igr_df = st.session_state.get("government_monthly_igr_df")
+government_mda_lga_performance_df = st.session_state.get("government_mda_lga_performance_df")
+government_revenue_stream_performance_df = st.session_state.get("government_revenue_stream_performance_df")
+government_collection_channel_df = st.session_state.get("government_collection_channel_df")
+government_revenue_flags_df = st.session_state.get("government_revenue_flags_df")
 
 # ==========================================================
 # INITIALIZE AI SESSION STATE

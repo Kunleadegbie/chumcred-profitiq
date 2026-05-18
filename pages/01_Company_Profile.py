@@ -353,6 +353,20 @@ with st.form("company_profile_form"):
             index=safe_select_index(business_stage_options, profile.get("business_stage"), 2),
         )
 
+        engagement_type = st.selectbox(
+            "Engagement Type",
+            [
+                "Private Sector",
+                "Government",
+            ],
+            index=safe_select_index(
+                ["Private Sector", "Government"],
+                profile.get("engagement_type", "Private Sector"),
+                0,
+            ),
+            key="engagement_type_selectbox",
+        )        
+
     st.markdown("---")
     st.markdown('<div class="section-title">2. Business Structure</div>', unsafe_allow_html=True)
 
@@ -559,6 +573,7 @@ if submitted:
         "reporting_frequency": reporting_frequency,
         "review_start_date": str(review_start_date),
         "review_end_date": str(review_end_date),
+        "engagement_type": engagement_type,
     }
 
     st.session_state.company_profile = profile_data

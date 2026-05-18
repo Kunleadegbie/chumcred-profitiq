@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.express as px
 from modules.ai_insights import generate_revenue_insights
 from modules.openai_ai import generate_ai_revenue_analysis
+from modules.sector_labels import get_current_sector_labels
 
 from modules.period_analysis import (
     filter_by_review_period,
@@ -102,6 +103,19 @@ st.markdown(
 )
 
 # ==========================================================
+# SECTOR LABELS
+# ==========================================================
+sector_labels = get_current_sector_labels()
+
+revenue_label = sector_labels.get("revenue", "Revenue")
+sales_data_label = sector_labels.get("sales_data", "Sales Data")
+customer_label = sector_labels.get("customer", "Customer")
+product_label = sector_labels.get("product", "Product / Service")
+branch_label = sector_labels.get("branch", "Branch / Location")
+target_label = sector_labels.get("target", "Sales Target")
+leakage_label = sector_labels.get("leakage", "Revenue Leakage")
+
+# ==========================================================
 # ACTIVE PROJECT
 # ==========================================================
 if "active_project" not in st.session_state:
@@ -149,21 +163,21 @@ with col1:
     date_col = st.selectbox("Date Column", columns)
 
 with col2:
-    amount_col = st.selectbox("Revenue/Amount Column", numeric_like_columns)
+    amount_col = st.selectbox(f"{revenue_label} Amount Column", numeric_like_columns)
 
 with col3:
-    product_col = st.selectbox("Product/Service Column", ["None"] + columns)
+    product_col = st.selectbox(f"{product_label} Column", ["None"] + columns)
 
 with col4:
-    branch_col = st.selectbox("Branch/Location Column", ["None"] + columns)
+    branch_col = st.selectbox(f"{branch_label} Column", ["None"] + columns)
 
 col1, col2 = st.columns(2)
 
 with col1:
-    customer_col = st.selectbox("Customer Column", ["None"] + columns)
+    customer_col = st.selectbox(f"{customer_label} Column", ["None"] + columns)
 
 with col2:
-    target_col = st.selectbox("Target Column, if available", ["None"] + numeric_like_columns)
+    target_col = st.selectbox(f"{target_label} Column", if available", ["None"] + numeric_like_columns)
 
 # ==========================================================
 # CLEAN DATA
@@ -232,7 +246,7 @@ fig = px.line(
     x="Month",
     y=amount_col,
     markers=True,
-    title="Monthly Revenue Trend",
+    title=f"Monthly {revenue_label} Trend",
 )
 st.plotly_chart(fig, use_container_width=True)
 
@@ -326,7 +340,7 @@ if product_col != "None":
             product_revenue.head(10),
             x=product_col,
             y=amount_col,
-            title="Top 10 Products / Services by Revenue",
+            title=f"{revenue_label} by {product_label}",
         )
         st.plotly_chart(fig, use_container_width=True)
 
@@ -354,7 +368,7 @@ if branch_col != "None":
             branch_revenue,
             x=branch_col,
             y=amount_col,
-            title="Revenue by Branch / Location",
+            title=f"{revenue_label} by {branch_label}",
         )
         st.plotly_chart(fig, use_container_width=True)
 
@@ -504,7 +518,7 @@ st.success(f"Estimated Revenue Opportunity Identified: ₦{total_revenue_opportu
 # ==========================================================
 # SAVE ANALYSIS OUTPUT TO SUPABASE
 # ==========================================================
-st.markdown("## Save Revenue Analysis")
+st.markdown(f"## {revenue_label} Analysis")
 
 if st.button("Save Revenue Analysis to Supabase"):
     project = st.session_state.get("active_project")
@@ -544,7 +558,7 @@ for insight in insights:
 # ==========================================================
 # AI PREMIUM REVENUE COMMENTARY
 # ==========================================================
-st.markdown("## AI Premium Revenue Commentary")
+st.markdown(f"## AI Premium {revenue_label} Commentary")
 
 revenue_summary = {
     "total_revenue": total_revenue,
