@@ -192,13 +192,48 @@ if not numeric_like_columns:
     st.error("No numeric revenue/amount column detected. Please check your uploaded Sales Data.")
     st.stop()
 
+def find_default_column(columns, preferred_names):
+    for preferred in preferred_names:
+        for col in columns:
+            if preferred.lower() == str(col).lower().strip():
+                return col
+
+    for preferred in preferred_names:
+        for col in columns:
+            if preferred.lower() in str(col).lower():
+                return col
+
+    return columns[0] if columns else None
+
+
+default_date_col = find_default_column(
+    columns,
+    ["Date", "Transaction Date", "Collection Date"]
+)
+
+default_amount_col = find_default_column(
+    numeric_like_columns,
+    ["Revenue", "Amount", "IGR", "Actual Revenue", "Remitted Amount", "Credit"]
+)
+
+
 col1, col2, col3, col4 = st.columns(4)
 
 with col1:
-    date_col = st.selectbox("Date Column", columns)
+    date_col = st.selectbox(
+        "Date Column",
+        columns,
+        index=columns.index(default_date_col) if default_date_col in columns else 0,
+    )
 
 with col2:
-    amount_col = st.selectbox(f"{revenue_label} Amount Column", numeric_like_columns)
+    amount_col = st.selectbox(
+        f"{revenue_label} Amount Column",
+        numeric_like_columns,
+        index=numeric_like_columns.index(default_amount_col)
+        if default_amount_col in numeric_like_columns
+        else 0,
+    )
 
 with col3:
     product_col = st.selectbox(f"{product_label} Column", ["None"] + columns)
@@ -245,7 +280,7 @@ except Exception as e:
     st.error(f"Error preparing revenue data: {e}")
     st.stop()
 
-df["Month"] = df[date_col].dt.to_period("M").astype(str)
+df["Month"] = df[date_col].dt.strftime("%Y-%m")
 
 # ==========================================================
 # REVIEW PERIOD SETTINGS
@@ -293,8 +328,16 @@ col4.metric("Average Transaction Value", f"₦{average_transaction_value:,.0f}")
 # ==========================================================
 st.markdown("## Monthly Revenue Trend")
 
-monthly_revenue = df.groupby("Month", as_index=False)[amount_col].sum()
-monthly_revenue = monthly_revenue.sort_values("Month")
+monthly_revenue = (
+    df.groupby("Month", as_index=False)[amount_col]
+    .sum()
+    .sort_values("Month")
+)
+
+monthly_revenue[amount_col] = pd.to_numeric(
+    monthly_revenue[amount_col],
+    errors="coerce"
+).fillna(0)
 
 fig = px.line(
     monthly_revenue,
