@@ -239,17 +239,23 @@ try:
         .str.strip()
     )
 
-    df[amount_col] = pd.to_numeric(df[amount_col], errors="coerce").fillna(0)   
+    df[amount_col] = pd.to_numeric(
+        df[amount_col],
+        errors="coerce"
+    ).fillna(0)
 
+    df[date_col] = pd.to_datetime(
+        df[date_col],
+        errors="coerce"
+    )
 
-df[date_col] = pd.to_datetime(df[date_col], errors="coerce")
     df = df.dropna(subset=[date_col])
+
 except Exception as e:
     st.error(f"Error preparing revenue data: {e}")
     st.stop()
 
 df["Month"] = df[date_col].dt.to_period("M").astype(str)
-
 
 # ==========================================================
 # REVIEW PERIOD SETTINGS
