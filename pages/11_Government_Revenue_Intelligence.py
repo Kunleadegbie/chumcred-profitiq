@@ -286,10 +286,18 @@ col4.metric("Highest Collection", f"₦{highest_collection:,.0f}")
 # MONTHLY IGR TREND
 # ==========================================================
 if date_col in data.columns:
-    trend_data = data.dropna(subset=[date_col]).copy()
+    trend_data = data.copy()
+
+    trend_data[date_col] = pd.to_datetime(
+        trend_data[date_col].astype(str),
+        errors="coerce"
+    )
+
+    trend_data = trend_data.dropna(subset=[date_col])
 
     if not trend_data.empty:
-        trend_data["Month"] = trend_data[date_col].dt.to_period("M").astype(str)
+        trend_data["Month"] = trend_data[date_col].dt.strftime("%Y-%m")
+
 
         monthly_igr = (
             trend_data.groupby("Month", as_index=False)[amount_col]
