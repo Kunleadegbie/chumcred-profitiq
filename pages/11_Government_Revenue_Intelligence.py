@@ -81,8 +81,15 @@ st.markdown(
 # HELPERS
 # ==========================================================
 def safe_numeric(series):
-    return pd.to_numeric(series, errors="coerce").fillna(0)
+    cleaned = (
+        series.astype(str)
+        .str.replace(",", "", regex=False)
+        .str.replace("₦", "", regex=False)
+        .str.replace("NGN", "", regex=False)
+        .str.strip()
+    )
 
+    return pd.to_numeric(cleaned, errors="coerce").fillna(0)
 
 def get_numeric_like_columns(df):
     numeric_cols = []
@@ -91,12 +98,26 @@ def get_numeric_like_columns(df):
         return numeric_cols
 
     for col in df.columns:
-        converted = pd.to_numeric(df[col], errors="coerce")
-        if converted.notna().sum() > 0:
+        col_name = str(col).lower().strip()
+
+        if col_name in ["date", "month", "year", "period"]:
+            continue
+
+        cleaned = (
+            df[col]
+            .astype(str)
+            .str.replace(",", "", regex=False)
+            .str.replace("₦", "", regex=False)
+            .str.replace("NGN", "", regex=False)
+            .str.strip()
+        )
+
+        converted = pd.to_numeric(cleaned, errors="coerce")
+
+        if converted.notna().sum() >= max(1, len(df) * 0.30):
             numeric_cols.append(col)
 
     return numeric_cols
-
 
 def get_date_like_columns(df):
     date_cols = []
@@ -161,6 +182,25 @@ st.markdown("## Revenue Collection Data Mapping")
 columns = list(sales_df.columns)
 numeric_columns = get_numeric_like_columns(sales_df)
 date_columns = get_date_like_columns(sales_df)
+
+def find_default_column(columns, preferred_names):
+    for preferred in preferred_names:
+        for col in columns:
+            if preferred.lower() == str(col).lower().strip():
+                return col
+
+    for preferred in preferred_names:
+        for col in columns:
+            if preferred.lower() in str(col).lower():
+                return col
+
+    return columns[0] if columns else None
+
+
+default_amount_col = find_default_column(
+    numeric_columns,
+    ["Amount", "Actual Revenue", "Remitted Amount", "Credit", "Revenue Target"]
+)
 
 col1, col2 = st.columns(2)
 
