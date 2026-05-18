@@ -69,19 +69,8 @@ def custom_sidebar():
         st.page_link("pages/08_Executive_Report.py", label="📑 Executive Report")
         st.page_link("pages/09_Consulting_Workflow.py", label="🧭 Consulting Workflow")
         st.page_link("pages/10_AI_Assistant.py", label="🤖 AI Assistant")
-
-        # ==========================================================
-        # GOVERNMENT REVENUE INTELLIGENCE
-        # ==========================================================
-        profile = st.session_state.get("company_profile", {})
-        engagement_type = profile.get("engagement_type", "Private Sector")
-
-        if engagement_type == "Government":
-            st.page_link(
-                "pages/11_Government_Revenue_Intelligence.py",
-                label="Government Revenue Intelligence",
-                icon="🏛️",
-            )
+        st.page_link("pages/11_Government_Revenue_Intelligence.py", label="🏛️ Government Revenue Intelligence")
+        
 
         # ==========================================================
         # LOGOUT BUTTON

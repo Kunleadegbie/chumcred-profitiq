@@ -149,6 +149,9 @@ columns = list(df.columns)
 # ==========================================================
 # DETECT NUMERIC-LIKE COLUMNS SAFELY
 # ==========================================================
+# ==========================================================
+# DETECT NUMERIC-LIKE COLUMNS SAFELY
+# ==========================================================
 def get_numeric_like_columns(df):
     numeric_cols = []
 
@@ -175,9 +178,18 @@ def get_numeric_like_columns(df):
         except Exception:
             pass
 
-        # Detect numeric columns
-        converted_num = pd.to_numeric(df[col], errors="coerce")
+        # Clean possible currency/commas/spaces
+        cleaned_series = (
+            df[col]
+            .astype(str)
+            .str.replace(",", "", regex=False)
+            .str.replace("₦", "", regex=False)
+            .str.strip()
+        )
 
+        converted_num = pd.to_numeric(cleaned_series, errors="coerce")
+
+        # If at least some rows are numeric, accept it
         if converted_num.notna().sum() > 0:
             numeric_cols.append(col)
 
@@ -219,8 +231,18 @@ with col2:
 # CLEAN DATA
 # ==========================================================
 try:
-    df[amount_col] = pd.to_numeric(df[amount_col], errors="coerce").fillna(0)
-    df[date_col] = pd.to_datetime(df[date_col], errors="coerce")
+    df[amount_col] = (
+        df[amount_col]
+        .astype(str)
+        .str.replace(",", "", regex=False)
+        .str.replace("₦", "", regex=False)
+        .str.strip()
+    )
+
+    df[amount_col] = pd.to_numeric(df[amount_col], errors="coerce").fillna(0)   
+
+
+df[date_col] = pd.to_datetime(df[date_col], errors="coerce")
     df = df.dropna(subset=[date_col])
 except Exception as e:
     st.error(f"Error preparing revenue data: {e}")
