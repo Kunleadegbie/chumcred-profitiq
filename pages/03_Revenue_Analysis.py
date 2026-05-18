@@ -177,7 +177,10 @@ with col1:
     customer_col = st.selectbox(f"{customer_label} Column", ["None"] + columns)
 
 with col2:
-    target_col = st.selectbox(f"{target_label} Column", if available", ["None"] + numeric_like_columns)
+    target_col = st.selectbox(
+        f"{target_label} Column (if available)",
+        ["None"] + numeric_like_columns,
+    )
 
 # ==========================================================
 # CLEAN DATA
