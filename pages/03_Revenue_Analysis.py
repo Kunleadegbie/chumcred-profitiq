@@ -138,6 +138,12 @@ if sales_df is None:
 
 df = sales_df.copy()
 
+# Fix badly-read CSV where all values are trapped in one comma-separated column
+if len(df.columns) == 1 and "," in str(df.columns[0]):
+    single_col = df.columns[0]
+    df = df[single_col].astype(str).str.split(",", expand=True)
+    df.columns = [col.strip() for col in str(single_col).split(",")]
+
 # ==========================================================
 # COLUMN MAPPING
 # ==========================================================
@@ -145,10 +151,7 @@ st.markdown("## Map Your Revenue Data Columns")
 
 columns = list(df.columns)
 
-# Detect likely numeric columns
-# ==========================================================
-# DETECT NUMERIC-LIKE COLUMNS SAFELY
-# ==========================================================
+
 # ==========================================================
 # DETECT NUMERIC-LIKE COLUMNS SAFELY
 # ==========================================================
@@ -159,38 +162,25 @@ def get_numeric_like_columns(df):
         return numeric_cols
 
     for col in df.columns:
+        col_name = str(col).lower().strip()
 
-        # Skip obvious date columns
-        if (
-            "date" in str(col).lower()
-            or "month" in str(col).lower()
-            or "year" in str(col).lower()
-        ):
+        # Skip obvious date/time fields only by column name
+        if col_name in ["date", "month", "year", "period"]:
             continue
 
-        # Skip datetime-like columns
-        try:
-            converted_date = pd.to_datetime(df[col], errors="coerce")
-
-            if converted_date.notna().sum() > len(df) * 0.7:
-                continue
-
-        except Exception:
-            pass
-
-        # Clean possible currency/commas/spaces
         cleaned_series = (
             df[col]
             .astype(str)
             .str.replace(",", "", regex=False)
             .str.replace("₦", "", regex=False)
+            .str.replace("NGN", "", regex=False)
             .str.strip()
         )
 
         converted_num = pd.to_numeric(cleaned_series, errors="coerce")
 
-        # If at least some rows are numeric, accept it
-        if converted_num.notna().sum() > 0:
+        # Accept column if at least 30% of values are numeric
+        if converted_num.notna().sum() >= max(1, len(df) * 0.30):
             numeric_cols.append(col)
 
     return numeric_cols
