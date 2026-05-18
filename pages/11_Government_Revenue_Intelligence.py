@@ -253,6 +253,23 @@ if date_col != "None" and date_col in data.columns:
 # ==========================================================
 st.markdown("## Government Revenue Summary")
 
+# ==========================================================
+# FORCE SELECTED AMOUNT COLUMN TO NUMERIC
+# ==========================================================
+data[amount_col] = (
+    data[amount_col]
+    .astype(str)
+    .str.replace(",", "", regex=False)
+    .str.replace("₦", "", regex=False)
+    .str.replace("NGN", "", regex=False)
+    .str.strip()
+)
+
+data[amount_col] = pd.to_numeric(
+    data[amount_col],
+    errors="coerce"
+).fillna(0)
+
 total_igr = data[amount_col].sum()
 average_collection = data[amount_col].mean()
 transaction_count = len(data)
