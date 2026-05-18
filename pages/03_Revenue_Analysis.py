@@ -146,12 +146,45 @@ st.markdown("## Map Your Revenue Data Columns")
 columns = list(df.columns)
 
 # Detect likely numeric columns
-numeric_like_columns = []
+# ==========================================================
+# DETECT NUMERIC-LIKE COLUMNS SAFELY
+# ==========================================================
+def get_numeric_like_columns(df):
+    numeric_cols = []
 
-for col in columns:
-    converted = pd.to_numeric(df[col], errors="coerce")
-    if converted.notna().sum() > 0:
-        numeric_like_columns.append(col)
+    if df is None or df.empty:
+        return numeric_cols
+
+    for col in df.columns:
+
+        # Skip obvious date columns
+        if (
+            "date" in str(col).lower()
+            or "month" in str(col).lower()
+            or "year" in str(col).lower()
+        ):
+            continue
+
+        # Skip datetime-like columns
+        try:
+            converted_date = pd.to_datetime(df[col], errors="coerce")
+
+            if converted_date.notna().sum() > len(df) * 0.7:
+                continue
+
+        except Exception:
+            pass
+
+        # Detect numeric columns
+        converted_num = pd.to_numeric(df[col], errors="coerce")
+
+        if converted_num.notna().sum() > 0:
+            numeric_cols.append(col)
+
+    return numeric_cols
+
+
+numeric_like_columns = get_numeric_like_columns(df)
 
 if not numeric_like_columns:
     st.error("No numeric revenue/amount column detected. Please check your uploaded Sales Data.")
@@ -222,6 +255,7 @@ if review_type == "Multi-Year Trend Review":
 # ==========================================================
 # KPI SUMMARY
 # ==========================================================
+df[amount_col] = pd.to_numeric(df[amount_col], errors="coerce").fillna(0)
 total_revenue = df[amount_col].sum()
 average_monthly_revenue = df.groupby("Month")[amount_col].sum().mean()
 transaction_count = len(df)
